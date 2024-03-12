@@ -54,3 +54,16 @@ source devel/setup.bash
 roslaunch ur_gazebo ur5_bringup.launch
 
 Feito isso, será inicializado o modelo básico do braço robótico UR5 no simulador Gazebo.
+
+
+3. Configurando o MoveIt para uso.
+
+Primeiro é necessário installar a ferramenta do MoveIt com:
+
+sudo apt install ros-noetic-moveit
+
+Depois, inicializar com:
+
+roslaunch moveit_setup_assistant setup_assistant.launch
+
+
