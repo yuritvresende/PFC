@@ -58,7 +58,7 @@ Feito isso, será inicializado o modelo básico do braço robótico UR5 no simul
 
 3. Configurando o MoveIt para uso.
 
-Primeiro é necessário installar a ferramenta do MoveIt com:
+Primeiro é necessário instalar a ferramenta do MoveIt com:
 
 sudo apt install ros-noetic-moveit
 
