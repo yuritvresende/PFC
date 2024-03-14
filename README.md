@@ -2,6 +2,8 @@
 
 1. Instalação de ROS e Gazebo
 
+Feita a instalação do WSL com a versão adequada do Ubuntu, segundo o passo a passo registrado em: https://learn.microsoft.com/en-us/windows/wsl/basic-commands
+
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 sudo apt install curl
@@ -36,8 +38,11 @@ export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
 
 export LIBGL_ALWAYS_INDIRECT=0
 
+2. Criação de um catkin workspace
 
-2. Passo a passo do processo de trabalho com braços robóticos
+Para tal finalidade, é suficiente seguir o passo a passo informado em: https://wiki.ros.org/catkin/Tutorials/create_a_workspace
+
+3. Passo a passo do processo de trabalho com braços robóticos
 
 Dentro do espaço catkin_ws, usar as linhas de comando:
 
@@ -55,8 +60,7 @@ roslaunch ur_gazebo ur5_bringup.launch
 
 Feito isso, será inicializado o modelo básico do braço robótico UR5 no simulador Gazebo.
 
-
-3. Configurando o MoveIt para uso.
+4. Configurando o MoveIt para uso.
 
 Primeiro é necessário instalar a ferramenta do MoveIt com:
 
