@@ -57,4 +57,3 @@
     args="--stopped $(arg stopped_controllers)" output="screen" respawn="false" />
 
 </launch>
-gcugfoo
