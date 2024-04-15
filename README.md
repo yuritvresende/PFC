@@ -22,5 +22,6 @@ Iniciando o trabalho a partir da criação de um espaço pfc_ws, foram criados o
 - cd pfc_ws/src
 - ros2 pkg create --build-type ament_cmake pfc_arm
 - ros2 pkg create --build-type ament_cmake gazebo_ros2_control
+Os arquivos desejados podem ser encontrados no endereço a seguir, mas a pasta zip foi anexada junto ao diretório deste projeto.
 - https://github.com/ros-controls/gazebo_ros2_control
 
