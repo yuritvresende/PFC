@@ -1,4 +1,4 @@
-# PFC---Ros-Gazebo
+# PFC
 
 Partindo do uso de um sistema operacional Ubuntu 22.04.4 LTS, os primeiros programas a instalar foram:
 1. GitHub Desktop - Para facilitar a comunicação intuitiva com o diretório de arquivos do projeto.
@@ -15,4 +15,12 @@ A fim de inicializar o espaço de trabalho do projeto, segue-se o tutorial a seg
 - https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
 Então, deve-se referenciar o endereço a seguir para poder utilizar as linhas de comando ros2:
 - source /opt/ros/humble/setup.bash
+
+Iniciando o trabalho a partir da criação de um espaço pfc_ws, foram criados os arquivos necessários a partir de:
+- mkdir pfc_ws
+- mkdir -p ~/pfc_ws/src
+- cd pfc_ws/src
+- ros2 pkg create --build-type ament_cmake pfc_arm
+- ros2 pkg create --build-type ament_cmake gazebo_ros2_control
+- https://github.com/ros-controls/gazebo_ros2_control
 
