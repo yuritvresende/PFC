@@ -10,4 +10,9 @@ Partindo do uso de um sistema operacional Ubuntu 22.04.4 LTS, os primeiros progr
    - É suficiente seguir o passo a passo de https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html.
 4. Gazebo Harmonic - Que será a base das simulações.
    - É suficiente seguir o passo a passo de https://gazebosim.org/docs/harmonic/install_ubuntu.
+  
+A fim de inicializar o espaço de trabalho do projeto, segue-se o tutorial a seguir:
+- https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
+Então, deve-se referenciar o endereço a seguir para poder utilizar as linhas de comando ros2:
+- source /opt/ros/humble/setup.bash
 
