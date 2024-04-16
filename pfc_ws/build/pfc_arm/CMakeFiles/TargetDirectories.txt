@@ -1,0 +1,9 @@
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/uninstall.dir
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/pfc_arm_uninstall.dir
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/test.dir
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/edit_cache.dir
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/rebuild_cache.dir
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/list_install_components.dir
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/install.dir
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/install/local.dir
+/home/yuritvr/PFC/pfc_ws/build/pfc_arm/CMakeFiles/install/strip.dir

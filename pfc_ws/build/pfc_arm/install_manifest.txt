@@ -1,0 +1,15 @@
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/ament_index/resource_index/package_run_dependencies/pfc_arm
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/ament_index/resource_index/parent_prefix_path/pfc_arm
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/environment/ament_prefix_path.sh
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/environment/ament_prefix_path.dsv
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/environment/path.sh
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/environment/path.dsv
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/local_setup.bash
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/local_setup.sh
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/local_setup.zsh
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/local_setup.dsv
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/package.dsv
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/ament_index/resource_index/packages/pfc_arm
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/cmake/pfc_armConfig.cmake
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/cmake/pfc_armConfig-version.cmake
+/home/yuritvr/PFC/pfc_ws/install/pfc_arm/share/pfc_arm/package.xml
