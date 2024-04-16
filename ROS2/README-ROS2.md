@@ -13,15 +13,18 @@ Partindo do uso de um sistema operacional Ubuntu 22.04.4 LTS, os primeiros progr
   
 A fim de inicializar o espaço de trabalho do projeto, segue-se o tutorial a seguir:
 - https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
-Então, deve-se referenciar o endereço a seguir para poder utilizar as linhas de comando ros2:
+- sudo apt install python3-colcon-common-extensions
+- cd /usr/share/colcon_argcomplete/hook/
+- gedit ~/.bashrc
+Então, deve-se referenciar os endereços a seguir para poder utilizar as linhas de comando ros2:
 - source /opt/ros/humble/setup.bash
-
+- source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 Iniciando o trabalho a partir da criação de um espaço pfc_ws, foram criados os arquivos necessários a partir de:
+- source .bashrc
 - mkdir pfc_ws
-- mkdir -p ~/pfc_ws/src
-- cd pfc_ws/src
-- ros2 pkg create --build-type ament_cmake pfc_arm
-- ros2 pkg create --build-type ament_cmake gazebo_ros2_control
+- cd pfc_ws
+- mkdir src
+- colcon build
 Os arquivos desejados podem ser encontrados no endereço a seguir, mas a pasta zip foi anexada junto ao diretório deste projeto.
 - https://github.com/ros-controls/gazebo_ros2_control
 
