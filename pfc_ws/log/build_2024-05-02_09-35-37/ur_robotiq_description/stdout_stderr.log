@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found robotiq_description: 0.0.1 (/opt/ros/humble/share/robotiq_description/cmake)
+-- Found ur_description: 2.1.4 (/opt/ros/humble/share/ur_description/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yuritvr/PFC/pfc_ws/build/ur_robotiq_description
+-- Install configuration: ""
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/launch
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/launch/gazebo_model.launch.py
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/robot.gazebo
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/empty_world.world
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/ur3e_robotiq_2f_85_urdf.xacro
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/robotiq_2f_85_urdf.xacro
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/urdf/ur3e_urdf.xacro
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ament_index/resource_index/package_run_dependencies/ur_robotiq_description
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ament_index/resource_index/parent_prefix_path/ur_robotiq_description
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/ament_prefix_path.sh
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/path.sh
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/environment/path.dsv
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.bash
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.sh
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.zsh
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/local_setup.dsv
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.dsv
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ament_index/resource_index/packages/ur_robotiq_description
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/cmake/ur_robotiq_descriptionConfig.cmake
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/cmake/ur_robotiq_descriptionConfig-version.cmake
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description/share/ur_robotiq_description/package.xml

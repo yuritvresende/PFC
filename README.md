@@ -27,11 +27,14 @@ Iniciando o trabalho a partir da criação de um espaço pfc_ws, foram criados o
 - colcon build
 Após a build ter sido finalizada, deve-se referenciar também:
 - source ~/PFC/pfc_ws/install/setup.bash
-Além disso, faz-se necessário instalar também:
+Além disso, faz-se necessário instalar:
 - sudo apt install ros-humble-moveit
 - sudo apt-get install ros-humble-ur-description
 - sudo apt install ros-humble-robotiq-description
+- sudo apt-get  install ros-humble-urdf-tutorial
 Foi decidido, então, seguir o tutorial de execução e criação de braço robótico proposto em: https://automaticaddison.com/how-to-create-a-urdf-file-of-the-ur3e-robotic-arm-ros-2/.
+Além disso, a criação dos arquivos launch foi fortemente influenciada por: https://aleksandarhaber.com/write-launch-and-urdf-xacro-models-files-and-load-them-in-gazebo/
+- ros2 launch ur_robotiq_description gazebo_model.launch.py
 Os arquivos desejados podem ser encontrados no endereço a seguir, mas a pasta zip foi anexada junto ao diretório deste projeto.
 - https://github.com/ros-controls/gazebo_ros2_control
 
