@@ -16,25 +16,32 @@ A fim de inicializar o espaço de trabalho do projeto, segue-se o tutorial a seg
 - sudo apt install python3-colcon-common-extensions
 - cd /usr/share/colcon_argcomplete/hook/
 - gedit ~/.bashrc
+
 Então, deve-se referenciar os endereços a seguir para poder utilizar as linhas de comando ros2:
 - source /opt/ros/humble/setup.bash
 - source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+
 Iniciando o trabalho a partir da criação de um espaço pfc_ws, foram criados os arquivos necessários a partir de:
 - source .bashrc
 - mkdir pfc_ws
 - cd pfc_ws
 - mkdir src
 - colcon build
+
 Após a build ter sido finalizada, deve-se referenciar também:
 - source ~/PFC/pfc_ws/install/setup.bash
+
 Além disso, faz-se necessário instalar:
 - sudo apt install ros-humble-moveit
 - sudo apt-get install ros-humble-ur-description
 - sudo apt install ros-humble-robotiq-description
 - sudo apt-get  install ros-humble-urdf-tutorial
+
 Foi decidido, então, seguir o tutorial de execução e criação de braço robótico proposto em: https://automaticaddison.com/how-to-create-a-urdf-file-of-the-ur3e-robotic-arm-ros-2/.
+
 Além disso, a criação dos arquivos launch foi fortemente influenciada por: https://aleksandarhaber.com/write-launch-and-urdf-xacro-models-files-and-load-them-in-gazebo/
 - ros2 launch ur_robotiq_description gazebo_model.launch.py
+
 Parte-se, daí, para a criação do pacote de arquivos de movimento utilizando o setup_assistant do moveit, utilizando o comando:
 - ros2 launch moveit_setup_assistant setup_assistant.launch.py
 
