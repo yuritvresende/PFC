@@ -35,6 +35,6 @@ Além disso, faz-se necessário instalar:
 Foi decidido, então, seguir o tutorial de execução e criação de braço robótico proposto em: https://automaticaddison.com/how-to-create-a-urdf-file-of-the-ur3e-robotic-arm-ros-2/.
 Além disso, a criação dos arquivos launch foi fortemente influenciada por: https://aleksandarhaber.com/write-launch-and-urdf-xacro-models-files-and-load-them-in-gazebo/
 - ros2 launch ur_robotiq_description gazebo_model.launch.py
-Os arquivos desejados podem ser encontrados no endereço a seguir, mas a pasta zip foi anexada junto ao diretório deste projeto.
-- https://github.com/ros-controls/gazebo_ros2_control
+Parte-se, daí, para a criação do pacote de arquivos de movimento utilizando o setup_assistant do moveit, utilizando o comando:
+- ros2 launch moveit_setup_assistant setup_assistant.launch.py
 
