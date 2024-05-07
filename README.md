@@ -45,3 +45,17 @@ Além disso, a criação dos arquivos launch foi fortemente influenciada por: ht
 Parte-se, daí, para a criação do pacote de arquivos de movimento utilizando o setup_assistant do moveit, utilizando o comando:
 - ros2 launch moveit_setup_assistant setup_assistant.launch.py
 
+A partir daqui, iniciou-se uma atuação em duas abordagens com o material utilizado pelo Ten Wenis - CTEx, de modo que foi gerado uma outra área de trabalho. Para evitar confusões, a fim de mudar a área do projeto em que se está trabalhando é necessário editar as linhas do documento ~/.bashrc.
+- cd PFC
+- mkdir wenis_ws
+- cd wenis_ws
+- mkdir src
+- cd src
+- git clone https://github.com/wenisbelle/ros2_manipulator
+- sudo apt install ros-humble-grasping-msgs
+- sudo apt install ros-humble-ros2-control
+- sudo apt install ros-humble-joint-state-broadcaster
+- sudo apt install ros-humble-joint-trajectory-controller
+- sudo apt install ros-humble-velocity-controllers
+
+
