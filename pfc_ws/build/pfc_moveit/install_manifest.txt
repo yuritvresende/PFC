@@ -21,6 +21,7 @@
 /home/yuritvr/PFC/pfc_ws/install/pfc_moveit/share/pfc_moveit/launch/warehouse_db.launch.py
 /home/yuritvr/PFC/pfc_ws/install/pfc_moveit/share/pfc_moveit/launch/demo.launch.py
 /home/yuritvr/PFC/pfc_ws/install/pfc_moveit/share/pfc_moveit/launch/setup_assistant.launch.py
+/home/yuritvr/PFC/pfc_ws/install/pfc_moveit/share/pfc_moveit/launch/__pycache__/demo.launch.cpython-310.pyc
 /home/yuritvr/PFC/pfc_ws/install/pfc_moveit/share/pfc_moveit/config/joint_limits.yaml
 /home/yuritvr/PFC/pfc_ws/install/pfc_moveit/share/pfc_moveit/config/ur3e_robotiq.srdf
 /home/yuritvr/PFC/pfc_ws/install/pfc_moveit/share/pfc_moveit/config/moveit.rviz
