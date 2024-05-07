@@ -1,0 +1,53 @@
+<?xml version="1.0"?> 
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_description"> 
+    <xacro:include filename="$(find arm_pkg)/urdf/a0912.urdf.xacro" />
+    <xacro:include filename="$(find arm_pkg)/urdf/depth_camera.xacro"/>
+
+
+    <xacro:manipulator namespace=""/>
+
+    <link name="world">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <box size="5.0 5.0 0.05"/> 
+        </geometry>
+        <material name="Grey">
+            <color rgba="0.7 0.7 0.7 1.0"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <box size="5.0 5.0 0.05"/> 
+        </geometry>
+    </collision>    
+    </link>
+
+    <joint name="manipulator_fixed" type="fixed">
+        <origin xyz="0 0 0.0025" rpy="0 0 0"/>
+        <parent link="world"/>
+        <child link="base_0"/>
+    </joint>
+
+    <!-- Load Common Material -->
+    <xacro:include filename="$(find xarm_description)/urdf/common/common.material.xacro" />
+    <xacro:common_material prefix=""/>
+
+    <!-- Specify Mesh file path -->
+    <xacro:property name="mesh_suffix" value="stl"/>
+    <!-- gazebo use -->
+    <xacro:property name="mesh_path" value="file://$(find xarm_description)/meshes" />
+
+    <!-- include common.link.xacro -->
+    <xacro:include filename="$(find xarm_description)/urdf/common/common.link.xacro" />
+    <xacro:parse_link_inertial_filename dof="6" robot_type="xarm" robot_sn="" model1300="false" />
+    <xacro:property name="inertial_params_filename" value="${scope_parent_inertial_params_filename}"/>
+    <xacro:property name="new_model1300" value="${scope_parent_model1300}"/>
+
+    <xacro:include filename="$(find xarm_description)/urdf/gripper/xarm_gripper_macro.xacro" />
+    <xacro:xarm_gripper_macro prefix="" attach_to="link6" ros2_control_plugin="gazebo_ros2_control/GazeboSystem" dof="6" hard_interface="PositionJointInterface" />
+
+
+</robot> 

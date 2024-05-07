@@ -1,0 +1,17 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+gmake[2]: *** [CMakeFiles/simple_grasping.dir/build.make:118: CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/simple_grasping.dir/build.make:104: CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o] Interrupt
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/simple_grasping.dir/build.make:76: CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:323: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake[2]: *** [gtest/CMakeFiles/gtest_main.dir/build.make:76: gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/grasp_planner_node.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/basic_grasping_perception_node.dir/build.make:76: CMakeFiles/basic_grasping_perception_node.dir/rclcpp_components/node_main_basic_grasping_perception_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/simple_grasping.dir/build.make:90: CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:349: gtest/CMakeFiles/gtest_main.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_grasping.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:217: CMakeFiles/basic_grasping_perception_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

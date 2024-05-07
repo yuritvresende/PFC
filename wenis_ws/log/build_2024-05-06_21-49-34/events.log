@@ -1,0 +1,935 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (arm_pkg) JobQueued: {'identifier': 'arm_pkg', 'dependencies': OrderedDict()}
+[0.000216] (get_pose_client) JobQueued: {'identifier': 'get_pose_client', 'dependencies': OrderedDict()}
+[0.000249] (moveit2_cartesian) JobQueued: {'identifier': 'moveit2_cartesian', 'dependencies': OrderedDict()}
+[0.000268] (moveit2_kinematics) JobQueued: {'identifier': 'moveit2_kinematics', 'dependencies': OrderedDict()}
+[0.000285] (moveit2_scripts) JobQueued: {'identifier': 'moveit2_scripts', 'dependencies': OrderedDict()}
+[0.000460] (simple_grasping) JobQueued: {'identifier': 'simple_grasping', 'dependencies': OrderedDict()}
+[0.000602] (xarm_description) JobQueued: {'identifier': 'xarm_description', 'dependencies': OrderedDict()}
+[0.000663] (moveit_config) JobQueued: {'identifier': 'moveit_config', 'dependencies': OrderedDict([('arm_pkg', '/home/yuritvr/PFC/wenis_ws/install/arm_pkg')])}
+[0.000694] (arm_pkg) JobStarted: {'identifier': 'arm_pkg'}
+[0.005813] (get_pose_client) JobStarted: {'identifier': 'get_pose_client'}
+[0.009930] (moveit2_cartesian) JobStarted: {'identifier': 'moveit2_cartesian'}
+[0.013070] (moveit2_kinematics) JobStarted: {'identifier': 'moveit2_kinematics'}
+[0.016159] (moveit2_scripts) JobStarted: {'identifier': 'moveit2_scripts'}
+[0.020347] (simple_grasping) JobStarted: {'identifier': 'simple_grasping'}
+[0.024927] (xarm_description) JobStarted: {'identifier': 'xarm_description'}
+[0.029834] (arm_pkg) JobProgress: {'identifier': 'arm_pkg', 'progress': 'cmake'}
+[0.031119] (arm_pkg) JobProgress: {'identifier': 'arm_pkg', 'progress': 'build'}
+[0.031158] (arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/wenis_ws/build/arm_pkg', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.033116] (get_pose_client) JobProgress: {'identifier': 'get_pose_client', 'progress': 'cmake'}
+[0.033600] (get_pose_client) JobProgress: {'identifier': 'get_pose_client', 'progress': 'build'}
+[0.033913] (get_pose_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/wenis_ws/build/get_pose_client', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/get_pose_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/get_pose_client'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.035591] (moveit2_cartesian) JobProgress: {'identifier': 'moveit2_cartesian', 'progress': 'cmake'}
+[0.036202] (moveit2_cartesian) JobProgress: {'identifier': 'moveit2_cartesian', 'progress': 'build'}
+[0.036644] (moveit2_cartesian) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.039409] (moveit2_kinematics) JobProgress: {'identifier': 'moveit2_kinematics', 'progress': 'cmake'}
+[0.040525] (moveit2_kinematics) JobProgress: {'identifier': 'moveit2_kinematics', 'progress': 'build'}
+[0.041222] (moveit2_kinematics) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.043554] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'cmake'}
+[0.044523] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'build'}
+[0.045191] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.047715] (simple_grasping) JobProgress: {'identifier': 'simple_grasping', 'progress': 'cmake'}
+[0.049576] (simple_grasping) JobProgress: {'identifier': 'simple_grasping', 'progress': 'build'}
+[0.050657] (simple_grasping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/wenis_ws/build/simple_grasping', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/simple_grasping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/simple_grasping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.063063] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'cmake'}
+[0.063135] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'build'}
+[0.063169] (xarm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/wenis_ws/build/xarm_description', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/xarm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/xarm_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.089006] (arm_pkg) CommandEnded: {'returncode': 0}
+[0.099066] (-) TimerEvent: {}
+[0.103021] (get_pose_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/get_pose_client.dir/src/get_pose_client.cpp.o\x1b[0m\n'}
+[0.115397] (xarm_description) CommandEnded: {'returncode': 0}
+[0.127878] (moveit2_kinematics) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_kinematics_plugin.dir/src/test_kinematics_plugin.cpp.o\x1b[0m\n'}
+[0.129943] (moveit2_cartesian) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.o\x1b[0m\n'}
+[0.133987] (moveit2_scripts) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/test_end_effector_trajectory.dir/src/test_end_effector_trajectory.cpp.o\x1b[0m\n'}
+[0.134279] (simple_grasping) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/basic_grasping_perception_node.dir/rclcpp_components/node_main_basic_grasping_perception_node.cpp.o\x1b[0m\n'}
+[0.146031] (simple_grasping) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.147782] (moveit2_scripts) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o\x1b[0m\n'}
+[0.151999] (moveit2_scripts) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/two_postions.dir/src/two_positons.cpp.o\x1b[0m\n'}
+[0.158027] (moveit2_scripts) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o\x1b[0m\n'}
+[0.160962] (simple_grasping) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o\x1b[0m\n'}
+[0.164164] (simple_grasping) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o\x1b[0m\n'}
+[0.170566] (simple_grasping) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.193851] (simple_grasping) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o\x1b[0m\n'}
+[0.199160] (-) TimerEvent: {}
+[0.216618] (simple_grasping) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o\x1b[0m\n'}
+[0.218268] (simple_grasping) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/grasp_planner_node.dir/rclcpp_components/node_main_grasp_planner_node.cpp.o\x1b[0m\n'}
+[0.287708] (arm_pkg) JobProgress: {'identifier': 'arm_pkg', 'progress': 'install'}
+[0.299511] (-) TimerEvent: {}
+[0.331954] (arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/wenis_ws/build/arm_pkg'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.371304] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'install'}
+[0.371587] (xarm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/wenis_ws/build/xarm_description'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/xarm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/xarm_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.380548] (arm_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.380750] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf\n'}
+[0.380850] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/manipulator.xacro\n'}
+[0.380977] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/a0912.urdf.xacro\n'}
+[0.381069] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/m1013.urdf.xacro\n'}
+[0.381181] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.transmission.xacro\n'}
+[0.381301] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/a0912.blue.urdf\n'}
+[0.381934] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.a0912.blue.xacro\n'}
+[0.382045] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.internal_config.xacro\n'}
+[0.382143] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/m1013.white.urdf\n'}
+[0.382238] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.m1013.white.xacro\n'}
+[0.382332] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/depth_camera.xacro\n'}
+[0.382426] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.gazebo_config_control.xacro\n'}
+[0.382518] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.bumper_config.xacro\n'}
+[0.382627] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch\n'}
+[0.382725] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/start_controller.launch.py\n'}
+[0.382820] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/spawn_gazebo.launch.py\n'}
+[0.382940] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/start_arm.launch.py\n'}
+[0.383068] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/start_world.launch.py\n'}
+[0.383193] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/main_arm.launch.py\n'}
+[0.383318] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes\n'}
+[0.383432] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue\n'}
+[0.383539] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_1.dae\n'}
+[0.383636] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_1.dae\n'}
+[0.383764] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_0.dae\n'}
+[0.383888] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_4_0.dae\n'}
+[0.383986] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_0_0.dae\n'}
+[0.384080] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_0.dae\n'}
+[0.384172] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_5_1.dae\n'}
+[0.384265] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_6_0.dae\n'}
+[0.384379] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_1.dae\n'}
+[0.384504] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_2.dae\n'}
+[0.384624] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_0.dae\n'}
+[0.384735] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_2.dae\n'}
+[0.384870] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_5_0.dae\n'}
+[0.384986] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_4_1.dae\n'}
+[0.385081] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white\n'}
+[0.385176] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_3_0.dae\n'}
+[0.385272] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_2.dae\n'}
+[0.385363] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_5_0.dae\n'}
+[0.385461] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_4_0.dae\n'}
+[0.385589] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_1_0.dae\n'}
+[0.385739] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_1.dae\n'}
+[0.385861] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_4_1.dae\n'}
+[0.385985] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_6_0.dae\n'}
+[0.386131] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_0_0.dae\n'}
+[0.386259] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_0.dae\n'}
+[0.386383] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//config\n'}
+[0.386506] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//config/simple_controller.yaml\n'}
+[0.386631] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/ament_index/resource_index/package_run_dependencies/arm_pkg\n'}
+[0.386759] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/ament_index/resource_index/parent_prefix_path/arm_pkg\n'}
+[0.386873] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.sh\n'}
+[0.386971] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.dsv\n'}
+[0.387080] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/environment/path.sh\n'}
+[0.387177] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/environment/path.dsv\n'}
+[0.387288] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/local_setup.bash\n'}
+[0.387382] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/local_setup.sh\n'}
+[0.387472] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/local_setup.zsh\n'}
+[0.387563] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/local_setup.dsv\n'}
+[0.387656] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.dsv\n'}
+[0.387750] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/ament_index/resource_index/packages/arm_pkg\n'}
+[0.387841] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig.cmake\n'}
+[0.387934] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig-version.cmake\n'}
+[0.388030] (arm_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.xml\n'}
+[0.396171] (arm_pkg) CommandEnded: {'returncode': 0}
+[0.399771] (-) TimerEvent: {}
+[0.403645] (xarm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.404280] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//rviz\n'}
+[0.404955] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//rviz/display.rviz\n'}
+[0.405138] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf\n'}
+[0.405326] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper\n'}
+[0.405659] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.ros2_control.xacro\n'}
+[0.406135] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.urdf.xacro\n'}
+[0.406338] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/gripper.urdf.xacro\n'}
+[0.406539] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/lite_gripper.urdf.xacro\n'}
+[0.406884] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.transmission.xacro\n'}
+[0.407069] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/gripper_macro.xacro\n'}
+[0.407964] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.gazebo.xacro\n'}
+[0.408074] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper_macro.xacro\n'}
+[0.408165] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/common\n'}
+[0.408306] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/common/common.material.xacro\n'}
+[0.408441] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/common/common.gazebo.xacro\n'}
+[0.408575] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/common/common.link.xacro\n'}
+[0.408700] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/camera\n'}
+[0.408832] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/camera/camera.gazebo.xacro\n'}
+[0.408965] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/camera/realsense.gazebo.xacro\n'}
+[0.409095] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/camera/realsense_d435i.urdf.xacro\n'}
+[0.409228] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper\n'}
+[0.409360] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper_macro.xacro\n'}
+[0.409487] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/lite_vacuum_gripper.urdf.xacro\n'}
+[0.409621] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper.urdf.xacro\n'}
+[0.409754] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/xarm_vacuum_gripper.urdf.xacro\n'}
+[0.409886] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config\n'}
+[0.410011] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/kinematics\n'}
+[0.410146] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/kinematics/default\n'}
+[0.410280] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm6_default_kinematics.yaml\n'}
+[0.410403] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/kinematics/gen_kinematics_params.py\n'}
+[0.410532] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial\n'}
+[0.410665] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/gen_link_inertial_params.py\n'}
+[0.410797] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type8_HT2_BR2.yaml\n'}
+[0.410918] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT2_LD.yaml\n'}
+[0.411070] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR2.yaml\n'}
+[0.411212] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR.yaml\n'}
+[0.411346] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type11_HT_LD.yaml\n'}
+[0.411445] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type12_HT_LDBR2.yaml\n'}
+[0.411542] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_LD.yaml\n'}
+[0.411675] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type9_HT_BR2.yaml\n'}
+[0.411807] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes\n'}
+[0.411940] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper\n'}
+[0.412071] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm\n'}
+[0.412171] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_outer_knuckle.stl\n'}
+[0.412287] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_inner_knuckle.stl\n'}
+[0.412419] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_outer_knuckle.stl\n'}
+[0.412550] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/base_link.stl\n'}
+[0.412681] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_inner_knuckle.stl\n'}
+[0.412811] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_finger.stl\n'}
+[0.412942] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_finger.stl\n'}
+[0.413062] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite\n'}
+[0.413193] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual\n'}
+[0.413324] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/gripper_lite.stl\n'}
+[0.413454] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision\n'}
+[0.413584] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision/gripper_lite.stl\n'}
+[0.413715] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool\n'}
+[0.413843] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/visual\n'}
+[0.413943] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/visual/end_tool_1300.stl\n'}
+[0.414041] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision\n'}
+[0.414132] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool.stl\n'}
+[0.414222] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool_1300.stl\n'}
+[0.414310] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6\n'}
+[0.414400] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual\n'}
+[0.414493] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link3.stl\n'}
+[0.414583] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link6.stl\n'}
+[0.414675] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link5.stl\n'}
+[0.427849] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link2.stl\n'}
+[0.428280] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link4.stl\n'}
+[0.428563] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link_base.stl\n'}
+[0.428762] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link1.stl\n'}
+[0.428929] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera\n'}
+[0.429093] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense\n'}
+[0.429260] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual\n'}
+[0.429428] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual/d435_with_cam_stand.stl\n'}
+[0.429729] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision\n'}
+[0.429888] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision/d435_with_cam_stand.stl\n'}
+[0.430023] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper\n'}
+[0.430195] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm\n'}
+[0.430350] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual\n'}
+[0.430503] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual/vacuum_gripper.stl\n'}
+[0.430650] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision\n'}
+[0.430784] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision/vacuum_gripper.stl\n'}
+[0.430918] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite\n'}
+[0.431021] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual\n'}
+[0.431149] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual/vacuum_gripper_lite.stl\n'}
+[0.431279] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision\n'}
+[0.431410] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision/vacuum_gripper_lite.stl\n'}
+[0.431544] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch\n'}
+[0.431663] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_robot_rviz_display.launch.py\n'}
+[0.431781] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_robot_description.launch.py\n'}
+[0.431890] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_robot_joint_state.launch.py\n'}
+[0.431981] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/lib\n'}
+[0.432076] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/lib/robot_description_lib.py\n'}
+[0.432168] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/lite6_rviz_display.launch.py\n'}
+[0.432259] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/xarm6_rviz_display.launch.py\n'}
+[0.432351] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_rviz_display.launch.py\n'}
+[0.432442] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description\n'}
+[0.432535] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description\n'}
+[0.432626] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.sh\n'}
+[0.432732] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.dsv\n'}
+[0.432823] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/environment/path.sh\n'}
+[0.432913] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/environment/path.dsv\n'}
+[0.433011] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/local_setup.bash\n'}
+[0.433516] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/local_setup.sh\n'}
+[0.433621] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/local_setup.zsh\n'}
+[0.433761] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/local_setup.dsv\n'}
+[0.433895] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.dsv\n'}
+[0.434026] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/ament_index/resource_index/packages/xarm_description\n'}
+[0.434160] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig.cmake\n'}
+[0.434292] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig-version.cmake\n'}
+[0.434408] (xarm_description) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.xml\n'}
+[0.455293] (xarm_description) CommandEnded: {'returncode': 0}
+[0.499928] (-) TimerEvent: {}
+[0.600981] (-) TimerEvent: {}
+[0.701460] (-) TimerEvent: {}
+[0.714266] (arm_pkg) JobEnded: {'identifier': 'arm_pkg', 'rc': 0}
+[0.719687] (moveit_config) JobStarted: {'identifier': 'moveit_config'}
+[0.773508] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'cmake'}
+[0.779907] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'build'}
+[0.780020] (moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/wenis_ws/build/moveit_config', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.801587] (-) TimerEvent: {}
+[0.803997] (xarm_description) JobEnded: {'identifier': 'xarm_description', 'rc': 0}
+[0.901719] (-) TimerEvent: {}
+[0.968608] (moveit_config) CommandEnded: {'returncode': 0}
+[1.001824] (-) TimerEvent: {}
+[1.102487] (-) TimerEvent: {}
+[1.203096] (-) TimerEvent: {}
+[1.283399] (moveit_config) JobProgress: {'identifier': 'moveit_config', 'progress': 'install'}
+[1.283846] (moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/wenis_ws/build/moveit_config'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/moveit_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[1.303236] (-) TimerEvent: {}
+[1.319374] (moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.320279] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_config\n'}
+[1.321205] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_config\n'}
+[1.322169] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/environment/ament_prefix_path.sh\n'}
+[1.323126] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/environment/ament_prefix_path.dsv\n'}
+[1.324207] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/environment/path.sh\n'}
+[1.325380] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/environment/path.dsv\n'}
+[1.326423] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/local_setup.bash\n'}
+[1.327886] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/local_setup.sh\n'}
+[1.334585] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/local_setup.zsh\n'}
+[1.334715] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/local_setup.dsv\n'}
+[1.334813] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.dsv\n'}
+[1.334905] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/ament_index/resource_index/packages/moveit_config\n'}
+[1.335005] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/cmake/moveit_configConfig.cmake\n'}
+[1.335116] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/cmake/moveit_configConfig-version.cmake\n'}
+[1.335235] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.xml\n'}
+[1.335330] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch\n'}
+[1.335419] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[1.335528] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/moveit_rviz.launch.py\n'}
+[1.335612] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/spawn_controllers.launch.py\n'}
+[1.335705] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/rsp.launch.py\n'}
+[1.335788] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/move_group.launch.py\n'}
+[1.335872] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/warehouse_db.launch.py\n'}
+[1.335957] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/demo.launch.py\n'}
+[1.336040] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/setup_assistant.launch.py\n'}
+[1.336123] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config\n'}
+[1.336205] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/joint_limits.yaml\n'}
+[1.336290] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/moveit.rviz\n'}
+[1.336378] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/robot_description.urdf.xacro\n'}
+[1.336500] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/robot_description.srdf\n'}
+[1.336593] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/robot_description.ros2_control.xacro\n'}
+[1.336681] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/sensors_3d.yaml\n'}
+[1.336768] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/kinematics.yaml\n'}
+[1.336854] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/moveit_controllers.yaml\n'}
+[1.336941] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[1.337071] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/initial_positions.yaml\n'}
+[1.337203] (moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/.setup_assistant\n'}
+[1.337335] (moveit_config) CommandEnded: {'returncode': 0}
+[1.403370] (-) TimerEvent: {}
+[1.503931] (-) TimerEvent: {}
+[1.604398] (-) TimerEvent: {}
+[1.705110] (-) TimerEvent: {}
+[1.707870] (moveit_config) JobEnded: {'identifier': 'moveit_config', 'rc': 0}
+[1.805239] (-) TimerEvent: {}
+[1.905816] (-) TimerEvent: {}
+[2.006392] (-) TimerEvent: {}
+[2.107017] (-) TimerEvent: {}
+[2.207685] (-) TimerEvent: {}
+[2.308511] (-) TimerEvent: {}
+[2.409184] (-) TimerEvent: {}
+[2.509795] (-) TimerEvent: {}
+[2.610785] (-) TimerEvent: {}
+[2.711380] (-) TimerEvent: {}
+[2.812008] (-) TimerEvent: {}
+[2.912646] (-) TimerEvent: {}
+[3.013221] (-) TimerEvent: {}
+[3.114163] (-) TimerEvent: {}
+[3.214740] (-) TimerEvent: {}
+[3.315643] (-) TimerEvent: {}
+[3.416220] (-) TimerEvent: {}
+[3.516802] (-) TimerEvent: {}
+[3.617543] (-) TimerEvent: {}
+[3.649907] (simple_grasping) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.717651] (-) TimerEvent: {}
+[3.775047] (simple_grasping) StdoutLine: {'line': b'[ 47%] Built target gtest_main\n'}
+[3.819715] (-) TimerEvent: {}
+[3.920531] (-) TimerEvent: {}
+[4.021146] (-) TimerEvent: {}
+[4.121604] (-) TimerEvent: {}
+[4.222120] (-) TimerEvent: {}
+[4.322648] (-) TimerEvent: {}
+[4.423137] (-) TimerEvent: {}
+[4.523679] (-) TimerEvent: {}
+[4.624487] (-) TimerEvent: {}
+[4.725341] (-) TimerEvent: {}
+[4.826146] (-) TimerEvent: {}
+[4.926967] (-) TimerEvent: {}
+[5.027773] (-) TimerEvent: {}
+[5.128611] (-) TimerEvent: {}
+[5.229482] (-) TimerEvent: {}
+[5.331205] (-) TimerEvent: {}
+[5.431862] (-) TimerEvent: {}
+[5.532463] (-) TimerEvent: {}
+[5.634182] (-) TimerEvent: {}
+[5.734834] (-) TimerEvent: {}
+[5.835692] (-) TimerEvent: {}
+[5.936403] (-) TimerEvent: {}
+[6.037039] (-) TimerEvent: {}
+[6.137686] (-) TimerEvent: {}
+[6.238310] (-) TimerEvent: {}
+[6.338954] (-) TimerEvent: {}
+[6.439749] (-) TimerEvent: {}
+[6.540514] (-) TimerEvent: {}
+[6.642490] (-) TimerEvent: {}
+[6.743214] (-) TimerEvent: {}
+[6.843810] (-) TimerEvent: {}
+[6.944533] (-) TimerEvent: {}
+[7.045152] (-) TimerEvent: {}
+[7.145882] (-) TimerEvent: {}
+[7.246586] (-) TimerEvent: {}
+[7.347324] (-) TimerEvent: {}
+[7.447918] (-) TimerEvent: {}
+[7.548564] (-) TimerEvent: {}
+[7.601825] (get_pose_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client/src/get_pose_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GetPoseClient::feedback_callback(rclcpp_action::ClientGoalHandle<grasping_msgs::action::FindGraspableObjects>::SharedPtr, std::shared_ptr<const grasping_msgs::action::FindGraspableObjects_Feedback_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.602847] (get_pose_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client/src/get_pose_client.cpp:78:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfeedback\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.603782] (get_pose_client) StderrLine: {'line': b'   78 |                 \x1b[01;35m\x1b[Kconst std::shared_ptr<const Find::Feedback> feedback\x1b[m\x1b[K) {\n'}
+[7.604917] (get_pose_client) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.606033] (get_pose_client) StderrLine: {'line': b'\n'}
+[7.607120] (simple_grasping) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX executable grasp_planner_node\x1b[0m\n'}
+[7.648688] (-) TimerEvent: {}
+[7.749422] (-) TimerEvent: {}
+[7.850116] (-) TimerEvent: {}
+[7.950896] (-) TimerEvent: {}
+[8.051639] (-) TimerEvent: {}
+[8.059800] (simple_grasping) StdoutLine: {'line': b'[ 52%] Built target grasp_planner_node\n'}
+[8.151748] (-) TimerEvent: {}
+[8.252421] (-) TimerEvent: {}
+[8.353493] (-) TimerEvent: {}
+[8.454155] (-) TimerEvent: {}
+[8.555018] (-) TimerEvent: {}
+[8.655727] (-) TimerEvent: {}
+[8.756534] (-) TimerEvent: {}
+[8.857314] (-) TimerEvent: {}
+[8.958096] (-) TimerEvent: {}
+[9.058849] (-) TimerEvent: {}
+[9.159675] (-) TimerEvent: {}
+[9.260450] (-) TimerEvent: {}
+[9.361246] (-) TimerEvent: {}
+[9.462023] (-) TimerEvent: {}
+[9.562787] (-) TimerEvent: {}
+[9.663550] (-) TimerEvent: {}
+[9.764315] (-) TimerEvent: {}
+[9.864916] (-) TimerEvent: {}
+[9.965638] (-) TimerEvent: {}
+[10.066284] (-) TimerEvent: {}
+[10.166859] (-) TimerEvent: {}
+[10.267471] (-) TimerEvent: {}
+[10.368082] (-) TimerEvent: {}
+[10.468684] (-) TimerEvent: {}
+[10.569246] (-) TimerEvent: {}
+[10.678555] (-) TimerEvent: {}
+[10.779188] (-) TimerEvent: {}
+[10.879906] (-) TimerEvent: {}
+[10.955408] (simple_grasping) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable basic_grasping_perception_node\x1b[0m\n'}
+[10.980029] (-) TimerEvent: {}
+[11.030197] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_gripper.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.030497] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_gripper.cpp:54:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ksuccess_gripper\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.030655] (moveit2_scripts) StderrLine: {'line': b'   54 |   bool \x1b[01;35m\x1b[Ksuccess_gripper\x1b[m\x1b[K = (move_group_gripper.plan(my_plan_gripper) ==\n'}
+[11.030770] (moveit2_scripts) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.080153] (-) TimerEvent: {}
+[11.180758] (-) TimerEvent: {}
+[11.281402] (-) TimerEvent: {}
+[11.382129] (-) TimerEvent: {}
+[11.486101] (-) TimerEvent: {}
+[11.586738] (-) TimerEvent: {}
+[11.687456] (-) TimerEvent: {}
+[11.698520] (simple_grasping) StdoutLine: {'line': b'[ 57%] Built target basic_grasping_perception_node\n'}
+[11.787590] (-) TimerEvent: {}
+[11.888255] (-) TimerEvent: {}
+[11.988909] (-) TimerEvent: {}
+[12.089377] (-) TimerEvent: {}
+[12.189982] (-) TimerEvent: {}
+[12.290827] (-) TimerEvent: {}
+[12.391532] (-) TimerEvent: {}
+[12.492161] (-) TimerEvent: {}
+[12.592822] (-) TimerEvent: {}
+[12.693454] (-) TimerEvent: {}
+[12.702167] (simple_grasping) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[12.793587] (-) TimerEvent: {}
+[12.894221] (-) TimerEvent: {}
+[12.979429] (simple_grasping) StdoutLine: {'line': b'[ 63%] Built target gtest\n'}
+[12.994346] (-) TimerEvent: {}
+[13.094759] (-) TimerEvent: {}
+[13.195211] (-) TimerEvent: {}
+[13.295644] (-) TimerEvent: {}
+[13.396098] (-) TimerEvent: {}
+[13.496579] (-) TimerEvent: {}
+[13.597340] (-) TimerEvent: {}
+[13.698118] (-) TimerEvent: {}
+[13.798900] (-) TimerEvent: {}
+[13.899666] (-) TimerEvent: {}
+[14.000152] (-) TimerEvent: {}
+[14.047288] (get_pose_client) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable get_pose_client\x1b[0m\n'}
+[14.100289] (-) TimerEvent: {}
+[14.200825] (-) TimerEvent: {}
+[14.301357] (-) TimerEvent: {}
+[14.401993] (-) TimerEvent: {}
+[14.502610] (-) TimerEvent: {}
+[14.603114] (-) TimerEvent: {}
+[14.703598] (-) TimerEvent: {}
+[14.804105] (-) TimerEvent: {}
+[14.904504] (-) TimerEvent: {}
+[15.004922] (-) TimerEvent: {}
+[15.057034] (get_pose_client) StdoutLine: {'line': b'[100%] Built target get_pose_client\n'}
+[15.089670] (get_pose_client) CommandEnded: {'returncode': 0}
+[15.105047] (-) TimerEvent: {}
+[15.205517] (-) TimerEvent: {}
+[15.306005] (-) TimerEvent: {}
+[15.406623] (-) TimerEvent: {}
+[15.463336] (get_pose_client) JobProgress: {'identifier': 'get_pose_client', 'progress': 'install'}
+[15.463770] (get_pose_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/wenis_ws/build/get_pose_client'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/get_pose_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/get_pose_client'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[15.504215] (get_pose_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.504539] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/get_pose_client/get_pose_client\n'}
+[15.506801] (get_pose_client) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/get_pose_client/get_pose_client" to ""\n'}
+[15.507067] (-) TimerEvent: {}
+[15.507309] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/package_run_dependencies/get_pose_client\n'}
+[15.507476] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/parent_prefix_path/get_pose_client\n'}
+[15.507642] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.sh\n'}
+[15.507794] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.dsv\n'}
+[15.507958] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/path.sh\n'}
+[15.508121] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/path.dsv\n'}
+[15.508288] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.bash\n'}
+[15.508466] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.sh\n'}
+[15.508674] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.zsh\n'}
+[15.508866] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.dsv\n'}
+[15.509079] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.dsv\n'}
+[15.509353] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/packages/get_pose_client\n'}
+[15.509595] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig.cmake\n'}
+[15.509761] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig-version.cmake\n'}
+[15.509934] (get_pose_client) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.xml\n'}
+[15.551458] (get_pose_client) CommandEnded: {'returncode': 0}
+[15.607262] (-) TimerEvent: {}
+[15.707736] (-) TimerEvent: {}
+[15.808354] (-) TimerEvent: {}
+[15.852937] (get_pose_client) JobEnded: {'identifier': 'get_pose_client', 'rc': 0}
+[15.908476] (-) TimerEvent: {}
+[16.008970] (-) TimerEvent: {}
+[16.029293] (moveit2_kinematics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_kinematics/src/test_kinematics_plugin.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.030325] (moveit2_kinematics) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_kinematics/src/test_kinematics_plugin.cpp:51:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ksuccess_arm\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.031131] (moveit2_kinematics) StderrLine: {'line': b'   51 |   bool \x1b[01;35m\x1b[Ksuccess_arm\x1b[m\x1b[K = (move_group_arm.plan(my_plan_arm) ==\n'}
+[16.031995] (moveit2_kinematics) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.076122] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/two_positons.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.077180] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/two_positons.cpp:54:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ksuccess\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.078063] (moveit2_scripts) StderrLine: {'line': b'   54 |   bool \x1b[01;35m\x1b[Ksuccess\x1b[m\x1b[K =\n'}
+[16.078930] (moveit2_scripts) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.109108] (-) TimerEvent: {}
+[16.181675] (moveit2_cartesian) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian/src/cartesian_path.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.182742] (moveit2_cartesian) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian/src/cartesian_path.cpp:51:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ksuccess_arm\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.183611] (moveit2_cartesian) StderrLine: {'line': b'   51 |   bool \x1b[01;35m\x1b[Ksuccess_arm\x1b[m\x1b[K = (move_group_arm.plan(my_plan_arm) ==\n'}
+[16.184431] (moveit2_cartesian) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.185257] (moveit2_cartesian) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian/src/cartesian_path.cpp:88:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kfraction\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.186090] (moveit2_cartesian) StderrLine: {'line': b'   88 |   double \x1b[01;35m\x1b[Kfraction\x1b[m\x1b[K = move_group_arm.computeCartesianPath(\n'}
+[16.186924] (moveit2_cartesian) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.209247] (-) TimerEvent: {}
+[16.309922] (-) TimerEvent: {}
+[16.410544] (-) TimerEvent: {}
+[16.421790] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_end_effector_trajectory.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.422840] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_end_effector_trajectory.cpp:25:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kjoint_model_group\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.423725] (moveit2_scripts) StderrLine: {'line': b'   25 |   const moveit::core::JointModelGroup *\x1b[01;35m\x1b[Kjoint_model_group\x1b[m\x1b[K =\n'}
+[16.424565] (moveit2_scripts) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.510672] (-) TimerEvent: {}
+[16.611310] (-) TimerEvent: {}
+[16.711920] (-) TimerEvent: {}
+[16.812703] (-) TimerEvent: {}
+[16.905796] (moveit2_scripts) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable test_gripper\x1b[0m\n'}
+[16.912862] (-) TimerEvent: {}
+[17.013674] (-) TimerEvent: {}
+[17.114314] (-) TimerEvent: {}
+[17.215699] (-) TimerEvent: {}
+[17.316304] (-) TimerEvent: {}
+[17.416804] (-) TimerEvent: {}
+[17.517235] (-) TimerEvent: {}
+[17.617754] (-) TimerEvent: {}
+[17.718229] (-) TimerEvent: {}
+[17.757899] (moveit2_scripts) StdoutLine: {'line': b'[ 62%] Built target test_gripper\n'}
+[17.818364] (-) TimerEvent: {}
+[17.918795] (-) TimerEvent: {}
+[18.019206] (-) TimerEvent: {}
+[18.119649] (-) TimerEvent: {}
+[18.220084] (-) TimerEvent: {}
+[18.320568] (-) TimerEvent: {}
+[18.421017] (-) TimerEvent: {}
+[18.540472] (-) TimerEvent: {}
+[18.640969] (-) TimerEvent: {}
+[18.741419] (-) TimerEvent: {}
+[18.841886] (-) TimerEvent: {}
+[18.942360] (-) TimerEvent: {}
+[19.042823] (-) TimerEvent: {}
+[19.143584] (-) TimerEvent: {}
+[19.244379] (-) TimerEvent: {}
+[19.345153] (-) TimerEvent: {}
+[19.445851] (-) TimerEvent: {}
+[19.546449] (-) TimerEvent: {}
+[19.647159] (-) TimerEvent: {}
+[19.747758] (-) TimerEvent: {}
+[19.848630] (-) TimerEvent: {}
+[19.949196] (-) TimerEvent: {}
+[20.049756] (-) TimerEvent: {}
+[20.150348] (-) TimerEvent: {}
+[20.250953] (-) TimerEvent: {}
+[20.351551] (-) TimerEvent: {}
+[20.452021] (-) TimerEvent: {}
+[20.552500] (-) TimerEvent: {}
+[20.653004] (-) TimerEvent: {}
+[20.726734] (moveit2_scripts) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable test_trajectory\x1b[0m\n'}
+[20.753156] (-) TimerEvent: {}
+[20.853684] (-) TimerEvent: {}
+[20.954207] (-) TimerEvent: {}
+[21.054730] (-) TimerEvent: {}
+[21.131756] (moveit2_scripts) StdoutLine: {'line': b'[ 75%] Built target test_trajectory\n'}
+[21.154867] (-) TimerEvent: {}
+[21.237728] (moveit2_kinematics) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_kinematics_plugin\x1b[0m\n'}
+[21.254976] (-) TimerEvent: {}
+[21.286635] (moveit2_scripts) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable two_postions\x1b[0m\n'}
+[21.355120] (-) TimerEvent: {}
+[21.455637] (-) TimerEvent: {}
+[21.493017] (moveit2_cartesian) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cartesian_path\x1b[0m\n'}
+[21.534898] (moveit2_scripts) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_end_effector_trajectory\x1b[0m\n'}
+[21.555784] (-) TimerEvent: {}
+[21.656283] (-) TimerEvent: {}
+[21.698750] (moveit2_scripts) StdoutLine: {'line': b'[100%] Built target two_postions\n'}
+[21.756475] (-) TimerEvent: {}
+[21.799338] (moveit2_kinematics) StdoutLine: {'line': b'[100%] Built target test_kinematics_plugin\n'}
+[21.810831] (moveit2_kinematics) CommandEnded: {'returncode': 0}
+[21.838398] (moveit2_kinematics) JobProgress: {'identifier': 'moveit2_kinematics', 'progress': 'install'}
+[21.839115] (moveit2_kinematics) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[21.848249] (moveit2_kinematics) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.848538] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/moveit2_kinematics/test_kinematics_plugin\n'}
+[21.849120] (moveit2_kinematics) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/moveit2_kinematics/test_kinematics_plugin" to ""\n'}
+[21.849256] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/launch\n'}
+[21.849383] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/launch/test_kinematics_plugin.launch.py\n'}
+[21.849507] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit2_kinematics\n'}
+[21.849701] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit2_kinematics\n'}
+[21.849895] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/ament_prefix_path.sh\n'}
+[21.850051] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/ament_prefix_path.dsv\n'}
+[21.850200] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/path.sh\n'}
+[21.850349] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/path.dsv\n'}
+[21.850484] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.bash\n'}
+[21.850624] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.sh\n'}
+[21.850842] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.zsh\n'}
+[21.851008] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.dsv\n'}
+[21.851185] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.dsv\n'}
+[21.851493] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/packages/moveit2_kinematics\n'}
+[21.851719] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/cmake/moveit2_kinematicsConfig.cmake\n'}
+[21.851877] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/cmake/moveit2_kinematicsConfig-version.cmake\n'}
+[21.852038] (moveit2_kinematics) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.xml\n'}
+[21.854341] (moveit2_kinematics) CommandEnded: {'returncode': 0}
+[21.856730] (-) TimerEvent: {}
+[21.903783] (moveit2_kinematics) JobEnded: {'identifier': 'moveit2_kinematics', 'rc': 0}
+[21.944979] (moveit2_scripts) StdoutLine: {'line': b'[100%] Built target test_end_effector_trajectory\n'}
+[21.956717] (moveit2_scripts) CommandEnded: {'returncode': 0}
+[21.957416] (-) TimerEvent: {}
+[21.967522] (moveit2_cartesian) StdoutLine: {'line': b'[100%] Built target cartesian_path\n'}
+[21.978463] (moveit2_cartesian) CommandEnded: {'returncode': 0}
+[21.991480] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'install'}
+[21.992709] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[22.000138] (moveit2_scripts) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.000403] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory\n'}
+[22.001095] (moveit2_scripts) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory" to ""\n'}
+[22.001368] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_end_effector_trajectory\n'}
+[22.001906] (moveit2_scripts) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_end_effector_trajectory" to ""\n'}
+[22.002067] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/two_postions\n'}
+[22.002609] (moveit2_scripts) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/two_postions" to ""\n'}
+[22.002767] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper\n'}
+[22.003354] (moveit2_scripts) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper" to ""\n'}
+[22.003650] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch\n'}
+[22.003938] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py\n'}
+[22.004419] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py\n'}
+[22.005613] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory3.launch.py\n'}
+[22.006195] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_gripper.launch.py\n'}
+[22.006368] (moveit2_cartesian) JobProgress: {'identifier': 'moveit2_cartesian', 'progress': 'install'}
+[22.006404] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts\n'}
+[22.006526] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts\n'}
+[22.006643] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh\n'}
+[22.006772] (moveit2_cartesian) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[22.007407] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv\n'}
+[22.007589] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh\n'}
+[22.007853] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv\n'}
+[22.008671] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash\n'}
+[22.009033] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh\n'}
+[22.009200] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh\n'}
+[22.009318] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv\n'}
+[22.009469] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv\n'}
+[22.009611] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts\n'}
+[22.009732] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake\n'}
+[22.009888] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake\n'}
+[22.010043] (moveit2_scripts) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml\n'}
+[22.010212] (moveit2_scripts) CommandEnded: {'returncode': 0}
+[22.012937] (moveit2_cartesian) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.013210] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/moveit2_cartesian/cartesian_path\n'}
+[22.014201] (moveit2_cartesian) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/moveit2_cartesian/cartesian_path" to ""\n'}
+[22.014951] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/launch\n'}
+[22.015469] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/launch/cartesian_path.launch.py\n'}
+[22.015773] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/package_run_dependencies/moveit2_cartesian\n'}
+[22.016324] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/parent_prefix_path/moveit2_cartesian\n'}
+[22.016613] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/ament_prefix_path.sh\n'}
+[22.016842] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/ament_prefix_path.dsv\n'}
+[22.017166] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/path.sh\n'}
+[22.017341] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/path.dsv\n'}
+[22.017661] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.bash\n'}
+[22.017941] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.sh\n'}
+[22.018241] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.zsh\n'}
+[22.018410] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.dsv\n'}
+[22.018630] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.dsv\n'}
+[22.018772] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/packages/moveit2_cartesian\n'}
+[22.019004] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/cmake/moveit2_cartesianConfig.cmake\n'}
+[22.019156] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/cmake/moveit2_cartesianConfig-version.cmake\n'}
+[22.019402] (moveit2_cartesian) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.xml\n'}
+[22.021229] (moveit2_cartesian) CommandEnded: {'returncode': 0}
+[22.057640] (-) TimerEvent: {}
+[22.058628] (moveit2_cartesian) JobEnded: {'identifier': 'moveit2_cartesian', 'rc': 0}
+[22.065551] (moveit2_scripts) JobEnded: {'identifier': 'moveit2_scripts', 'rc': 0}
+[22.157775] (-) TimerEvent: {}
+[22.258068] (-) TimerEvent: {}
+[22.358359] (-) TimerEvent: {}
+[22.458665] (-) TimerEvent: {}
+[22.558996] (-) TimerEvent: {}
+[22.659335] (-) TimerEvent: {}
+[22.759607] (-) TimerEvent: {}
+[22.859894] (-) TimerEvent: {}
+[22.960213] (-) TimerEvent: {}
+[23.060519] (-) TimerEvent: {}
+[23.160816] (-) TimerEvent: {}
+[23.261114] (-) TimerEvent: {}
+[23.361423] (-) TimerEvent: {}
+[23.461716] (-) TimerEvent: {}
+[23.562012] (-) TimerEvent: {}
+[23.662302] (-) TimerEvent: {}
+[23.762627] (-) TimerEvent: {}
+[23.862900] (-) TimerEvent: {}
+[23.963196] (-) TimerEvent: {}
+[24.063504] (-) TimerEvent: {}
+[24.163818] (-) TimerEvent: {}
+[24.264111] (-) TimerEvent: {}
+[24.364400] (-) TimerEvent: {}
+[24.464696] (-) TimerEvent: {}
+[24.564991] (-) TimerEvent: {}
+[24.665292] (-) TimerEvent: {}
+[24.765582] (-) TimerEvent: {}
+[24.865868] (-) TimerEvent: {}
+[24.966160] (-) TimerEvent: {}
+[25.066451] (-) TimerEvent: {}
+[25.166753] (-) TimerEvent: {}
+[25.267051] (-) TimerEvent: {}
+[25.367317] (-) TimerEvent: {}
+[25.467579] (-) TimerEvent: {}
+[25.567881] (-) TimerEvent: {}
+[25.668204] (-) TimerEvent: {}
+[25.715384] (simple_grasping) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_grasping.so\x1b[0m\n'}
+[25.768382] (-) TimerEvent: {}
+[25.868756] (-) TimerEvent: {}
+[25.969094] (-) TimerEvent: {}
+[26.069481] (-) TimerEvent: {}
+[26.169827] (-) TimerEvent: {}
+[26.270164] (-) TimerEvent: {}
+[26.370530] (-) TimerEvent: {}
+[26.471020] (-) TimerEvent: {}
+[26.571527] (-) TimerEvent: {}
+[26.672063] (-) TimerEvent: {}
+[26.772500] (-) TimerEvent: {}
+[26.872974] (-) TimerEvent: {}
+[26.973477] (-) TimerEvent: {}
+[27.073864] (-) TimerEvent: {}
+[27.174294] (-) TimerEvent: {}
+[27.274734] (-) TimerEvent: {}
+[27.375115] (-) TimerEvent: {}
+[27.475447] (-) TimerEvent: {}
+[27.537491] (simple_grasping) StdoutLine: {'line': b'[ 68%] Built target simple_grasping\n'}
+[27.556970] (simple_grasping) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/basic_grasping_perception.dir/src/basic_grasping_perception.cpp.o\x1b[0m\n'}
+[27.557216] (simple_grasping) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/grasp_planner.dir/src/grasp_planner_node.cpp.o\x1b[0m\n'}
+[27.557348] (simple_grasping) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/simple_grasping_test_shape_extraction.dir/test/test_shape_extraction.cpp.o\x1b[0m\n'}
+[27.575542] (-) TimerEvent: {}
+[27.675828] (-) TimerEvent: {}
+[27.776137] (-) TimerEvent: {}
+[27.876413] (-) TimerEvent: {}
+[27.976670] (-) TimerEvent: {}
+[28.076972] (-) TimerEvent: {}
+[28.177309] (-) TimerEvent: {}
+[28.277640] (-) TimerEvent: {}
+[28.377937] (-) TimerEvent: {}
+[28.478228] (-) TimerEvent: {}
+[28.578526] (-) TimerEvent: {}
+[28.678822] (-) TimerEvent: {}
+[28.779094] (-) TimerEvent: {}
+[28.879452] (-) TimerEvent: {}
+[28.979770] (-) TimerEvent: {}
+[29.080081] (-) TimerEvent: {}
+[29.180381] (-) TimerEvent: {}
+[29.280686] (-) TimerEvent: {}
+[29.381015] (-) TimerEvent: {}
+[29.481359] (-) TimerEvent: {}
+[29.581732] (-) TimerEvent: {}
+[29.682108] (-) TimerEvent: {}
+[29.782406] (-) TimerEvent: {}
+[29.882746] (-) TimerEvent: {}
+[29.983073] (-) TimerEvent: {}
+[30.083397] (-) TimerEvent: {}
+[30.183735] (-) TimerEvent: {}
+[30.284060] (-) TimerEvent: {}
+[30.384390] (-) TimerEvent: {}
+[30.484719] (-) TimerEvent: {}
+[30.585057] (-) TimerEvent: {}
+[30.685446] (-) TimerEvent: {}
+[30.785848] (-) TimerEvent: {}
+[30.886213] (-) TimerEvent: {}
+[30.986505] (-) TimerEvent: {}
+[31.080458] (simple_grasping) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable simple_grasping_test_shape_extraction\x1b[0m\n'}
+[31.086637] (-) TimerEvent: {}
+[31.186996] (-) TimerEvent: {}
+[31.287481] (-) TimerEvent: {}
+[31.387887] (-) TimerEvent: {}
+[31.488309] (-) TimerEvent: {}
+[31.552468] (simple_grasping) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library libgrasp_planner.so\x1b[0m\n'}
+[31.588422] (-) TimerEvent: {}
+[31.688936] (-) TimerEvent: {}
+[31.789667] (-) TimerEvent: {}
+[31.890354] (-) TimerEvent: {}
+[31.990858] (-) TimerEvent: {}
+[32.091371] (-) TimerEvent: {}
+[32.191908] (-) TimerEvent: {}
+[32.292323] (-) TimerEvent: {}
+[32.392653] (-) TimerEvent: {}
+[32.493114] (-) TimerEvent: {}
+[32.593611] (-) TimerEvent: {}
+[32.694083] (-) TimerEvent: {}
+[32.768764] (simple_grasping) StdoutLine: {'line': b'[ 94%] Built target simple_grasping_test_shape_extraction\n'}
+[32.794198] (-) TimerEvent: {}
+[32.866244] (simple_grasping) StdoutLine: {'line': b'[ 94%] Built target grasp_planner\n'}
+[32.894328] (-) TimerEvent: {}
+[32.994628] (-) TimerEvent: {}
+[33.094922] (-) TimerEvent: {}
+[33.195219] (-) TimerEvent: {}
+[33.295579] (-) TimerEvent: {}
+[33.395905] (-) TimerEvent: {}
+[33.496226] (-) TimerEvent: {}
+[33.596535] (-) TimerEvent: {}
+[33.696813] (-) TimerEvent: {}
+[33.797109] (-) TimerEvent: {}
+[33.897425] (-) TimerEvent: {}
+[33.997726] (-) TimerEvent: {}
+[34.098029] (-) TimerEvent: {}
+[34.198331] (-) TimerEvent: {}
+[34.298639] (-) TimerEvent: {}
+[34.398937] (-) TimerEvent: {}
+[34.499285] (-) TimerEvent: {}
+[34.599576] (-) TimerEvent: {}
+[34.699875] (-) TimerEvent: {}
+[34.800171] (-) TimerEvent: {}
+[34.900494] (-) TimerEvent: {}
+[35.000767] (-) TimerEvent: {}
+[35.101053] (-) TimerEvent: {}
+[35.201350] (-) TimerEvent: {}
+[35.301677] (-) TimerEvent: {}
+[35.402029] (-) TimerEvent: {}
+[35.502357] (-) TimerEvent: {}
+[35.602652] (-) TimerEvent: {}
+[35.702941] (-) TimerEvent: {}
+[35.803282] (-) TimerEvent: {}
+[35.903579] (-) TimerEvent: {}
+[36.003871] (-) TimerEvent: {}
+[36.104175] (-) TimerEvent: {}
+[36.204474] (-) TimerEvent: {}
+[36.304769] (-) TimerEvent: {}
+[36.405065] (-) TimerEvent: {}
+[36.505367] (-) TimerEvent: {}
+[36.605661] (-) TimerEvent: {}
+[36.705959] (-) TimerEvent: {}
+[36.806264] (-) TimerEvent: {}
+[36.906566] (-) TimerEvent: {}
+[37.006868] (-) TimerEvent: {}
+[37.107161] (-) TimerEvent: {}
+[37.207500] (-) TimerEvent: {}
+[37.307800] (-) TimerEvent: {}
+[37.408102] (-) TimerEvent: {}
+[37.508404] (-) TimerEvent: {}
+[37.608702] (-) TimerEvent: {}
+[37.709011] (-) TimerEvent: {}
+[37.809319] (-) TimerEvent: {}
+[37.909602] (-) TimerEvent: {}
+[38.009887] (-) TimerEvent: {}
+[38.110167] (-) TimerEvent: {}
+[38.210451] (-) TimerEvent: {}
+[38.310733] (-) TimerEvent: {}
+[38.411018] (-) TimerEvent: {}
+[38.511334] (-) TimerEvent: {}
+[38.611604] (-) TimerEvent: {}
+[38.711886] (-) TimerEvent: {}
+[38.812194] (-) TimerEvent: {}
+[38.912476] (-) TimerEvent: {}
+[39.012760] (-) TimerEvent: {}
+[39.113045] (-) TimerEvent: {}
+[39.213330] (-) TimerEvent: {}
+[39.313580] (-) TimerEvent: {}
+[39.413858] (-) TimerEvent: {}
+[39.514140] (-) TimerEvent: {}
+[39.614425] (-) TimerEvent: {}
+[39.714711] (-) TimerEvent: {}
+[39.814997] (-) TimerEvent: {}
+[39.915315] (-) TimerEvent: {}
+[40.015587] (-) TimerEvent: {}
+[40.115868] (-) TimerEvent: {}
+[40.216149] (-) TimerEvent: {}
+[40.316432] (-) TimerEvent: {}
+[40.416716] (-) TimerEvent: {}
+[40.516996] (-) TimerEvent: {}
+[40.617300] (-) TimerEvent: {}
+[40.717582] (-) TimerEvent: {}
+[40.817868] (-) TimerEvent: {}
+[40.918126] (-) TimerEvent: {}
+[41.018436] (-) TimerEvent: {}
+[41.118711] (-) TimerEvent: {}
+[41.218986] (-) TimerEvent: {}
+[41.319266] (-) TimerEvent: {}
+[41.419524] (-) TimerEvent: {}
+[41.519805] (-) TimerEvent: {}
+[41.620131] (-) TimerEvent: {}
+[41.720403] (-) TimerEvent: {}
+[41.776618] (simple_grasping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libbasic_grasping_perception.so\x1b[0m\n'}
+[41.820523] (-) TimerEvent: {}
+[41.920805] (-) TimerEvent: {}
+[42.021163] (-) TimerEvent: {}
+[42.121631] (-) TimerEvent: {}
+[42.221974] (-) TimerEvent: {}
+[42.322307] (-) TimerEvent: {}
+[42.422730] (-) TimerEvent: {}
+[42.523193] (-) TimerEvent: {}
+[42.623614] (-) TimerEvent: {}
+[42.723915] (-) TimerEvent: {}
+[42.824215] (-) TimerEvent: {}
+[42.924518] (-) TimerEvent: {}
+[43.024955] (-) TimerEvent: {}
+[43.125425] (-) TimerEvent: {}
+[43.225896] (-) TimerEvent: {}
+[43.326377] (-) TimerEvent: {}
+[43.426830] (-) TimerEvent: {}
+[43.527295] (-) TimerEvent: {}
+[43.627685] (-) TimerEvent: {}
+[43.727961] (-) TimerEvent: {}
+[43.828228] (-) TimerEvent: {}
+[43.909329] (simple_grasping) StdoutLine: {'line': b'[100%] Built target basic_grasping_perception\n'}
+[43.920055] (simple_grasping) CommandEnded: {'returncode': 0}
+[43.928322] (-) TimerEvent: {}
+[43.967062] (simple_grasping) JobProgress: {'identifier': 'simple_grasping', 'progress': 'install'}
+[43.968389] (simple_grasping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/wenis_ws/build/simple_grasping'], 'cwd': '/home/yuritvr/PFC/wenis_ws/build/simple_grasping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yuritvr/wenis_ws/install/simple_grasping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr/PFC/wenis_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '944'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yuritvr/wenis_ws/install:/home/yuritvr/PFC/pfc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/918,unix/yuripad:/tmp/.ICE-unix/918'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/08d74f90_2f4c_415e_b63b_35a21ae02b44'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W2N2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/wenis_ws/build/simple_grasping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yuritvr/wenis_ws/install/xarm_description:/home/yuritvr/wenis_ws/install/simple_grasping:/home/yuritvr/wenis_ws/install/moveit_config:/home/yuritvr/wenis_ws/install/moveit2_scripts:/home/yuritvr/wenis_ws/install/moveit2_kinematics:/home/yuritvr/wenis_ws/install/moveit2_cartesian:/home/yuritvr/wenis_ws/install/get_pose_client:/home/yuritvr/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble')]), 'shell': False}
+[43.975364] (simple_grasping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.975589] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node\n'}
+[43.976186] (simple_grasping) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node" to ""\n'}
+[43.976340] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node\n'}
+[43.976780] (simple_grasping) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node" to ""\n'}
+[43.976961] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include\n'}
+[43.977182] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping\n'}
+[43.977263] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/shape_grasp_planner.h\n'}
+[43.977349] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/cloud_tools.h\n'}
+[43.977406] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/object_support_segmentation.h\n'}
+[43.977486] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/shape_extraction.h\n'}
+[43.977552] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/do_perception.py\n'}
+[43.977608] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libsimple_grasping.so\n'}
+[43.984375] (simple_grasping) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libsimple_grasping.so" to ""\n'}
+[43.984533] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libbasic_grasping_perception.so\n'}
+[43.992668] (simple_grasping) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libbasic_grasping_perception.so" to ""\n'}
+[43.992809] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libgrasp_planner.so\n'}
+[43.994245] (simple_grasping) StdoutLine: {'line': b'-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libgrasp_planner.so" to ""\n'}
+[43.994400] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/library_path.sh\n'}
+[43.994566] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/library_path.dsv\n'}
+[43.994703] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/package_run_dependencies/simple_grasping\n'}
+[43.994874] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/parent_prefix_path/simple_grasping\n'}
+[43.994983] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.sh\n'}
+[43.995070] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.dsv\n'}
+[43.995151] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/path.sh\n'}
+[43.995502] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/path.dsv\n'}
+[43.995618] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.bash\n'}
+[43.995732] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.sh\n'}
+[43.995849] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.zsh\n'}
+[43.995999] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.dsv\n'}
+[43.996084] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.dsv\n'}
+[43.996235] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/packages/simple_grasping\n'}
+[43.996415] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/rclcpp_components/simple_grasping\n'}
+[43.996578] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[43.996681] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[43.996813] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[43.996918] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig.cmake\n'}
+[43.997010] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig-version.cmake\n'}
+[43.997114] (simple_grasping) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.xml\n'}
+[43.998982] (simple_grasping) CommandEnded: {'returncode': 0}
+[44.028442] (-) TimerEvent: {}
+[44.061717] (simple_grasping) JobEnded: {'identifier': 'simple_grasping', 'rc': 0}
+[44.062352] (-) EventReactorShutdown: {}
