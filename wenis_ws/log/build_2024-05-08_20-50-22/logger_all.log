@@ -1,0 +1,612 @@
+[0.162s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.162s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ffa0d31e0b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffa0d4b2320>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffa0d4b2320>>, mixin_verb=('build',))
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.422s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuritvr/PFC/wenis_ws'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/get_pose_client) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_manipulator/get_pose_client' with type 'ros.ament_cmake' and name 'get_pose_client'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_cartesian) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_manipulator/moveit2_cartesian' with type 'ros.ament_cmake' and name 'moveit2_cartesian'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_kinematics) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_manipulator/moveit2_kinematics' with type 'ros.ament_cmake' and name 'moveit2_kinematics'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit2_scripts) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_manipulator/moveit2_scripts' with type 'ros.ament_cmake' and name 'moveit2_scripts'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/moveit_config) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_manipulator/moveit_config' with type 'ros.ament_cmake' and name 'moveit_config'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/robotic_arm_environment/arm_pkg) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_manipulator/robotic_arm_environment/arm_pkg' with type 'ros.ament_cmake' and name 'arm_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/simple_grasping_ros2/simple_grasping) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_manipulator/simple_grasping_ros2/simple_grasping' with type 'ros.ament_cmake' and name 'simple_grasping'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_manipulator/xarm_description) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_manipulator/xarm_description' with type 'ros.ament_cmake' and name 'xarm_description'
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/yuritvr/PFC/wenis_ws/install
+[0.510s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/yuritvr/PFC/pfc_ws/install
+[0.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 354 installed packages in /opt/ros/humble
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'cmake_target' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'arm_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] DEBUG:colcon.colcon_core.verb:Building package 'arm_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuritvr/PFC/wenis_ws/build/arm_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuritvr/PFC/wenis_ws/install/arm_pkg', 'merge_install': False, 'path': '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/robotic_arm_environment/arm_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_target' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] DEBUG:colcon.colcon_core.verb:Building package 'get_pose_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuritvr/PFC/wenis_ws/build/get_pose_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuritvr/PFC/wenis_ws/install/get_pose_client', 'merge_install': False, 'path': '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client', 'symlink_install': False, 'test_result_base': None}
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'cmake_target' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'cmake_clean_cache' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'cmake_clean_first' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'cmake_force_configure' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'ament_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'catkin_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'moveit2_cartesian' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.588s] DEBUG:colcon.colcon_core.verb:Building package 'moveit2_cartesian' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian', 'merge_install': False, 'path': '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian', 'symlink_install': False, 'test_result_base': None}
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'moveit2_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'moveit2_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics', 'merge_install': False, 'path': '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_kinematics', 'symlink_install': False, 'test_result_base': None}
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_target' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_clean_cache' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_clean_first' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_force_configure' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'ament_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'catkin_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.590s] DEBUG:colcon.colcon_core.verb:Building package 'moveit2_scripts' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts', 'merge_install': False, 'path': '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts', 'symlink_install': False, 'test_result_base': None}
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'cmake_target' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'cmake_clean_first' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'cmake_force_configure' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'ament_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'simple_grasping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] DEBUG:colcon.colcon_core.verb:Building package 'simple_grasping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuritvr/PFC/wenis_ws/build/simple_grasping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuritvr/PFC/wenis_ws/install/simple_grasping', 'merge_install': False, 'path': '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/simple_grasping_ros2/simple_grasping', 'symlink_install': False, 'test_result_base': None}
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_target' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'xarm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.592s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuritvr/PFC/wenis_ws/build/xarm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuritvr/PFC/wenis_ws/install/xarm_description', 'merge_install': False, 'path': '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/xarm_description', 'symlink_install': False, 'test_result_base': None}
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.593s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuritvr/PFC/wenis_ws/build/moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuritvr/PFC/wenis_ws/install/moveit_config', 'merge_install': False, 'path': '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.593s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.595s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/robotic_arm_environment/arm_pkg' with build type 'ament_cmake'
+[0.595s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/robotic_arm_environment/arm_pkg'
+[0.598s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.605s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client' with build type 'ament_cmake'
+[0.605s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client'
+[0.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian' with build type 'ament_cmake'
+[0.613s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_kinematics' with build type 'ament_cmake'
+[0.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_kinematics'
+[0.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.629s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts' with build type 'ament_cmake'
+[0.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts'
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.636s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/simple_grasping_ros2/simple_grasping' with build type 'ament_cmake'
+[0.636s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/simple_grasping_ros2/simple_grasping'
+[0.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.644s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/xarm_description' with build type 'ament_cmake'
+[0.644s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/xarm_description'
+[0.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/arm_pkg -- -j8 -l8
+[0.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
+[0.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/simple_grasping -- -j8 -l8
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/xarm_description -- -j8 -l8
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/arm_pkg -- -j8 -l8
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/xarm_description -- -j8 -l8
+[0.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/arm_pkg
+[0.921s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_pkg)
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg' for CMake module files
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg' for CMake config files
+[0.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_pkg', 'cmake_prefix_path')
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/hook/cmake_prefix_path.ps1'
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/hook/cmake_prefix_path.dsv'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/hook/cmake_prefix_path.sh'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/bin'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/lib/pkgconfig/arm_pkg.pc'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/lib/python3.10/site-packages'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/bin'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.ps1'
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/arm_pkg
+[0.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.dsv'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.sh'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.bash'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.zsh'
+[0.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/colcon-core/packages/arm_pkg)
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/xarm_description
+[1.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_description)
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description' for CMake module files
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description' for CMake config files
+[1.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_description', 'cmake_prefix_path')
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.sh'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description/bin'
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description/lib/pkgconfig/xarm_description.pc'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description/lib/python3.10/site-packages'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description/bin'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.ps1'
+[1.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/xarm_description
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.dsv'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.sh'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.bash'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.zsh'
+[1.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/colcon-core/packages/xarm_description)
+[1.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_pkg)
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg' for CMake module files
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg' for CMake config files
+[1.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_pkg', 'cmake_prefix_path')
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/hook/cmake_prefix_path.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/hook/cmake_prefix_path.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/hook/cmake_prefix_path.sh'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/bin'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/lib/pkgconfig/arm_pkg.pc'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/lib/python3.10/site-packages'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/bin'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.ps1'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.sh'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.bash'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.zsh'
+[1.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/colcon-core/packages/arm_pkg)
+[1.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit_config' with build type 'ament_cmake'
+[1.269s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit_config'
+[1.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config': CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/wenis_ws/install/xarm_description:/home/yuritvr/PFC/wenis_ws/install/simple_grasping:/home/yuritvr/PFC/wenis_ws/install/moveit_config:/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts:/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics:/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian:/home/yuritvr/PFC/wenis_ws/install/get_pose_client:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/moveit_test:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit_config -- -j8 -l8
+[1.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_description)
+[1.400s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description' for CMake module files
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description' for CMake config files
+[1.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_description', 'cmake_prefix_path')
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/hook/cmake_prefix_path.sh'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description/bin'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description/lib/pkgconfig/xarm_description.pc'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description/lib/python3.10/site-packages'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/xarm_description/bin'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.dsv'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.sh'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.bash'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.zsh'
+[1.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/colcon-core/packages/xarm_description)
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/wenis_ws/install/xarm_description:/home/yuritvr/PFC/wenis_ws/install/simple_grasping:/home/yuritvr/PFC/wenis_ws/install/moveit_config:/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts:/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics:/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian:/home/yuritvr/PFC/wenis_ws/install/get_pose_client:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/moveit_test:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit_config -- -j8 -l8
+[1.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config': CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/wenis_ws/install/xarm_description:/home/yuritvr/PFC/wenis_ws/install/simple_grasping:/home/yuritvr/PFC/wenis_ws/install/moveit_config:/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts:/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics:/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian:/home/yuritvr/PFC/wenis_ws/install/get_pose_client:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/moveit_test:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit_config
+[2.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_config)
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config' for CMake module files
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config' for CMake config files
+[2.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_config', 'cmake_prefix_path')
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/hook/cmake_prefix_path.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/hook/cmake_prefix_path.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/hook/cmake_prefix_path.sh'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config/bin'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config/lib/pkgconfig/moveit_config.pc'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config/lib/python3.10/site-packages'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config/bin'
+[2.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.dsv'
+[2.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/home/yuritvr/PFC/wenis_ws/install/xarm_description:/home/yuritvr/PFC/wenis_ws/install/simple_grasping:/home/yuritvr/PFC/wenis_ws/install/moveit_config:/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts:/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics:/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian:/home/yuritvr/PFC/wenis_ws/install/get_pose_client:/home/yuritvr/PFC/pfc_ws/install/pfc_moveit:/home/yuritvr/PFC/pfc_ws/install/moveit_test:/home/yuritvr/PFC/pfc_ws/install/ur_robotiq_description:/home/yuritvr/PFC/pfc_ws/install/pfc_arm:/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit_config
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.sh'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.bash'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.zsh'
+[2.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/colcon-core/packages/moveit_config)
+[2.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
+[2.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_config)
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config' for CMake module files
+[2.408s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config' for CMake config files
+[2.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_config', 'cmake_prefix_path')
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/hook/cmake_prefix_path.ps1'
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/hook/cmake_prefix_path.dsv'
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/hook/cmake_prefix_path.sh'
+[2.413s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config/bin'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config/lib/pkgconfig/moveit_config.pc'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config/lib/python3.10/site-packages'
+[2.415s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit_config/bin'
+[2.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.ps1'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.dsv'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.sh'
+[2.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.bash'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.zsh'
+[2.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/moveit_config/share/colcon-core/packages/moveit_config)
+[2.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/get_pose_client
+[1.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(get_pose_client)
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client' for CMake module files
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client' for CMake config files
+[1.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('get_pose_client', 'cmake_prefix_path')
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.ps1'
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/get_pose_client
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.dsv'
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.sh'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/bin'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/pkgconfig/get_pose_client.pc'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/python3.10/site-packages'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/bin'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.dsv'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.sh'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.bash'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.zsh'
+[1.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/colcon-core/packages/get_pose_client)
+[1.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(get_pose_client)
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client' for CMake module files
+[1.797s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client' for CMake config files
+[1.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('get_pose_client', 'cmake_prefix_path')
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.ps1'
+[1.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.dsv'
+[1.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.sh'
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib'
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/bin'
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/pkgconfig/get_pose_client.pc'
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/python3.10/site-packages'
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/bin'
+[1.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.ps1'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.dsv'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.sh'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.bash'
+[1.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.zsh'
+[1.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/colcon-core/packages/get_pose_client)
+[23.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
+[23.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics
+[23.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_kinematics)
+[23.461s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics' for CMake module files
+[23.462s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics' for CMake config files
+[23.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_kinematics', 'cmake_prefix_path')
+[23.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/hook/cmake_prefix_path.ps1'
+[23.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/hook/cmake_prefix_path.dsv'
+[23.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/hook/cmake_prefix_path.sh'
+[23.466s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib'
+[23.466s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/bin'
+[23.466s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/pkgconfig/moveit2_kinematics.pc'
+[23.466s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/python3.10/site-packages'
+[23.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics
+[23.468s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/bin'
+[23.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.ps1'
+[23.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.dsv'
+[23.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.sh'
+[23.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.bash'
+[23.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.zsh'
+[23.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/colcon-core/packages/moveit2_kinematics)
+[23.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_kinematics)
+[23.532s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics' for CMake module files
+[23.534s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics' for CMake config files
+[23.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_kinematics', 'cmake_prefix_path')
+[23.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/hook/cmake_prefix_path.ps1'
+[23.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/hook/cmake_prefix_path.dsv'
+[23.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/hook/cmake_prefix_path.sh'
+[23.538s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib'
+[23.539s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/bin'
+[23.539s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/pkgconfig/moveit2_kinematics.pc'
+[23.539s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/python3.10/site-packages'
+[23.540s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/bin'
+[23.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.ps1'
+[23.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.dsv'
+[23.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.sh'
+[23.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.bash'
+[23.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.zsh'
+[23.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/colcon-core/packages/moveit2_kinematics)
+[24.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8
+[24.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian
+[24.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_cartesian)
+[24.610s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian' for CMake module files
+[24.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian
+[24.614s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian' for CMake config files
+[24.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_cartesian', 'cmake_prefix_path')
+[24.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/hook/cmake_prefix_path.ps1'
+[24.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/hook/cmake_prefix_path.dsv'
+[24.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/hook/cmake_prefix_path.sh'
+[24.619s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib'
+[24.619s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/bin'
+[24.619s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/pkgconfig/moveit2_cartesian.pc'
+[24.620s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/python3.10/site-packages'
+[24.620s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/bin'
+[24.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.ps1'
+[24.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.dsv'
+[24.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.sh'
+[24.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.bash'
+[24.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.zsh'
+[24.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/colcon-core/packages/moveit2_cartesian)
+[24.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_cartesian)
+[24.698s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian' for CMake module files
+[24.699s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian' for CMake config files
+[24.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_cartesian', 'cmake_prefix_path')
+[24.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/hook/cmake_prefix_path.ps1'
+[24.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/hook/cmake_prefix_path.dsv'
+[24.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/hook/cmake_prefix_path.sh'
+[24.704s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib'
+[24.704s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/bin'
+[24.705s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/pkgconfig/moveit2_cartesian.pc'
+[24.705s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/python3.10/site-packages'
+[24.706s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/bin'
+[24.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.ps1'
+[24.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.dsv'
+[24.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.sh'
+[24.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.bash'
+[24.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.zsh'
+[24.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/colcon-core/packages/moveit2_cartesian)
+[25.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[25.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
+[25.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_scripts)
+[25.158s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts' for CMake module files
+[25.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
+[25.159s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts' for CMake config files
+[25.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_scripts', 'cmake_prefix_path')
+[25.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.ps1'
+[25.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.dsv'
+[25.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.sh'
+[25.162s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib'
+[25.162s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/bin'
+[25.162s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/pkgconfig/moveit2_scripts.pc'
+[25.162s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/python3.10/site-packages'
+[25.162s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/bin'
+[25.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.ps1'
+[25.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv'
+[25.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.sh'
+[25.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.bash'
+[25.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.zsh'
+[25.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/colcon-core/packages/moveit2_scripts)
+[25.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_scripts)
+[25.222s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts' for CMake module files
+[25.223s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts' for CMake config files
+[25.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_scripts', 'cmake_prefix_path')
+[25.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.ps1'
+[25.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.dsv'
+[25.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.sh'
+[25.226s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib'
+[25.227s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/bin'
+[25.227s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/pkgconfig/moveit2_scripts.pc'
+[25.227s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/python3.10/site-packages'
+[25.228s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/bin'
+[25.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.ps1'
+[25.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv'
+[25.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.sh'
+[25.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.bash'
+[25.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.zsh'
+[25.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/colcon-core/packages/moveit2_scripts)
+[49.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[49.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[49.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/simple_grasping -- -j8 -l8
+[49.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_grasping)
+[49.758s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/simple_grasping' for CMake module files
+[49.759s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/simple_grasping' for CMake config files
+[49.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_grasping', 'cmake_prefix_path')
+[49.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/hook/cmake_prefix_path.ps1'
+[49.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/hook/cmake_prefix_path.dsv'
+[49.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/hook/cmake_prefix_path.sh'
+[49.762s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib'
+[49.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_grasping', 'ld_library_path_lib')
+[49.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/hook/ld_library_path_lib.ps1'
+[49.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/hook/ld_library_path_lib.dsv'
+[49.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/hook/ld_library_path_lib.sh'
+[49.764s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/bin'
+[49.764s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/pkgconfig/simple_grasping.pc'
+[49.764s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/python3.10/site-packages'
+[49.764s] Level 1:colcon.colcon_core.environment:checking '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/bin'
+[49.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.ps1'
+[49.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.dsv'
+[49.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.sh'
+[49.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.bash'
+[49.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.zsh'
+[49.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/colcon-core/packages/simple_grasping)
+[49.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[49.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[49.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[49.779s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[49.787s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[49.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[49.788s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[49.803s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[49.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuritvr/PFC/wenis_ws/install/local_setup.ps1'
+[49.805s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuritvr/PFC/wenis_ws/install/_local_setup_util_ps1.py'
+[49.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuritvr/PFC/wenis_ws/install/setup.ps1'
+[49.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuritvr/PFC/wenis_ws/install/local_setup.sh'
+[49.811s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuritvr/PFC/wenis_ws/install/_local_setup_util_sh.py'
+[49.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuritvr/PFC/wenis_ws/install/setup.sh'
+[49.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuritvr/PFC/wenis_ws/install/local_setup.bash'
+[49.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuritvr/PFC/wenis_ws/install/setup.bash'
+[49.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuritvr/PFC/wenis_ws/install/local_setup.zsh'
+[49.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuritvr/PFC/wenis_ws/install/setup.zsh'

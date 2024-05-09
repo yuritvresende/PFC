@@ -1,0 +1,48 @@
+[0.055s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[0.116s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.412s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.490s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.497s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.747s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.054s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.493s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.744s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.778s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.799s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.831s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.950s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.168s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.049s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.442s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[5.450s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[6.683s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[6.694s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[7.257s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[7.973s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[8.738s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[8.760s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[9.141s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.293s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.294s] -- Configured cppcheck include dirs: /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/include
+[9.294s] -- Configured cppcheck exclude dirs and/or files: 
+[9.295s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.296s] -- Added test 'lint_cmake' to check CMake code style
+[9.297s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.299s] -- Added test 'uncrustify' to check C / C++ code style
+[9.299s] -- Configured uncrustify additional arguments: 
+[9.300s] -- Added test 'xmllint' to check XML markup files
+[9.302s] -- Configuring done
+[9.443s] -- Generating done
+[9.449s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
+[9.514s] [35m[1mConsolidate compiler generated dependencies of target test_end_effector_trajectory[0m
+[9.521s] [35m[1mConsolidate compiler generated dependencies of target two_postions[0m
+[9.560s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory[0m
+[9.594s] [35m[1mConsolidate compiler generated dependencies of target test_gripper[0m
+[9.602s] [ 12%] [32mBuilding CXX object CMakeFiles/test_end_effector_trajectory.dir/src/test_end_effector_trajectory.cpp.o[0m
+[9.620s] [ 25%] [32mBuilding CXX object CMakeFiles/two_postions.dir/src/two_positons.cpp.o[0m
+[9.724s] [ 37%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[9.790s] [ 50%] [32mBuilding CXX object CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o[0m

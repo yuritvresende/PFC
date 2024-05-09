@@ -58,4 +58,7 @@ A partir daqui, iniciou-se uma atuação em duas abordagens com o material utili
 - sudo apt install ros-humble-joint-trajectory-controller
 - sudo apt install ros-humble-velocity-controllers
 
+Para o espaço de trabalho do Wenis, utilizar:
+- ros2 launch arm_pkg start_world.launch.py
+
 

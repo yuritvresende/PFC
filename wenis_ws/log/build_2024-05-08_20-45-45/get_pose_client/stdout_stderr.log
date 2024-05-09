@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/get_pose_client.dir/src/get_pose_client.cpp.o[0m
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client/src/get_pose_client.cpp:[m[K In member function ‘[01m[Kvoid GetPoseClient::feedback_callback(rclcpp_action::ClientGoalHandle<grasping_msgs::action::FindGraspableObjects>::SharedPtr, std::shared_ptr<const grasping_msgs::action::FindGraspableObjects_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client/src/get_pose_client.cpp:78:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   78 |                 [01;35m[Kconst std::shared_ptr<const Find::Feedback> feedback[m[K) {
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable get_pose_client[0m
+[100%] Built target get_pose_client
+-- Install configuration: ""
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/get_pose_client/get_pose_client
+-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/get_pose_client/get_pose_client" to ""
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/package_run_dependencies/get_pose_client
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/parent_prefix_path/get_pose_client
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.sh
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/path.sh
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/path.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.bash
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.sh
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.zsh
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.dsv
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/packages/get_pose_client
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig.cmake
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig-version.cmake
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.xml

@@ -59,9 +59,6 @@
 /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/lib/robot_description_lib.py
 /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/lite6_rviz_display.launch.py
 /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/xarm6_rviz_display.launch.py
-/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/__pycache__/_robot_rviz_display.launch.cpython-310.pyc
-/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/__pycache__/_robot_joint_state.launch.cpython-310.pyc
-/home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/__pycache__/xarm6_rviz_display.launch.cpython-310.pyc
 /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_rviz_display.launch.py
 /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description
 /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description

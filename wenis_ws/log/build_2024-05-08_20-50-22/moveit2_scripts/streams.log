@@ -1,0 +1,57 @@
+[0.053s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[0.240s] [ 12%] [32mBuilding CXX object CMakeFiles/test_end_effector_trajectory.dir/src/test_end_effector_trajectory.cpp.o[0m
+[0.264s] [ 25%] [32mBuilding CXX object CMakeFiles/two_postions.dir/src/two_positons.cpp.o[0m
+[0.273s] [ 37%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[0.274s] [ 50%] [32mBuilding CXX object CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o[0m
+[16.388s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_gripper.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[16.388s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_gripper.cpp:54:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess_gripper[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[16.388s]    54 |   bool [01;35m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+[16.388s]       |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[17.081s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_end_effector_trajectory.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[17.082s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_end_effector_trajectory.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[17.082s]    25 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[17.082s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[18.279s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/two_positons.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[18.279s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/two_positons.cpp:54:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[18.279s]    54 |   bool [01;35m[Ksuccess[m[K =
+[18.279s]       |        [01;35m[K^~~~~~~[m[K
+[23.247s] [ 62%] [32m[1mLinking CXX executable test_gripper[0m
+[24.093s] [ 62%] Built target test_gripper
+[24.176s] [ 75%] [32m[1mLinking CXX executable test_trajectory[0m
+[24.244s] [ 87%] [32m[1mLinking CXX executable test_end_effector_trajectory[0m
+[24.914s] [ 87%] Built target test_trajectory
+[24.998s] [ 87%] Built target test_end_effector_trajectory
+[25.099s] [100%] [32m[1mLinking CXX executable two_postions[0m
+[25.744s] [100%] Built target two_postions
+[25.769s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[25.843s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
+[25.854s] -- Install configuration: ""
+[25.855s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[25.855s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory" to ""
+[25.856s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_end_effector_trajectory
+[25.857s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_end_effector_trajectory" to ""
+[25.857s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/two_postions
+[25.858s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/two_postions" to ""
+[25.859s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper
+[25.860s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper" to ""
+[25.860s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+[25.860s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+[25.861s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+[25.861s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory3.launch.py
+[25.861s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_gripper.launch.py
+[25.861s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+[25.862s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+[25.862s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+[25.862s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+[25.862s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+[25.863s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+[25.863s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+[25.863s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+[25.863s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+[25.864s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+[25.864s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+[25.864s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+[25.864s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+[25.865s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+[25.865s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+[25.867s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts

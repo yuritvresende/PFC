@@ -1,0 +1,32 @@
+[0.058s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
+[0.109s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.441s] -- Found grasping_msgs: 0.4.0 (/opt/ros/humble/share/grasping_msgs/cmake)
+[0.514s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.521s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.537s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.532s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.671s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.676s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.013s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.461s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.549s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.678s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.679s] -- Configured cppcheck include dirs: 
+[5.679s] -- Configured cppcheck exclude dirs and/or files: 
+[5.680s] -- Added test 'lint_cmake' to check CMake code style
+[5.681s] -- Added test 'uncrustify' to check C / C++ code style
+[5.681s] -- Configured uncrustify additional arguments: 
+[5.682s] -- Added test 'xmllint' to check XML markup files
+[5.685s] -- Configuring done
+[5.720s] -- Generating done
+[5.724s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/get_pose_client
+[5.775s] [35m[1mConsolidate compiler generated dependencies of target get_pose_client[0m
+[5.811s] [ 50%] [32mBuilding CXX object CMakeFiles/get_pose_client.dir/src/get_pose_client.cpp.o[0m
+[10.191s] gmake[2]: *** wait: No child processes.  Stop.
+[10.192s] gmake[2]: *** Waiting for unfinished jobs....
+[10.193s] gmake[2]: *** wait: No child processes.  Stop.
+[10.193s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_pose_client.dir/all] Error 2
+[10.193s] gmake: *** [Makefile:146: all] Interrupt
+[10.214s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8

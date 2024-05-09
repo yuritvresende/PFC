@@ -1,0 +1,11 @@
+gmake[2]: *** [CMakeFiles/two_postions.dir/build.make:76: CMakeFiles/two_postions.dir/src/two_positons.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/test_end_effector_trajectory.dir/build.make:76: CMakeFiles/test_end_effector_trajectory.dir/src/test_end_effector_trajectory.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/test_gripper.dir/build.make:76: CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/test_end_effector_trajectory.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/test_gripper.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/test_trajectory.dir/build.make:76: CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/test_trajectory.dir/all] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

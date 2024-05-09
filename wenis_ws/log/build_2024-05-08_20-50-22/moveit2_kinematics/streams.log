@@ -1,0 +1,31 @@
+[0.055s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
+[0.216s] [ 50%] [32mBuilding CXX object CMakeFiles/test_kinematics_plugin.dir/src/test_kinematics_plugin.cpp.o[0m
+[16.348s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_kinematics/src/test_kinematics_plugin.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[16.349s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_kinematics/src/test_kinematics_plugin.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess_arm[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[16.349s]    51 |   bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+[16.349s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[23.111s] [100%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[24.066s] [100%] Built target test_kinematics_plugin
+[24.098s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
+[24.148s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics
+[24.167s] -- Install configuration: ""
+[24.168s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/moveit2_kinematics/test_kinematics_plugin
+[24.170s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/moveit2_kinematics/test_kinematics_plugin" to ""
+[24.170s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/launch
+[24.170s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/launch/test_kinematics_plugin.launch.py
+[24.171s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit2_kinematics
+[24.171s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit2_kinematics
+[24.171s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/ament_prefix_path.sh
+[24.171s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/ament_prefix_path.dsv
+[24.171s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/path.sh
+[24.172s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/path.dsv
+[24.172s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.bash
+[24.172s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.sh
+[24.172s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.zsh
+[24.173s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.dsv
+[24.173s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.dsv
+[24.173s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/packages/moveit2_kinematics
+[24.173s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/cmake/moveit2_kinematicsConfig.cmake
+[24.173s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/cmake/moveit2_kinematicsConfig-version.cmake
+[24.173s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.xml
+[24.185s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics

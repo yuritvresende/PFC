@@ -1,0 +1,30 @@
+[0.048s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
+[0.176s] [ 50%] [32mBuilding CXX object CMakeFiles/get_pose_client.dir/src/get_pose_client.cpp.o[0m
+[7.290s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client/src/get_pose_client.cpp:[m[K In member function ‘[01m[Kvoid GetPoseClient::feedback_callback(rclcpp_action::ClientGoalHandle<grasping_msgs::action::FindGraspableObjects>::SharedPtr, std::shared_ptr<const grasping_msgs::action::FindGraspableObjects_Feedback_<std::allocator<void> > >)[m[K’:
+[7.291s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client/src/get_pose_client.cpp:78:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.293s]    78 |                 [01;35m[Kconst std::shared_ptr<const Find::Feedback> feedback[m[K) {
+[7.294s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.295s] 
+[12.757s] [100%] [32m[1mLinking CXX executable get_pose_client[0m
+[14.070s] [100%] Built target get_pose_client
+[14.159s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
+[14.551s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/get_pose_client
+[14.583s] -- Install configuration: ""
+[14.584s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/get_pose_client/get_pose_client
+[14.588s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/get_pose_client/get_pose_client" to ""
+[14.589s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/package_run_dependencies/get_pose_client
+[14.589s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/parent_prefix_path/get_pose_client
+[14.589s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.sh
+[14.589s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.dsv
+[14.590s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/path.sh
+[14.590s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/path.dsv
+[14.590s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.bash
+[14.590s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.sh
+[14.591s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.zsh
+[14.591s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.dsv
+[14.591s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.dsv
+[14.591s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/packages/get_pose_client
+[14.591s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig.cmake
+[14.592s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig-version.cmake
+[14.592s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.xml
+[14.596s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/get_pose_client

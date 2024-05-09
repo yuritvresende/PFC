@@ -1,0 +1,20 @@
+[ 10%] Built target gtest
+[ 21%] Built target basic_grasping_perception_node
+[ 31%] Built target grasp_planner_node
+[ 42%] Built target gtest_main
+[ 47%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libsimple_grasping.so[0m
+[ 68%] Built target simple_grasping
+[35m[1mConsolidate compiler generated dependencies of target grasp_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_grasping_test_shape_extraction[0m
+[35m[1mConsolidate compiler generated dependencies of target basic_grasping_perception[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/grasp_planner.dir/src/grasp_planner_node.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/simple_grasping_test_shape_extraction.dir/test/test_shape_extraction.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/basic_grasping_perception.dir/src/basic_grasping_perception.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable simple_grasping_test_shape_extraction[0m
+[ 94%] [32m[1mLinking CXX shared library libgrasp_planner.so[0m
+[ 94%] Built target simple_grasping_test_shape_extraction
+[ 94%] Built target grasp_planner

@@ -1,0 +1,23 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/test_kinematics_plugin.dir/src/test_kinematics_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[100%] Built target test_kinematics_plugin
+-- Install configuration: ""
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/moveit2_kinematics/test_kinematics_plugin
+-- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/moveit2_kinematics/test_kinematics_plugin" to ""
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/launch
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/launch/test_kinematics_plugin.launch.py
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit2_kinematics
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit2_kinematics
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/ament_prefix_path.sh
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/path.sh
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/path.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.bash
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.sh
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.zsh
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/packages/moveit2_kinematics
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/cmake/moveit2_kinematicsConfig.cmake
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/cmake/moveit2_kinematicsConfig-version.cmake
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.xml
