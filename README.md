@@ -61,4 +61,8 @@ A partir daqui, iniciou-se uma atuação em duas abordagens com o material utili
 Para o espaço de trabalho do Wenis, utilizar:
 - ros2 launch arm_pkg start_world.launch.py
 
+Na execução do comando acima, deve-se inicializar, em outro prompt de commando, o nó de gerenciamento de controles para poder realizar o movimento do braço robótico.
+- ros2 run controller_manager spawner -h
+
+
 
