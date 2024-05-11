@@ -15,10 +15,6 @@
 /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/start_arm.launch.py
 /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/start_world.launch.py
 /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/main_arm.launch.py
-/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/__pycache__/start_arm.launch.cpython-310.pyc
-/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/__pycache__/main_arm.launch.cpython-310.pyc
-/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/__pycache__/start_world.launch.cpython-310.pyc
-/home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/__pycache__/start_controller.launch.cpython-310.pyc
 /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_1.dae
 /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_1.dae
 /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_0.dae
