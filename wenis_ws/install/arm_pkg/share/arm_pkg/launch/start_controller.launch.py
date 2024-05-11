@@ -8,7 +8,11 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
 
-
+    controller_manager = Node(
+     package="controller_manager",
+     executable="ros2_control_node",
+    )
+ 
     spawn_controller = Node(
         package="controller_manager",
         executable="spawner",
