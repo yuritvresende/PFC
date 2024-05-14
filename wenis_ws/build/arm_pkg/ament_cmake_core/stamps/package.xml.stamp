@@ -11,6 +11,8 @@
 
   <depend>urdf</depend>
   <depend>xacro</depend>
+  <depend>ros2_controllers</depend>
+  <depend>controller_manager</depend>
   <depend>ros2_control</depend>
   <depend>gazebo_ros2_control</depend>
   <depend>joint_state_broadcaster</depend>

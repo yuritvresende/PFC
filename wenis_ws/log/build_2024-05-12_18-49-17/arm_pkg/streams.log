@@ -1,0 +1,101 @@
+[0.232s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/arm_pkg -- -j8 -l8
+[0.342s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.913s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.040s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.041s] -- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.128s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.139s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.158s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.234s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.311s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.313s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.342s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.351s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.372s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.381s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.528s] -- Found ros2_control: 2.40.0 (/opt/ros/humble/share/ros2_control/cmake)
+[3.528s] -- Found gazebo_ros2_control: 0.0.0 (/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake)
+[3.528s] -- Found joint_state_broadcaster: 2.34.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[3.724s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.756s] -- Found joint_trajectory_controller: 2.34.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[4.559s] -- Found velocity_controllers: 2.34.0 (/opt/ros/humble/share/velocity_controllers/cmake)
+[5.249s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.391s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.412s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.416s] -- Added test 'lint_cmake' to check CMake code style
+[5.419s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.431s] -- Added test 'xmllint' to check XML markup files
+[5.434s] -- Configuring done
+[5.459s] -- Generating done
+[5.469s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/arm_pkg
+[5.558s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/arm_pkg -- -j8 -l8
+[5.641s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/arm_pkg
+[5.671s] -- Install configuration: ""
+[5.672s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf
+[5.672s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/manipulator.xacro
+[5.672s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/a0912.urdf.xacro
+[5.673s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/m1013.urdf.xacro
+[5.673s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.transmission.xacro
+[5.674s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/a0912.blue.urdf
+[5.674s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.a0912.blue.xacro
+[5.675s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.internal_config.xacro
+[5.676s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/m1013.white.urdf
+[5.676s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.m1013.white.xacro
+[5.677s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/depth_camera.xacro
+[5.678s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.gazebo_config_control.xacro
+[5.679s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//urdf/macro.bumper_config.xacro
+[5.679s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch
+[5.680s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/start_controller.launch.py
+[5.680s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/spawn_gazebo.launch.py
+[5.681s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/start_arm.launch.py
+[5.681s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/start_world.launch.py
+[5.681s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/main_arm.launch.py
+[5.682s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/__pycache__
+[5.682s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//launch/__pycache__/main_arm.launch.cpython-310.pyc
+[5.683s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes
+[5.683s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue
+[5.684s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_1.dae
+[5.684s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_1.dae
+[5.684s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_0.dae
+[5.685s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_4_0.dae
+[5.685s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_0_0.dae
+[5.685s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_0.dae
+[5.686s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_5_1.dae
+[5.686s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_6_0.dae
+[5.687s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_1.dae
+[5.687s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_2.dae
+[5.688s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_0.dae
+[5.688s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_2.dae
+[5.689s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_5_0.dae
+[5.691s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_4_1.dae
+[5.695s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white
+[5.695s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_3_0.dae
+[5.696s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_2.dae
+[5.697s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_5_0.dae
+[5.698s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_4_0.dae
+[5.699s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_1_0.dae
+[5.699s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_1.dae
+[5.699s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_4_1.dae
+[5.700s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_6_0.dae
+[5.701s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_0_0.dae
+[5.701s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_0.dae
+[5.702s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//config
+[5.702s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg//config/simple_controller.yaml
+[5.703s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/ament_index/resource_index/package_run_dependencies/arm_pkg
+[5.704s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/ament_index/resource_index/parent_prefix_path/arm_pkg
+[5.704s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.sh
+[5.705s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.dsv
+[5.708s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/environment/path.sh
+[5.708s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/environment/path.dsv
+[5.709s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/local_setup.bash
+[5.711s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/local_setup.sh
+[5.711s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/local_setup.zsh
+[5.712s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/local_setup.dsv
+[5.713s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.dsv
+[5.714s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/ament_index/resource_index/packages/arm_pkg
+[5.714s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig.cmake
+[5.715s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig-version.cmake
+[5.716s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/arm_pkg/share/arm_pkg/package.xml
+[5.717s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/arm_pkg

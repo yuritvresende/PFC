@@ -38,6 +38,7 @@ def generate_launch_description():
     # create and return launch description object
     return LaunchDescription(
         [
+            controller_manager,
             spawn_controller,
             spawn_arm_controller,
             spawn_gripper_controller
