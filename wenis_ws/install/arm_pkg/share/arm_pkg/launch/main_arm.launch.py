@@ -10,16 +10,12 @@ def generate_launch_description():
     gazebo_launch_file = os.path.join(
         get_package_share_directory('arm_pkg'), 'launch', 'start_world.launch.py')
     
-    arm_launch_file = os.path.join(
-        get_package_share_directory('arm_pkg'), 'launch', 'start_arm.launch.py')
+    spwan_launch_file = os.path.join(
+        get_package_share_directory('arm_pkg'), 'launch', 'spawn_gazebo.launch.py')
     
-    move_group_launch_file = os.path.join(
-        get_package_share_directory('moveit_config'), 'launch', 'move_group.launch.py')
+    controller_launch_file = os.path.join(
+        get_package_share_directory('arm_pkg'), 'launch', 'start_controller.launch.py')
     
-    rviz_launch_file = os.path.join(
-        get_package_share_directory('moveit_config'), 'launch', 'moveit_rviz.launch.py')
-    
-
 
     return LaunchDescription([
         # Launch first_launch.py
@@ -34,32 +30,20 @@ def generate_launch_description():
             actions=[
                 # Launch second_launch.py
                 IncludeLaunchDescription(
-                    PythonLaunchDescriptionSource(arm_launch_file),
-                    launch_arguments={}.items(),
-                ),
-            ],
-        ),
-        # Delay before launching the spawner
-        TimerAction(
-            period=5.0,  
-            actions=[
-                # Launch second_launch.py
-                IncludeLaunchDescription(
-                    PythonLaunchDescriptionSource(move_group_launch_file),
+                    PythonLaunchDescriptionSource(spwan_launch_file),
                     launch_arguments={}.items(),
                 ),
             ],
         ),
 
         TimerAction(
-            period=5.0, 
+            period=10.0,  # Adjust the delay time as needed
             actions=[
                 # Launch second_launch.py
                 IncludeLaunchDescription(
-                    PythonLaunchDescriptionSource(rviz_launch_file),
+                    PythonLaunchDescriptionSource(controller_launch_file),
                     launch_arguments={}.items(),
                 ),
             ],
         ),
-
     ])

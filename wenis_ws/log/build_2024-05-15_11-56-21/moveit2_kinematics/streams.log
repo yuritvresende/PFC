@@ -1,0 +1,24 @@
+[0.050s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
+[0.208s] [100%] Built target test_kinematics_plugin
+[0.264s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
+[0.396s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics
+[0.407s] -- Install configuration: ""
+[0.408s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/lib/moveit2_kinematics/test_kinematics_plugin
+[0.409s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/launch
+[0.410s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/launch/test_kinematics_plugin.launch.py
+[0.410s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit2_kinematics
+[0.410s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit2_kinematics
+[0.410s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/ament_prefix_path.sh
+[0.410s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/ament_prefix_path.dsv
+[0.411s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/path.sh
+[0.411s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/environment/path.dsv
+[0.411s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.bash
+[0.411s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.sh
+[0.412s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.zsh
+[0.412s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/local_setup.dsv
+[0.413s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.dsv
+[0.413s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/ament_index/resource_index/packages/moveit2_kinematics
+[0.413s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/cmake/moveit2_kinematicsConfig.cmake
+[0.414s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/cmake/moveit2_kinematicsConfig-version.cmake
+[0.414s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_kinematics/share/moveit2_kinematics/package.xml
+[0.456s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics

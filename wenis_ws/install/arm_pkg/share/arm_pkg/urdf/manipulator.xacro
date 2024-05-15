@@ -40,7 +40,7 @@
     <!-- gazebo use -->
     <xacro:property name="mesh_path" value="file://$(find xarm_description)/meshes" />
 
-    <!-- include common.link.xacro -->
+    <!-- include the GRIPPER -->
     <xacro:include filename="$(find xarm_description)/urdf/common/common.link.xacro" />
     <xacro:parse_link_inertial_filename dof="6" robot_type="xarm" robot_sn="" model1300="false" />
     <xacro:property name="inertial_params_filename" value="${scope_parent_inertial_params_filename}"/>
