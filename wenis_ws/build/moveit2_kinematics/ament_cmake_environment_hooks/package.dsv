@@ -1,0 +1,4 @@
+source;share/moveit2_kinematics/local_setup.bash
+source;share/moveit2_kinematics/local_setup.dsv
+source;share/moveit2_kinematics/local_setup.sh
+source;share/moveit2_kinematics/local_setup.zsh

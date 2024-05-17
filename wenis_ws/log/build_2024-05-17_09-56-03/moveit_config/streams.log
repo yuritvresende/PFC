@@ -1,0 +1,60 @@
+[0.073s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config': AMENT_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit_config -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/moveit_config
+[0.408s] -- The C compiler identification is GNU 11.4.0
+[0.593s] -- The CXX compiler identification is GNU 11.4.0
+[0.614s] -- Detecting C compiler ABI info
+[1.055s] -- Detecting C compiler ABI info - done
+[1.100s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.101s] -- Detecting C compile features
+[1.103s] -- Detecting C compile features - done
+[1.111s] -- Detecting CXX compiler ABI info
+[1.693s] -- Detecting CXX compiler ABI info - done
+[1.731s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.732s] -- Detecting CXX compile features
+[1.737s] -- Detecting CXX compile features - done
+[1.747s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.683s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.695s] -- Configuring done
+[3.702s] -- Generating done
+[3.704s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/moveit_config
+[3.728s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config' returned '0': AMENT_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit_config -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/moveit_config
+[3.729s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config': AMENT_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit_config -- -j8 -l8
+[3.941s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config' returned '0': AMENT_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit_config -- -j8 -l8
+[4.050s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config': AMENT_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit_config
+[4.069s] -- Install configuration: ""
+[4.077s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_config
+[4.078s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_config
+[4.078s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/environment/ament_prefix_path.sh
+[4.078s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/environment/ament_prefix_path.dsv
+[4.078s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/environment/path.sh
+[4.078s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/environment/path.dsv
+[4.079s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/local_setup.bash
+[4.084s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/local_setup.sh
+[4.085s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/local_setup.zsh
+[4.085s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/local_setup.dsv
+[4.085s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.dsv
+[4.086s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/ament_index/resource_index/packages/moveit_config
+[4.086s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/cmake/moveit_configConfig.cmake
+[4.086s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/cmake/moveit_configConfig-version.cmake
+[4.086s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/package.xml
+[4.087s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch
+[4.087s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/static_virtual_joint_tfs.launch.py
+[4.087s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/moveit_rviz.launch.py
+[4.088s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/spawn_controllers.launch.py
+[4.090s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/rsp.launch.py
+[4.090s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/move_group.launch.py
+[4.091s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/warehouse_db.launch.py
+[4.091s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/demo.launch.py
+[4.091s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/launch/setup_assistant.launch.py
+[4.091s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config
+[4.094s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/joint_limits.yaml
+[4.094s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/moveit.rviz
+[4.094s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/robot_description.urdf.xacro
+[4.095s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/robot_description.srdf
+[4.095s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/robot_description.ros2_control.xacro
+[4.095s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/sensors_3d.yaml
+[4.095s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/kinematics.yaml
+[4.096s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/moveit_controllers.yaml
+[4.103s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/pilz_cartesian_limits.yaml
+[4.104s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/config/initial_positions.yaml
+[4.104s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit_config/share/moveit_config/.setup_assistant
+[4.116s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit_config' returned '0': AMENT_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuritvr/PFC/wenis_ws/install/arm_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit_config

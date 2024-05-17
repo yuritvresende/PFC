@@ -1,0 +1,96 @@
+[0.039s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian
+[0.157s] -- The C compiler identification is GNU 11.4.0
+[0.294s] -- The CXX compiler identification is GNU 11.4.0
+[0.310s] -- Detecting C compiler ABI info
+[0.469s] -- Detecting C compiler ABI info - done
+[0.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.484s] -- Detecting C compile features
+[0.484s] -- Detecting C compile features - done
+[0.490s] -- Detecting CXX compiler ABI info
+[0.659s] -- Detecting CXX compiler ABI info - done
+[0.679s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.680s] -- Detecting CXX compile features
+[0.681s] -- Detecting CXX compile features - done
+[0.687s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.017s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.228s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.315s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.325s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.345s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.569s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.573s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.726s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.768s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.851s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.868s] -- Looking for pthread.h
+[2.001s] -- Looking for pthread.h - found
+[2.002s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.158s] -- Found Threads: TRUE  
+[2.612s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.887s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[2.969s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.004s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.069s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.204s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.501s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.393s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.393s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.277s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[6.290s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[7.133s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[7.141s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[7.560s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[8.287s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[9.560s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[9.597s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[10.295s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.641s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.641s] -- Configured cppcheck include dirs: /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian/include
+[10.642s] -- Configured cppcheck exclude dirs and/or files: 
+[10.643s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.644s] -- Added test 'lint_cmake' to check CMake code style
+[10.661s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.663s] -- Added test 'uncrustify' to check C / C++ code style
+[10.663s] -- Configured uncrustify additional arguments: 
+[10.664s] -- Added test 'xmllint' to check XML markup files
+[10.667s] -- Configuring done
+[10.821s] -- Generating done
+[10.827s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian
+[10.962s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian
+[10.963s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8
+[11.299s] [ 50%] [32mBuilding CXX object CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.o[0m
+[29.844s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian/src/cartesian_path.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[29.845s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian/src/cartesian_path.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess_arm[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[29.845s]    51 |   bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+[29.845s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[29.845s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_cartesian/src/cartesian_path.cpp:88:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kfraction[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[29.845s]    88 |   double [01;35m[Kfraction[m[K = move_group_arm.computeCartesianPath(
+[29.845s]       |          [01;35m[K^~~~~~~~[m[K
+[36.938s] [100%] [32m[1mLinking CXX executable cartesian_path[0m
+[37.785s] [100%] Built target cartesian_path
+[37.816s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8
+[37.886s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian
+[37.898s] -- Install configuration: ""
+[37.898s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/moveit2_cartesian/cartesian_path
+[37.899s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/moveit2_cartesian/cartesian_path" to ""
+[37.900s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/launch
+[37.900s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/launch/cartesian_path.launch.py
+[37.900s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/package_run_dependencies/moveit2_cartesian
+[37.900s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/parent_prefix_path/moveit2_cartesian
+[37.901s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/ament_prefix_path.sh
+[37.901s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/ament_prefix_path.dsv
+[37.901s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/path.sh
+[37.902s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/path.dsv
+[37.902s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.bash
+[37.902s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.sh
+[37.902s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.zsh
+[37.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.dsv
+[37.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.dsv
+[37.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/packages/moveit2_cartesian
+[37.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/cmake/moveit2_cartesianConfig.cmake
+[37.904s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/cmake/moveit2_cartesianConfig-version.cmake
+[37.904s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.xml
+[37.908s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian

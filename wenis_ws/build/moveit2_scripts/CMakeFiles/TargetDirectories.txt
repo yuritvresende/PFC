@@ -1,0 +1,13 @@
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/uninstall.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/moveit2_scripts_uninstall.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/test_trajectory.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/test_end_effector_trajectory.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/two_postions.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/test_gripper.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/test.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/edit_cache.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/rebuild_cache.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/list_install_components.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/install.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/install/local.dir
+/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts/CMakeFiles/install/strip.dir

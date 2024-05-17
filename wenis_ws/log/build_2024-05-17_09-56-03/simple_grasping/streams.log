@@ -1,0 +1,216 @@
+[0.034s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/simple_grasping_ros2/simple_grasping -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/simple_grasping
+[0.158s] -- The C compiler identification is GNU 11.4.0
+[0.290s] -- The CXX compiler identification is GNU 11.4.0
+[0.307s] -- Detecting C compiler ABI info
+[0.458s] -- Detecting C compiler ABI info - done
+[0.480s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.480s] -- Detecting C compile features
+[0.481s] -- Detecting C compile features - done
+[0.488s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.670s] -- Detecting CXX compile features
+[0.671s] -- Detecting CXX compile features - done
+[0.699s] -- Checking for module 'eigen3'
+[0.725s] --   Found eigen3, version 3.4.0
+[0.775s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.775s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.825s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.863s] -- Checking for module 'flann'
+[0.890s] --   Found flann, version 1.9.1
+[0.983s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.983s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.066s] -- Looking for pthread.h
+[1.223s] -- Looking for pthread.h - found
+[1.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.381s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.383s] -- Found Threads: TRUE  
+[1.387s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.399s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.691s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.691s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.696s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.718s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.764s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.792s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.963s] -- Found X11: /usr/include   
+[1.963s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.118s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.120s] -- Looking for gethostbyname
+[2.263s] -- Looking for gethostbyname - found
+[2.264s] -- Looking for connect
+[2.361s] -- Looking for connect - found
+[2.362s] -- Looking for remove
+[2.470s] -- Looking for remove - found
+[2.471s] -- Looking for shmat
+[2.567s] -- Looking for shmat - found
+[2.567s] -- Looking for IceConnectionNumber in ICE
+[2.666s] -- Looking for IceConnectionNumber in ICE - found
+[2.775s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.778s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.781s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.783s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.803s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.810s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.817s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.825s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.932s] -- Checking for module 'libusb-1.0'
+[2.952s] --   Found libusb-1.0, version 1.0.25
+[3.001s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.003s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.003s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.083s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[3.083s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.083s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.372s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.385s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.399s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.729s] -- Found Qhull version 8.0.2
+[4.084s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.430s] -- looking for PCL_COMMON
+[4.432s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.432s] -- looking for PCL_KDTREE
+[4.434s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.434s] -- looking for PCL_OCTREE
+[4.436s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.437s] -- looking for PCL_SEARCH
+[4.438s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.439s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.441s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.441s] -- looking for PCL_FILTERS
+[4.443s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.443s] -- looking for PCL_2D
+[4.444s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.444s] -- looking for PCL_GEOMETRY
+[4.445s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.445s] -- looking for PCL_IO
+[4.447s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.447s] -- looking for PCL_FEATURES
+[4.449s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.450s] -- looking for PCL_ML
+[4.451s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.452s] -- looking for PCL_SEGMENTATION
+[4.454s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.454s] -- looking for PCL_VISUALIZATION
+[4.456s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.457s] -- looking for PCL_SURFACE
+[4.459s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.459s] -- looking for PCL_REGISTRATION
+[4.461s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.462s] -- looking for PCL_KEYPOINTS
+[4.463s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.464s] -- looking for PCL_TRACKING
+[4.466s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.466s] -- looking for PCL_RECOGNITION
+[4.468s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.469s] -- looking for PCL_STEREO
+[4.471s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.471s] -- looking for PCL_APPS
+[4.473s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.474s] -- looking for PCL_IN_HAND_SCANNER
+[4.475s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.475s] -- looking for PCL_MODELER
+[4.476s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.476s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.477s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.477s] -- looking for PCL_OUTOFCORE
+[4.479s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.479s] -- looking for PCL_PEOPLE
+[4.481s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.484s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[4.503s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.829s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.021s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.094s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.106s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.127s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.555s] -- Found grasping_msgs: 0.4.0 (/opt/ros/humble/share/grasping_msgs/cmake)
+[9.099s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[9.227s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.231s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.416s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.474s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.595s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.265s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[10.847s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[10.850s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.851s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.709s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[12.714s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.960s] -- Found ament_cmake_cpplint: 0.12.10 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[13.126s] -- Configuring done
+[13.595s] -- Generating done
+[13.603s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/simple_grasping
+[13.657s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/simple_grasping_ros2/simple_grasping -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/simple_grasping
+[13.658s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/simple_grasping -- -j8 -l8
+[13.911s] [  5%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o[0m
+[13.941s] [ 10%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o[0m
+[13.954s] [ 15%] [32mBuilding CXX object CMakeFiles/basic_grasping_perception_node.dir/rclcpp_components/node_main_basic_grasping_perception_node.cpp.o[0m
+[13.966s] [ 21%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o[0m
+[13.988s] [ 26%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o[0m
+[13.990s] [ 31%] [32mBuilding CXX object CMakeFiles/grasp_planner_node.dir/rclcpp_components/node_main_grasp_planner_node.cpp.o[0m
+[13.998s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[14.008s] [ 42%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[18.750s] [ 47%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[19.000s] [ 47%] Built target gtest_main
+[28.199s] [ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[28.452s] [ 57%] [32m[1mLinking CXX executable grasp_planner_node[0m
+[28.469s] [ 57%] Built target gtest
+[28.790s] [ 57%] Built target grasp_planner_node
+[29.260s] [ 63%] [32m[1mLinking CXX executable basic_grasping_perception_node[0m
+[29.711s] [ 63%] Built target basic_grasping_perception_node
+[45.795s] [ 68%] [32m[1mLinking CXX shared library libsimple_grasping.so[0m
+[48.237s] [ 68%] Built target simple_grasping
+[48.269s] [ 84%] [32mBuilding CXX object CMakeFiles/simple_grasping_test_shape_extraction.dir/test/test_shape_extraction.cpp.o[0m
+[48.269s] [ 84%] [32mBuilding CXX object CMakeFiles/grasp_planner.dir/src/grasp_planner_node.cpp.o[0m
+[48.269s] [ 84%] [32mBuilding CXX object CMakeFiles/basic_grasping_perception.dir/src/basic_grasping_perception.cpp.o[0m
+[53.866s] [ 89%] [32m[1mLinking CXX executable simple_grasping_test_shape_extraction[0m
+[54.430s] [ 94%] [32m[1mLinking CXX shared library libgrasp_planner.so[0m
+[55.796s] [ 94%] Built target simple_grasping_test_shape_extraction
+[55.892s] [ 94%] Built target grasp_planner
+[70.638s] [100%] [32m[1mLinking CXX shared library libbasic_grasping_perception.so[0m
+[73.322s] [100%] Built target basic_grasping_perception
+[73.338s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/simple_grasping -- -j8 -l8
+[73.412s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/simple_grasping
+[73.422s] -- Install configuration: ""
+[73.422s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node
+[73.424s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node" to ""
+[73.424s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node
+[73.424s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node" to ""
+[73.425s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include
+[73.425s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping
+[73.425s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/shape_grasp_planner.h
+[73.425s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/cloud_tools.h
+[73.425s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/object_support_segmentation.h
+[73.425s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/shape_extraction.h
+[73.425s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/do_perception.py
+[73.426s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libsimple_grasping.so
+[73.436s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libsimple_grasping.so" to ""
+[73.436s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libbasic_grasping_perception.so
+[73.449s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libbasic_grasping_perception.so" to ""
+[73.450s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libgrasp_planner.so
+[73.452s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libgrasp_planner.so" to ""
+[73.452s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/library_path.sh
+[73.452s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/library_path.dsv
+[73.452s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/package_run_dependencies/simple_grasping
+[73.453s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/parent_prefix_path/simple_grasping
+[73.453s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.sh
+[73.453s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.dsv
+[73.453s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/path.sh
+[73.453s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/path.dsv
+[73.454s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.bash
+[73.454s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.sh
+[73.454s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.zsh
+[73.454s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.dsv
+[73.455s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.dsv
+[73.455s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/packages/simple_grasping
+[73.455s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/rclcpp_components/simple_grasping
+[73.455s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.456s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_libraries-extras.cmake
+[73.456s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.456s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig.cmake
+[73.456s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig-version.cmake
+[73.456s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.xml
+[73.460s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/simple_grasping
