@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/test_kinematics_plugin.dir/build.make:76: CMakeFiles/test_kinematics_plugin.dir/src/test_kinematics_plugin.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_kinematics_plugin.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

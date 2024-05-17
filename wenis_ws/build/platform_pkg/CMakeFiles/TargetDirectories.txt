@@ -1,9 +1,0 @@
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/uninstall.dir
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/platform_pkg_uninstall.dir
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/test.dir
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/edit_cache.dir
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/rebuild_cache.dir
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/list_install_components.dir
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/install.dir
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/install/local.dir
-/home/yuritvr/PFC/wenis_ws/build/platform_pkg/CMakeFiles/install/strip.dir

@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/basic_grasping_perception.dir/build.make:76: CMakeFiles/basic_grasping_perception.dir/src/basic_grasping_perception.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/basic_grasping_perception.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt
