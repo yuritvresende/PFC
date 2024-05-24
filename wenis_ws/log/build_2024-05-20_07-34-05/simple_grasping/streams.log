@@ -1,0 +1,46 @@
+[0.585s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/moving_platform:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/simple_grasping -- -j8 -l8
+[0.745s] [ 10%] Built target gtest
+[0.759s] [ 21%] Built target gtest_main
+[0.759s] [ 31%] Built target grasp_planner_node
+[0.759s] [ 42%] Built target basic_grasping_perception_node
+[0.785s] [ 68%] Built target simple_grasping
+[0.892s] [ 78%] Built target grasp_planner
+[0.912s] [ 89%] Built target simple_grasping_test_shape_extraction
+[0.933s] [100%] Built target basic_grasping_perception
+[1.043s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/moving_platform:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/simple_grasping -- -j8 -l8
+[1.175s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/moving_platform:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/simple_grasping
+[1.224s] -- Install configuration: ""
+[1.226s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/basic_grasping_perception_node
+[1.232s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node
+[1.233s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include
+[1.233s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping
+[1.234s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/shape_grasp_planner.h
+[1.236s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/cloud_tools.h
+[1.237s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/object_support_segmentation.h
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/shape_extraction.h
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/do_perception.py
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libsimple_grasping.so
+[1.240s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libbasic_grasping_perception.so
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libgrasp_planner.so
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/library_path.sh
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/library_path.dsv
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/package_run_dependencies/simple_grasping
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/parent_prefix_path/simple_grasping
+[1.242s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.sh
+[1.242s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/ament_prefix_path.dsv
+[1.242s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/path.sh
+[1.242s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/environment/path.dsv
+[1.242s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.bash
+[1.242s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.sh
+[1.243s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.zsh
+[1.243s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/local_setup.dsv
+[1.243s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.dsv
+[1.243s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/packages/simple_grasping
+[1.243s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/ament_index/resource_index/rclcpp_components/simple_grasping
+[1.244s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.244s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_libraries-extras.cmake
+[1.244s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.244s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig.cmake
+[1.245s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig-version.cmake
+[1.245s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/simple_grasping/share/simple_grasping/package.xml
+[1.246s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/moving_platform:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/simple_grasping
