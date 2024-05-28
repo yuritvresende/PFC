@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/platform" TYPE DIRECTORY FILES
+    "/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/robotic_arm_environment/platform/launch"
+    "/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/robotic_arm_environment/platform/urdf"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yuritvr/PFC/wenis_ws/build/platform/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/platform")
 endif()
 

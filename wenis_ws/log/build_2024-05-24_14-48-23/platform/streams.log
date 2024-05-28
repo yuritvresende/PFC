@@ -1,0 +1,28 @@
+[0.057s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/platform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/platform -- -j8 -l8
+[0.171s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/platform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/platform -- -j8 -l8
+[0.344s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/platform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/platform
+[0.368s] -- Install configuration: ""
+[0.369s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch
+[0.369s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform.launch.py
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/start_world.launch.py
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/spawn_platform.launch .py
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform.launch.xml
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/urdf
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/urdf/vehicle_demo.xacro
+[0.371s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/urdf/platform.xacro
+[0.371s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/package_run_dependencies/platform
+[0.372s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/parent_prefix_path/platform
+[0.373s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/ament_prefix_path.sh
+[0.373s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/ament_prefix_path.dsv
+[0.374s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/path.sh
+[0.374s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/path.dsv
+[0.375s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.bash
+[0.375s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.sh
+[0.375s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.zsh
+[0.375s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.dsv
+[0.375s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/package.dsv
+[0.376s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/packages/platform
+[0.376s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/cmake/platformConfig.cmake
+[0.376s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/cmake/platformConfig-version.cmake
+[0.376s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/package.xml
+[0.410s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/platform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/platform

@@ -1,0 +1,51 @@
+[0.107s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/platform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/platform -- -j8 -l8
+[0.304s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/platform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/platform -- -j8 -l8
+[0.474s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/platform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/platform
+[0.492s] -- Install configuration: ""
+[0.493s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch
+[0.494s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform.launch.py
+[0.494s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/start_world.launch.py
+[0.494s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit
+[0.495s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch
+[0.495s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch/static_virtual_joint_tfs.launch.py
+[0.495s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch/moveit_rviz.launch.py
+[0.495s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch/spawn_controllers.launch.py
+[0.496s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch/rsp.launch.py
+[0.496s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch/move_group.launch.py
+[0.497s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch/warehouse_db.launch.py
+[0.497s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch/demo.launch.py
+[0.497s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/launch/setup_assistant.launch.py
+[0.497s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/package.xml
+[0.498s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/CMakeLists.txt
+[0.498s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config
+[0.498s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/joint_limits.yaml
+[0.511s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/moveit.rviz
+[0.532s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/kinematics.yaml
+[0.533s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/fourwheel_robot.ros2_control.xacro
+[0.534s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/moveit_controllers.yaml
+[0.534s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/ros2_controllers.yaml
+[0.534s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/fourwheel_robot.urdf.xacro
+[0.536s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/fourwheel_robot.srdf
+[0.536s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/pilz_cartesian_limits.yaml
+[0.536s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/config/initial_positions.yaml
+[0.537s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform_moveit/.setup_assistant
+[0.537s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/spawn_platform.launch .py
+[0.537s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/urdf
+[0.537s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/urdf/vehicle_demo.xacro
+[0.537s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/urdf/platform.xacro
+[0.538s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/package_run_dependencies/platform
+[0.538s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/parent_prefix_path/platform
+[0.538s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/ament_prefix_path.sh
+[0.538s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/ament_prefix_path.dsv
+[0.538s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/path.sh
+[0.539s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/path.dsv
+[0.539s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.bash
+[0.539s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.sh
+[0.539s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.zsh
+[0.541s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.dsv
+[0.541s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/package.dsv
+[0.542s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/packages/platform
+[0.542s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/cmake/platformConfig.cmake
+[0.542s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/cmake/platformConfig-version.cmake
+[0.542s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/package.xml
+[0.570s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/platform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/platform

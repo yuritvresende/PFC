@@ -26,10 +26,12 @@
     </link>
 
     <joint name="manipulator_fixed" type="fixed">
-        <origin xyz="0 0 0.0025" rpy="0 0 0"/>
-        <parent link="world"/>
+        <origin xyz="0 0 0.3025" rpy="0 0 0"/>
+        <parent link="world"/>  
         <child link="base_0"/>
     </joint>
+
+    
 
     <!-- Load Common Material -->
     <xacro:include filename="$(find xarm_description)/urdf/common/common.material.xacro" />

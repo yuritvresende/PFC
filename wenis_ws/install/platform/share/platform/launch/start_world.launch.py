@@ -16,7 +16,7 @@ def generate_launch_description():
 
     # We get the whole install dir
     # We do this to avoid having to copy or softlink manually the packages so that gazebo can find them
-    description_package_name = "arm_pkg"
+    description_package_name = "platform"
     install_dir = get_package_prefix(description_package_name)
 
     # Set the path to the WORLD model files. Is to find the models inside the models folder in my_box_bot_gazebo package

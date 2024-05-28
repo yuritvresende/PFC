@@ -1,0 +1,35 @@
+# MoveIt uses this configuration for controller management
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - First Wheel_controller
+    - Second Wheel_controller
+    - Third Wheel_controller
+    - Fourth Wheel_controller
+
+  First Wheel_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - wheel1_joint
+  Second Wheel_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - wheel2_joint
+  Third Wheel_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - wheel3_joint
+  Fourth Wheel_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - wheel4_joint

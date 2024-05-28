@@ -1,0 +1,7 @@
+# Default initial positions for fourwheel_robot's ros2_control fake system
+
+initial_positions:
+  wheel1_joint: 0
+  wheel2_joint: 0
+  wheel3_joint: 0
+  wheel4_joint: 0
