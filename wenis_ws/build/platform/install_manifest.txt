@@ -1,8 +1,3 @@
-/home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/platform.launch.py
-/home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/start_world.launch.py
-/home/yuritvr/PFC/wenis_ws/install/platform/share/platform/launch/spawn_platform.launch .py
-/home/yuritvr/PFC/wenis_ws/install/platform/share/platform/urdf/vehicle_demo.xacro
-/home/yuritvr/PFC/wenis_ws/install/platform/share/platform/urdf/platform.xacro
 /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/package_run_dependencies/platform
 /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/parent_prefix_path/platform
 /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/ament_prefix_path.sh

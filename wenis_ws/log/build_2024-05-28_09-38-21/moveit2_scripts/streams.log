@@ -1,0 +1,100 @@
+[0.054s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[0.118s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.404s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.481s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.486s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.499s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.732s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.736s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.033s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.312s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.555s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.590s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.609s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.639s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.763s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.978s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.865s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.684s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[5.695s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[6.517s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[6.526s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[6.882s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[7.347s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[8.157s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[8.179s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[8.798s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.017s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.018s] -- Configured cppcheck include dirs: /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/include
+[9.018s] -- Configured cppcheck exclude dirs and/or files: 
+[9.019s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.021s] -- Added test 'lint_cmake' to check CMake code style
+[9.025s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.025s] -- Added test 'uncrustify' to check C / C++ code style
+[9.025s] -- Configured uncrustify additional arguments: 
+[9.025s] -- Added test 'xmllint' to check XML markup files
+[9.027s] -- Configuring done
+[9.225s] -- Generating done
+[9.233s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
+[9.307s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory[0m
+[9.312s] [35m[1mConsolidate compiler generated dependencies of target test_gripper[0m
+[9.313s] [35m[1mConsolidate compiler generated dependencies of target test_end_effector_trajectory[0m
+[9.334s] [35m[1mConsolidate compiler generated dependencies of target two_postions[0m
+[9.379s] [ 12%] [32mBuilding CXX object CMakeFiles/test_gripper.dir/src/test_gripper.cpp.o[0m
+[9.388s] [ 25%] [32mBuilding CXX object CMakeFiles/test_end_effector_trajectory.dir/src/test_end_effector_trajectory.cpp.o[0m
+[9.402s] [ 37%] [32mBuilding CXX object CMakeFiles/two_postions.dir/src/two_positons.cpp.o[0m
+[9.420s] [ 50%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[29.426s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_end_effector_trajectory.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[29.427s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_end_effector_trajectory.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.427s]    25 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[29.427s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[29.951s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_gripper.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[29.951s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/test_gripper.cpp:54:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess_gripper[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[29.951s]    54 |   bool [01;35m[Ksuccess_gripper[m[K = (move_group_gripper.plan(my_plan_gripper) ==
+[29.951s]       |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[30.309s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/two_positons.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[30.309s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts/src/two_positons.cpp:54:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[30.309s]    54 |   bool [01;35m[Ksuccess[m[K =
+[30.309s]       |        [01;35m[K^~~~~~~[m[K
+[33.623s] [ 62%] [32m[1mLinking CXX executable test_trajectory[0m
+[34.593s] [ 62%] Built target test_trajectory
+[35.876s] [ 75%] [32m[1mLinking CXX executable test_end_effector_trajectory[0m
+[36.631s] [ 75%] Built target test_end_effector_trajectory
+[37.047s] [ 87%] [32m[1mLinking CXX executable two_postions[0m
+[37.157s] [100%] [32m[1mLinking CXX executable test_gripper[0m
+[37.620s] [100%] Built target two_postions
+[37.710s] [100%] Built target test_gripper
+[37.728s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[37.788s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
+[37.800s] -- Install configuration: ""
+[37.800s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[37.802s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory" to ""
+[37.803s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_end_effector_trajectory
+[37.804s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_end_effector_trajectory" to ""
+[37.804s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/two_postions
+[37.806s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/two_postions" to ""
+[37.806s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper
+[37.807s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper" to ""
+[37.808s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+[37.808s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+[37.808s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+[37.808s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory3.launch.py
+[37.808s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_gripper.launch.py
+[37.808s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+[37.809s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+[37.809s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+[37.809s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+[37.810s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+[37.810s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+[37.810s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+[37.810s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+[37.811s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+[37.811s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+[37.811s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+[37.811s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+[37.811s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+[37.811s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+[37.812s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+[37.815s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts

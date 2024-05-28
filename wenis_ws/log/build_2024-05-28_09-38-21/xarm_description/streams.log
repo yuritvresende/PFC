@@ -1,0 +1,126 @@
+[0.055s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/xarm_description -- -j8 -l8
+[10.310s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.310s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.311s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.311s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.311s] -- Added test 'lint_cmake' to check CMake code style
+[10.311s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.312s] -- Added test 'xmllint' to check XML markup files
+[10.312s] -- Configuring done
+[10.312s] -- Generating done
+[10.312s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/xarm_description
+[10.350s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/xarm_description -- -j8 -l8
+[10.715s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/xarm_description
+[10.861s] -- Install configuration: ""
+[10.861s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//rviz
+[10.861s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//rviz/display.rviz
+[10.861s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf
+[10.862s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper
+[10.862s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.ros2_control.xacro
+[10.862s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.urdf.xacro
+[10.862s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/gripper.urdf.xacro
+[10.862s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/lite_gripper.urdf.xacro
+[10.862s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.transmission.xacro
+[10.863s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/gripper_macro.xacro
+[10.863s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper.gazebo.xacro
+[10.863s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/gripper/xarm_gripper_macro.xacro
+[10.863s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/common
+[10.863s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/common/common.material.xacro
+[10.863s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/common/common.gazebo.xacro
+[10.864s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/common/common.link.xacro
+[10.864s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/camera
+[10.864s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/camera/camera.gazebo.xacro
+[10.864s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/camera/realsense.gazebo.xacro
+[10.864s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/camera/realsense_d435i.urdf.xacro
+[10.864s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper
+[10.865s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper_macro.xacro
+[10.865s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/lite_vacuum_gripper.urdf.xacro
+[10.865s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/vacuum_gripper.urdf.xacro
+[10.865s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//urdf/vacuum_gripper/xarm_vacuum_gripper.urdf.xacro
+[10.865s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config
+[10.865s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/kinematics
+[10.866s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/kinematics/default
+[10.877s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/kinematics/default/xarm6_default_kinematics.yaml
+[10.877s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/kinematics/gen_kinematics_params.py
+[10.878s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial
+[10.878s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/gen_link_inertial_params.py
+[10.879s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type8_HT2_BR2.yaml
+[10.879s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT2_LD.yaml
+[10.879s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR2.yaml
+[10.879s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_BR.yaml
+[10.880s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type11_HT_LD.yaml
+[10.880s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type12_HT_LDBR2.yaml
+[10.880s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type6_HT_LD.yaml
+[10.880s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//config/link_inertial/xarm6_type9_HT_BR2.yaml
+[10.880s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes
+[10.880s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper
+[10.881s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm
+[10.881s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_outer_knuckle.stl
+[10.881s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_inner_knuckle.stl
+[10.881s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_outer_knuckle.stl
+[10.881s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/base_link.stl
+[10.882s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_inner_knuckle.stl
+[10.882s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/left_finger.stl
+[10.882s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/xarm/right_finger.stl
+[10.882s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite
+[10.882s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual
+[10.882s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/visual/gripper_lite.stl
+[10.883s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision
+[10.883s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/gripper/lite/collision/gripper_lite.stl
+[10.883s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool
+[10.883s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/visual
+[10.883s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/visual/end_tool_1300.stl
+[10.883s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision
+[10.884s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool.stl
+[10.884s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/end_tool/collision/end_tool_1300.stl
+[10.884s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6
+[10.884s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual
+[10.884s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link3.stl
+[10.885s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link6.stl
+[10.885s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link5.stl
+[10.885s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link2.stl
+[10.885s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link4.stl
+[10.885s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link_base.stl
+[10.885s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/xarm6/visual/link1.stl
+[10.886s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera
+[10.886s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense
+[10.898s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual
+[10.898s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/visual/d435_with_cam_stand.stl
+[10.899s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision
+[10.899s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/camera/realsense/collision/d435_with_cam_stand.stl
+[10.899s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper
+[10.899s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm
+[10.899s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual
+[10.899s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/visual/vacuum_gripper.stl
+[10.900s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision
+[10.900s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/xarm/collision/vacuum_gripper.stl
+[10.900s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite
+[10.900s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual
+[10.900s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/visual/vacuum_gripper_lite.stl
+[10.900s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision
+[10.901s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//meshes/vacuum_gripper/lite/collision/vacuum_gripper_lite.stl
+[10.901s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch
+[10.901s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_robot_rviz_display.launch.py
+[10.901s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_robot_description.launch.py
+[10.902s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_robot_joint_state.launch.py
+[10.902s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/lib
+[10.902s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/lib/robot_description_lib.py
+[10.902s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/lite6_rviz_display.launch.py
+[10.902s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/xarm6_rviz_display.launch.py
+[10.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description//launch/_rviz_display.launch.py
+[10.903s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description
+[10.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description
+[10.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.sh
+[10.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.dsv
+[10.903s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/environment/path.sh
+[10.904s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/environment/path.dsv
+[10.904s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/local_setup.bash
+[10.904s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/local_setup.sh
+[10.904s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/local_setup.zsh
+[10.904s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/local_setup.dsv
+[10.904s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.dsv
+[10.905s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/ament_index/resource_index/packages/xarm_description
+[10.905s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig.cmake
+[10.905s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig-version.cmake
+[10.905s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/xarm_description/share/xarm_description/package.xml
+[10.956s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/xarm_description

@@ -1,0 +1,54 @@
+[0.056s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
+[0.110s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.412s] -- Found grasping_msgs: 0.4.0 (/opt/ros/humble/share/grasping_msgs/cmake)
+[0.464s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.469s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.218s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.304s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.307s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.522s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.757s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.807s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.916s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.916s] -- Configured cppcheck include dirs: 
+[3.917s] -- Configured cppcheck exclude dirs and/or files: 
+[3.917s] -- Added test 'lint_cmake' to check CMake code style
+[3.919s] -- Added test 'uncrustify' to check C / C++ code style
+[3.919s] -- Configured uncrustify additional arguments: 
+[3.920s] -- Added test 'xmllint' to check XML markup files
+[3.921s] -- Configuring done
+[3.945s] -- Generating done
+[3.947s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/get_pose_client
+[3.988s] [35m[1mConsolidate compiler generated dependencies of target get_pose_client[0m
+[4.018s] [ 50%] [32mBuilding CXX object CMakeFiles/get_pose_client.dir/src/get_pose_client.cpp.o[0m
+[9.568s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client/src/get_pose_client.cpp:[m[K In member function ‘[01m[Kvoid GetPoseClient::feedback_callback(rclcpp_action::ClientGoalHandle<grasping_msgs::action::FindGraspableObjects>::SharedPtr, std::shared_ptr<const grasping_msgs::action::FindGraspableObjects_Feedback_<std::allocator<void> > >)[m[K’:
+[9.568s] [01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/get_pose_client/src/get_pose_client.cpp:78:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.568s]    78 |                 [01;35m[Kconst std::shared_ptr<const Find::Feedback> feedback[m[K) {
+[9.568s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.568s] 
+[20.679s] [100%] [32m[1mLinking CXX executable get_pose_client[0m
+[22.199s] [100%] Built target get_pose_client
+[22.271s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
+[22.708s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/get_pose_client
+[22.738s] -- Install configuration: ""
+[22.739s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/get_pose_client/get_pose_client
+[22.743s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/get_pose_client/lib/get_pose_client/get_pose_client" to ""
+[22.744s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/package_run_dependencies/get_pose_client
+[22.744s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/parent_prefix_path/get_pose_client
+[22.745s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.sh
+[22.746s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.dsv
+[22.746s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/path.sh
+[22.747s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/environment/path.dsv
+[22.748s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.bash
+[22.748s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.sh
+[22.748s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.zsh
+[22.749s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/local_setup.dsv
+[22.749s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.dsv
+[22.750s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/ament_index/resource_index/packages/get_pose_client
+[22.751s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig.cmake
+[22.751s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig-version.cmake
+[22.751s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/get_pose_client/share/get_pose_client/package.xml
+[22.760s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/get_pose_client
