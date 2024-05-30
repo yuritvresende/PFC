@@ -3,7 +3,7 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_description"> 
     <xacro:include filename="$(find arm_pkg)/urdf/a0912.urdf.xacro" />
     <xacro:include filename="$(find arm_pkg)/urdf/depth_camera.xacro"/>
-
+    <!--<xacro:include filename="$(find arm_pkg)/urdf/platform.xacro"/>-->
 
     <xacro:manipulator namespace=""/>
 
@@ -49,5 +49,5 @@
     <xacro:include filename="$(find xarm_description)/urdf/gripper/xarm_gripper_macro.xacro" />
     <xacro:xarm_gripper_macro prefix="" attach_to="link6" ros2_control_plugin="gazebo_ros2_control/GazeboSystem" dof="6" hard_interface="PositionJointInterface" />
 
-
 </robot> 
+
