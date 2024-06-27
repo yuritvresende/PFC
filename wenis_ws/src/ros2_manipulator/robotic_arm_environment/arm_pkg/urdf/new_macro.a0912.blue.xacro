@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<robot name="a0912" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="new_a0912" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 
 	<xacro:include filename="$(find arm_pkg)/urdf/macro.gazebo_config_control.xacro" />
@@ -9,7 +9,7 @@
 	<xacro:include filename="$(find arm_pkg)/urdf/macro.bumper_config.xacro" />
 
 
-	<xacro:macro name="a0912" params="namespace">
+	<xacro:macro name="new_a0912" params="namespace">
 		
         <link name="body_link">
 	        <inertial>
@@ -168,13 +168,13 @@
 		<link name="base_0">
 			<inertial>
 				<mass value="3.635"/>
-				<origin xyz="4e-06   -0.001016     0.38181"/>
+				<origin xyz="4e-06   -0.001016     0.53181"/>
 				<inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
 					iyz="-5.3034e-05"
 					izz="0.021063"/>
 			</inertial>
 			<visual>
-				<origin rpy="0 0 0" xyz="0 0 0.3" />
+				<origin rpy="0 0 0" xyz="0 0 0.45" />
 				<geometry>
 					<mesh filename="file:///$(find arm_pkg)/meshes/a0912_blue/A0912_0_0.dae" scale="0.001 0.001 0.001" />
 				</geometry>
@@ -189,7 +189,7 @@
 		<joint name="platform_arm_joint" type="fixed">
 			<parent link="body_link"/>
 			<child link="base_0"/>
-			<origin xyz="0 0 0.3" rpy="0 0 0"/>
+			<origin xyz="0 0 0.45" rpy="0 0 0"/>
 			<axis xyz="0 0 1"/>
 		</joint>
 
@@ -197,7 +197,7 @@
 		<joint name="joint1" type="revolute">
 			<parent link="base_0" />
 			<child link="link1" />
-			<origin rpy="0 0 0" xyz="0 0 0.495" />
+			<origin rpy="0 0 0" xyz="0 0 0.645" />
 			<axis xyz="0 0 1" />
 			<limit effort="411" lower="-6.2832" upper="6.2832" velocity="3.1416"/>
 			<dynamics damping="60.0" friction="4.0" />
