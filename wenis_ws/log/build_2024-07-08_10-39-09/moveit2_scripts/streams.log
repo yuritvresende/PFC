@@ -1,0 +1,8 @@
+[0.149s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[0.464s] gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/two_postions.dir/all] Interrupt
+[0.472s] gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/test_gripper.dir/all] Interrupt
+[0.508s] gmake[2]: *** [CMakeFiles/test_end_effector_trajectory.dir/build.make:375: CMakeFiles/test_end_effector_trajectory.dir/depend] Interrupt
+[0.509s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/test_end_effector_trajectory.dir/all] Interrupt
+[0.509s] gmake[2]: *** [CMakeFiles/test_trajectory.dir/build.make:375: CMakeFiles/test_trajectory.dir/depend] Interrupt
+[0.514s] gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/test_trajectory.dir/all] Interrupt
+[0.517s] gmake: *** [Makefile:146: all] Interrupt
