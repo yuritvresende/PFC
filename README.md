@@ -14,19 +14,10 @@ Partindo do uso de um sistema operacional Ubuntu 22.04.4 LTS, os primeiros progr
 A fim de inicializar o espaço de trabalho do projeto, segue-se o tutorial a seguir:
 - https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
 - sudo apt install python3-colcon-common-extensions
-- cd /usr/share/colcon_argcomplete/hook/
-- gedit ~/.bashrc
 
 Então, deve-se referenciar os endereços a seguir para poder utilizar as linhas de comando ros2:
 - source /opt/ros/humble/setup.bash
 - source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
-
-Iniciando o trabalho a partir da criação de um espaço pfc_ws, foram criados os arquivos necessários a partir de:
-- source .bashrc
-- mkdir pfc_ws
-- cd pfc_ws
-- mkdir src
-- colcon build
 
 Após a build ter sido finalizada, deve-se referenciar também:
 - source ~/PFC/pfc_ws/install/setup.bash
@@ -45,15 +36,7 @@ Além disso, a criação dos arquivos launch foi fortemente influenciada por: ht
 Parte-se, daí, para a criação do pacote de arquivos de movimento utilizando o setup_assistant do moveit, utilizando o comando:
 - ros2 launch moveit_setup_assistant setup_assistant.launch.py
 
-
-
-
-A partir daqui, iniciou-se uma atuação em duas abordagens com o material utilizado pelo Ten Wenis - CTEx, de modo que foi gerado uma outra área de trabalho. Para evitar confusões, a fim de mudar a área do projeto em que se está trabalhando é necessário editar as linhas do documento ~/.bashrc.
-- mkdir wenis_ws
-- cd wenis_ws
-- mkdir src
-- cd src
-- git clone https://github.com/wenisbelle/ros2_manipulator
+A partir daqui, iniciou-se uma atuação em duas abordagens com o material utilizado pelo Ten Wenis - CTEx, de modo que foi gerado uma outra área de trabalho. Para evitar confusões, a fim de mudar a área do projeto em que se está trabalhando é necessário editar as linhas de referência do documento ~/.bashrc.
 - sudo apt install ros-humble-grasping-msgs && sudo apt install ros-humble-gazebo-ros2-control && sudo apt install ros-humble-ros2-control && sudo apt install ros-humble-joint-state-broadcaster && sudo apt install ros-humble-joint-trajectory-controller && sudo apt install ros-humble-velocity-controllers && sudo apt install ros-humble-pcl-ros
 
 Para o espaço de trabalho do Wenis, utilizar:
