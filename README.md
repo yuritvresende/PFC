@@ -54,11 +54,7 @@ A partir daqui, iniciou-se uma atuação em duas abordagens com o material utili
 - mkdir src
 - cd src
 - git clone https://github.com/wenisbelle/ros2_manipulator
-- sudo apt install ros-humble-grasping-msgs
-- sudo apt install ros-humble-ros2-control
-- sudo apt install ros-humble-joint-state-broadcaster
-- sudo apt install ros-humble-joint-trajectory-controller
-- sudo apt install ros-humble-velocity-controllers
+- sudo apt install ros-humble-grasping-msgs && sudo apt install ros-humble-gazebo-ros2-control && sudo apt install ros-humble-ros2-control && sudo apt install ros-humble-joint-state-broadcaster && sudo apt install ros-humble-joint-trajectory-controller && sudo apt install ros-humble-velocity-controllers && sudo apt install ros-humble-pcl-ros
 
 Para o espaço de trabalho do Wenis, utilizar:
 - ros2 launch arm_pkg main_arm.launch.py
