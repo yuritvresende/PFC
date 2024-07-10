@@ -1,0 +1,138 @@
+[0.087s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_description:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/pfcbot -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/pfcbot
+[0.153s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.557s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.780s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.952s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.960s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.967s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[1.074s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.088s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.113s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.264s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.270s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.342s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.422s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.426s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.448s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.463s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.475s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.491s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.513s] -- Looking for pthread.h
+[2.622s] -- Looking for pthread.h - found
+[2.623s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.740s] -- Found Threads: TRUE  
+[4.334s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.335s] -- Checking for module 'bullet>=2.82'
+[4.356s] --   Found bullet, version 3.05
+[4.794s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[5.001s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.105s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.257s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.308s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.330s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.351s] -- Searching for dependencies of ignition-math6
+[5.354s] -- Looking for OGRE...
+[5.355s] -- OGRE_PREFIX_WATCH changed.
+[5.369s] -- Checking for module 'OGRE'
+[5.411s] --   Found OGRE, version 1.9.0
+[5.544s] -- Found Ogre Ghadamon (1.9.0)
+[5.576s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.619s] -- Looking for OGRE_Paging...
+[5.645s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.645s] -- Looking for OGRE_Terrain...
+[5.673s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.673s] -- Looking for OGRE_Property...
+[5.700s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.700s] -- Looking for OGRE_RTShaderSystem...
+[5.728s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.729s] -- Looking for OGRE_Volume...
+[5.755s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.755s] -- Looking for OGRE_Overlay...
+[5.776s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.008s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.014s] -- Looking for ignition-transport8 -- found version 8.2.1
+[6.015s] -- Searching for dependencies of ignition-transport8
+[6.045s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[6.066s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.073s] -- Checking for module 'libzmq >= 4'
+[6.095s] --   Found libzmq , version 4.3.4
+[6.207s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[6.231s] -- Checking for module 'uuid'
+[6.289s] --   Found uuid, version 2.37.2
+[6.427s] -- Found UUID: TRUE  
+[6.443s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.445s] -- Searching for dependencies of ignition-msgs5
+[6.533s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.554s] -- Checking for module 'tinyxml2'
+[6.609s] --   Found tinyxml2, version 9.0.0
+[6.753s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.771s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.773s] -- Searching for dependencies of ignition-common3
+[6.775s] -- Looking for dlfcn.h - found
+[6.778s] -- Looking for libdl - found
+[6.784s] -- Found DL: TRUE  
+[6.834s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[6.836s] -- Searching for <ignition-common3> component [graphics]
+[6.850s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[6.852s] -- Searching for dependencies of ignition-common3-graphics
+[6.853s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.869s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[6.871s] -- Searching for dependencies of ignition-fuel_tools4
+[7.204s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[7.245s] -- Checking for module 'jsoncpp'
+[7.298s] --   Found jsoncpp, version 1.9.5
+[7.436s] -- Found JSONCPP: TRUE  
+[7.458s] -- Checking for module 'libzip'
+[7.511s] --   Found libzip, version 1.7.3
+[7.645s] -- Found ZIP: TRUE  
+[7.647s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.649s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.652s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.672s] -- Gazebo version: 11.10
+[7.673s] -- Checking for module 'tbb'
+[7.731s] --   Found tbb, version 2021.5.0
+[8.387s] -- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[8.587s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[8.657s] -- Found joint_trajectory_controller: 2.35.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[9.511s] -- Found velocity_controllers: 2.35.0 (/opt/ros/humble/share/velocity_controllers/cmake)
+[10.189s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.484s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.493s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.495s] -- Added test 'lint_cmake' to check CMake code style
+[10.498s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.502s] -- Added test 'xmllint' to check XML markup files
+[10.508s] -- Configuring done
+[10.531s] -- Generating done
+[10.539s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/pfcbot
+[10.573s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_description:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/pfcbot -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/pfcbot
+[10.578s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_description:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/pfcbot -- -j8 -l8
+[10.725s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_description:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/pfcbot -- -j8 -l8
+[10.810s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_description:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/pfcbot
+[10.835s] -- Install configuration: ""
+[10.836s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//urdf
+[10.837s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.xacro
+[10.837s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch
+[10.837s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/pfcbot.launch.py
+[10.838s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/start_world.launch.py
+[10.838s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/spawn_pfcbot.launch.py
+[10.838s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//config
+[10.838s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//config/simple_controller.yaml
+[10.839s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot
+[10.839s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot
+[10.840s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh
+[10.841s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.dsv
+[10.841s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/path.sh
+[10.842s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/path.dsv
+[10.842s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.bash
+[10.843s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.sh
+[10.843s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.zsh
+[10.844s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.dsv
+[10.845s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/package.dsv
+[10.845s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/packages/pfcbot
+[10.846s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig.cmake
+[10.846s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig-version.cmake
+[10.846s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/package.xml
+[10.854s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_description:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/pfcbot

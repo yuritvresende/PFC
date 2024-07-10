@@ -1,6 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control
-Invoked command in '/home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/gazebo_ros2_control
-Invoking command in '/home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control -- -j8 -l8
-Invoked command in '/home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control -- -j8 -l8
-Invoking command in '/home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control
-Invoked command in '/home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/gazebo_ros2_control

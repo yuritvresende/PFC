@@ -1,0 +1,3 @@
+Invoking command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description -- -j8 -l8
+Invoked command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description -- -j8 -l8
+Invoking command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description

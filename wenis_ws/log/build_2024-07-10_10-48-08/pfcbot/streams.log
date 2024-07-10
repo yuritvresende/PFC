@@ -1,0 +1,21 @@
+[0.056s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot': /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/pfcbot -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/pfcbot
+[0.160s] -- Configuring incomplete, errors occurred!
+[0.161s] See also "/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/CMakeOutput.log".
+[0.169s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.170s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.170s]   has asked CMake to find a package configuration file provided by
+[0.170s]   "ament_cmake", but CMake did not find one.
+[0.170s] 
+[0.171s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.171s]   any of the following names:
+[0.171s] 
+[0.171s]     ament_cmakeConfig.cmake
+[0.171s]     ament_cmake-config.cmake
+[0.172s] 
+[0.172s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.172s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.172s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.172s]   has been installed.
+[0.173s] 
+[0.173s] [0m
+[0.181s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot' returned '1': /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/pfcbot -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/pfcbot

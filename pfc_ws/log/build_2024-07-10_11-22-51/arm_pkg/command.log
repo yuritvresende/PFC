@@ -1,0 +1,6 @@
+Invoking command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/arm_pkg -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/arm_pkg
+Invoked command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/arm_pkg -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/arm_pkg
+Invoking command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/arm_pkg -- -j8 -l8
+Invoked command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/arm_pkg -- -j8 -l8
+Invoking command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/arm_pkg
+Invoked command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/arm_pkg

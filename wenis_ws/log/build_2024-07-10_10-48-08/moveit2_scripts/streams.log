@@ -1,0 +1,5 @@
+[0.045s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[0.224s] [ 25%] Built target test_trajectory
+[0.234s] [ 50%] Built target test_end_effector_trajectory
+[0.242s] [ 75%] Built target two_postions
+[0.273s] [100%] Built target test_gripper

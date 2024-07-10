@@ -1,0 +1,4 @@
+Invoking command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/pfcbot -- -j8 -l8
+Invoked command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/pfcbot -- -j8 -l8
+Invoking command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/pfcbot
+Invoked command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot' returned '0': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/pfcbot

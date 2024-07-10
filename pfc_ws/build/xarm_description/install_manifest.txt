@@ -1,0 +1,15 @@
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.sh
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.dsv
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/environment/path.sh
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/environment/path.dsv
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/local_setup.bash
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/local_setup.sh
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/local_setup.zsh
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/local_setup.dsv
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/package.dsv
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/ament_index/resource_index/packages/xarm_description
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig.cmake
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig-version.cmake
+/home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/package.xml

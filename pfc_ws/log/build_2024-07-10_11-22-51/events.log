@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (arm_pkg) JobQueued: {'identifier': 'arm_pkg', 'dependencies': OrderedDict()}
+[0.000199] (pfcbot) JobQueued: {'identifier': 'pfcbot', 'dependencies': OrderedDict()}
+[0.000234] (xarm_description) JobQueued: {'identifier': 'xarm_description', 'dependencies': OrderedDict()}
+[0.000498] (arm_pkg) JobStarted: {'identifier': 'arm_pkg'}
+[0.007971] (pfcbot) JobStarted: {'identifier': 'pfcbot'}
+[0.012902] (xarm_description) JobStarted: {'identifier': 'xarm_description'}
+[0.018660] (arm_pkg) JobProgress: {'identifier': 'arm_pkg', 'progress': 'cmake'}
+[0.019057] (arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/yuritvr/PFC/pfc_ws/src/arm_pkg', '-DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/arm_pkg'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.022291] (pfcbot) JobProgress: {'identifier': 'pfcbot', 'progress': 'cmake'}
+[0.022817] (pfcbot) Command: {'cmd': ['/usr/bin/cmake', '/home/yuritvr/PFC/pfc_ws/src/pfcbot', '-DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/pfcbot'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/pfcbot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/pfcbot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.027612] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'cmake'}
+[0.028228] (xarm_description) Command: {'cmd': ['/usr/bin/cmake', '/home/yuritvr/PFC/pfc_ws/src/xarm_description', '-DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/xarm_description'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/xarm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/xarm_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044296] (pfcbot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098925] (-) TimerEvent: {}
+[0.104441] (arm_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.121891] (xarm_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199227] (-) TimerEvent: {}
+[0.267519] (arm_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.284853] (xarm_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.288715] (arm_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299372] (-) TimerEvent: {}
+[0.305336] (xarm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399539] (-) TimerEvent: {}
+[0.423730] (pfcbot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.483082] (arm_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.499713] (xarm_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500055] (-) TimerEvent: {}
+[0.506790] (arm_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.507505] (arm_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.508649] (arm_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.517791] (arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.522339] (xarm_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.523071] (xarm_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.524195] (xarm_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.534245] (xarm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600216] (-) TimerEvent: {}
+[0.617828] (pfcbot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.652433] (arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.657747] (xarm_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.664442] (arm_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.664963] (arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.665720] (arm_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.669581] (xarm_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.669799] (arm_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.670080] (xarm_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.670682] (xarm_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.674329] (xarm_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700384] (-) TimerEvent: {}
+[0.743108] (pfcbot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.744741] (pfcbot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.746394] (pfcbot) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.750483] (pfcbot) StdoutLine: {'line': b'-- Generating done\n'}
+[0.751702] (pfcbot) StdoutLine: {'line': b'-- Build files have been written to: /home/yuritvr/PFC/pfc_ws/build/pfcbot\n'}
+[0.755426] (pfcbot) CommandEnded: {'returncode': 0}
+[0.756296] (pfcbot) JobProgress: {'identifier': 'pfcbot', 'progress': 'build'}
+[0.758642] (pfcbot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/pfc_ws/build/pfcbot', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/pfcbot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/pfcbot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.800428] (-) TimerEvent: {}
+[0.812743] (pfcbot) CommandEnded: {'returncode': 0}
+[0.844274] (pfcbot) JobProgress: {'identifier': 'pfcbot', 'progress': 'install'}
+[0.857931] (pfcbot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/pfc_ws/build/pfcbot'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/pfcbot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/pfcbot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.868883] (pfcbot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.869256] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot\n'}
+[0.869552] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot\n'}
+[0.869786] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh\n'}
+[0.870051] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.dsv\n'}
+[0.870348] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.sh\n'}
+[0.870539] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.dsv\n'}
+[0.870773] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.bash\n'}
+[0.870990] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.sh\n'}
+[0.871205] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.zsh\n'}
+[0.871417] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.dsv\n'}
+[0.871599] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.dsv\n'}
+[0.871837] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/packages/pfcbot\n'}
+[0.872047] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig.cmake\n'}
+[0.872265] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig-version.cmake\n'}
+[0.872528] (pfcbot) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.xml\n'}
+[0.874864] (pfcbot) CommandEnded: {'returncode': 0}
+[0.899897] (xarm_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.900508] (-) TimerEvent: {}
+[0.907886] (arm_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.926241] (pfcbot) JobEnded: {'identifier': 'pfcbot', 'rc': 0}
+[1.000633] (-) TimerEvent: {}
+[1.029945] (xarm_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.045312] (arm_pkg) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[1.100807] (-) TimerEvent: {}
+[1.201393] (-) TimerEvent: {}
+[1.260285] (arm_pkg) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.262829] (arm_pkg) StdoutLine: {'line': b'-- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[1.265249] (arm_pkg) StdoutLine: {'line': b'-- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)\n'}
+[1.275979] (xarm_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.277606] (xarm_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.279249] (xarm_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.283354] (xarm_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.284590] (xarm_description) StdoutLine: {'line': b'-- Build files have been written to: /home/yuritvr/PFC/pfc_ws/build/xarm_description\n'}
+[1.290427] (xarm_description) CommandEnded: {'returncode': 0}
+[1.292736] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'build'}
+[1.292782] (xarm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/pfc_ws/build/xarm_description', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/xarm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/xarm_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.301514] (-) TimerEvent: {}
+[1.330063] (arm_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.338014] (arm_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.344165] (xarm_description) CommandEnded: {'returncode': 0}
+[1.351996] (arm_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.374257] (arm_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.375484] (xarm_description) JobProgress: {'identifier': 'xarm_description', 'progress': 'install'}
+[1.376182] (xarm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/pfc_ws/build/xarm_description'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/xarm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/xarm_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.387384] (xarm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.387670] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/ament_index/resource_index/package_run_dependencies/xarm_description\n'}
+[1.387939] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/ament_index/resource_index/parent_prefix_path/xarm_description\n'}
+[1.388215] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.sh\n'}
+[1.388381] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/environment/ament_prefix_path.dsv\n'}
+[1.388663] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/environment/path.sh\n'}
+[1.388893] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/environment/path.dsv\n'}
+[1.389087] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/local_setup.bash\n'}
+[1.389237] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/local_setup.sh\n'}
+[1.389374] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/local_setup.zsh\n'}
+[1.389602] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/local_setup.dsv\n'}
+[1.389828] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/package.dsv\n'}
+[1.390102] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/ament_index/resource_index/packages/xarm_description\n'}
+[1.390392] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig.cmake\n'}
+[1.390619] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/cmake/xarm_descriptionConfig-version.cmake\n'}
+[1.390816] (xarm_description) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/xarm_description/share/xarm_description/package.xml\n'}
+[1.393092] (xarm_description) CommandEnded: {'returncode': 0}
+[1.401788] (-) TimerEvent: {}
+[1.409423] (arm_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.447173] (xarm_description) JobEnded: {'identifier': 'xarm_description', 'rc': 0}
+[1.501925] (-) TimerEvent: {}
+[1.602241] (-) TimerEvent: {}
+[1.702554] (-) TimerEvent: {}
+[1.802865] (-) TimerEvent: {}
+[1.903179] (-) TimerEvent: {}
+[2.003490] (-) TimerEvent: {}
+[2.103800] (-) TimerEvent: {}
+[2.204124] (-) TimerEvent: {}
+[2.304446] (-) TimerEvent: {}
+[2.404766] (-) TimerEvent: {}
+[2.438370] (arm_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.442237] (arm_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.502042] (arm_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.504877] (-) TimerEvent: {}
+[2.572324] (arm_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.576586] (arm_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.597991] (arm_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.604991] (-) TimerEvent: {}
+[2.612696] (arm_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.624788] (arm_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.638819] (arm_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.654022] (arm_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.705135] (-) TimerEvent: {}
+[2.755256] (arm_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.755612] (arm_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.805235] (-) TimerEvent: {}
+[2.858640] (arm_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.860305] (arm_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.905351] (-) TimerEvent: {}
+[3.005759] (-) TimerEvent: {}
+[3.106073] (-) TimerEvent: {}
+[3.206380] (-) TimerEvent: {}
+[3.306690] (-) TimerEvent: {}
+[3.406999] (-) TimerEvent: {}
+[3.507290] (-) TimerEvent: {}
+[3.607613] (-) TimerEvent: {}
+[3.707913] (-) TimerEvent: {}
+[3.808283] (-) TimerEvent: {}
+[3.908605] (-) TimerEvent: {}
+[4.008903] (-) TimerEvent: {}
+[4.109227] (-) TimerEvent: {}
+[4.209544] (-) TimerEvent: {}
+[4.309865] (-) TimerEvent: {}
+[4.325907] (arm_pkg) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[4.327564] (arm_pkg) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[4.345782] (arm_pkg) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[4.410070] (-) TimerEvent: {}
+[4.510752] (-) TimerEvent: {}
+[4.611547] (-) TimerEvent: {}
+[4.705301] (arm_pkg) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[4.711728] (-) TimerEvent: {}
+[4.812259] (-) TimerEvent: {}
+[4.891623] (arm_pkg) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[4.912460] (-) TimerEvent: {}
+[4.956989] (arm_pkg) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[5.012615] (-) TimerEvent: {}
+[5.066275] (arm_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[5.112817] (-) TimerEvent: {}
+[5.115353] (arm_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[5.133830] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.157414] (arm_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.162705] (arm_pkg) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.164314] (arm_pkg) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[5.183956] (arm_pkg) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[5.213040] (-) TimerEvent: {}
+[5.229590] (arm_pkg) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[5.313240] (-) TimerEvent: {}
+[5.350225] (arm_pkg) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.374046] (arm_pkg) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.413140] (arm_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.413553] (-) TimerEvent: {}
+[5.430912] (arm_pkg) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.431339] (arm_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.448712] (arm_pkg) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.449428] (arm_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.466554] (arm_pkg) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.466943] (arm_pkg) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.484308] (arm_pkg) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.484727] (arm_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.501127] (arm_pkg) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.501511] (arm_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.513752] (-) TimerEvent: {}
+[5.518258] (arm_pkg) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.613994] (-) TimerEvent: {}
+[5.714643] (-) TimerEvent: {}
+[5.815166] (-) TimerEvent: {}
+[5.855793] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.858997] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[5.859692] (arm_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[5.887185] (arm_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[5.905086] (arm_pkg) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[5.912019] (arm_pkg) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[5.915268] (-) TimerEvent: {}
+[5.929888] (arm_pkg) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[6.015508] (-) TimerEvent: {}
+[6.022417] (arm_pkg) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[6.044541] (arm_pkg) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[6.091142] (arm_pkg) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[6.115695] (-) TimerEvent: {}
+[6.212075] (arm_pkg) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[6.215862] (-) TimerEvent: {}
+[6.221309] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.223249] (arm_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[6.302080] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.316042] (-) TimerEvent: {}
+[6.321942] (arm_pkg) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[6.368886] (arm_pkg) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[6.416253] (-) TimerEvent: {}
+[6.494275] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[6.502806] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[6.504725] (arm_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[6.505741] (arm_pkg) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[6.507893] (arm_pkg) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[6.513084] (arm_pkg) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[6.516405] (-) TimerEvent: {}
+[6.555164] (arm_pkg) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[6.557223] (arm_pkg) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[6.565432] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[6.567564] (arm_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[6.568985] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[6.579375] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[6.581405] (arm_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[6.616559] (-) TimerEvent: {}
+[6.717308] (-) TimerEvent: {}
+[6.817885] (-) TimerEvent: {}
+[6.898540] (arm_pkg) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[6.918087] (-) TimerEvent: {}
+[6.931409] (arm_pkg) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[6.980794] (arm_pkg) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[7.018248] (-) TimerEvent: {}
+[7.106625] (arm_pkg) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[7.118370] (-) TimerEvent: {}
+[7.127808] (arm_pkg) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[7.175517] (arm_pkg) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[7.218525] (-) TimerEvent: {}
+[7.302463] (arm_pkg) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[7.304262] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[7.306078] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.307715] (arm_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[7.318645] (-) TimerEvent: {}
+[7.321225] (arm_pkg) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[7.322461] (arm_pkg) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[7.373696] (arm_pkg) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[7.418852] (-) TimerEvent: {}
+[7.519443] (-) TimerEvent: {}
+[7.620021] (-) TimerEvent: {}
+[7.720713] (-) TimerEvent: {}
+[7.821218] (-) TimerEvent: {}
+[7.921529] (-) TimerEvent: {}
+[8.021841] (-) TimerEvent: {}
+[8.030334] (arm_pkg) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)\n'}
+[8.121973] (-) TimerEvent: {}
+[8.217270] (arm_pkg) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[8.222077] (-) TimerEvent: {}
+[8.277349] (arm_pkg) StdoutLine: {'line': b'-- Found joint_trajectory_controller: 2.35.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)\n'}
+[8.322201] (-) TimerEvent: {}
+[8.422487] (-) TimerEvent: {}
+[8.522799] (-) TimerEvent: {}
+[8.623108] (-) TimerEvent: {}
+[8.723418] (-) TimerEvent: {}
+[8.823704] (-) TimerEvent: {}
+[8.924015] (-) TimerEvent: {}
+[9.024325] (-) TimerEvent: {}
+[9.117487] (arm_pkg) StdoutLine: {'line': b'-- Found velocity_controllers: 2.35.0 (/opt/ros/humble/share/velocity_controllers/cmake)\n'}
+[9.124413] (-) TimerEvent: {}
+[9.224687] (-) TimerEvent: {}
+[9.324994] (-) TimerEvent: {}
+[9.425306] (-) TimerEvent: {}
+[9.525624] (-) TimerEvent: {}
+[9.625944] (-) TimerEvent: {}
+[9.726234] (-) TimerEvent: {}
+[9.759816] (arm_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.826414] (-) TimerEvent: {}
+[9.926962] (-) TimerEvent: {}
+[10.005790] (arm_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.026324] (arm_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.027057] (-) TimerEvent: {}
+[10.029937] (arm_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.032470] (arm_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.043315] (arm_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.047647] (arm_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.073962] (arm_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[10.083184] (arm_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/yuritvr/PFC/pfc_ws/build/arm_pkg\n'}
+[10.126879] (arm_pkg) CommandEnded: {'returncode': 0}
+[10.128017] (-) TimerEvent: {}
+[10.129579] (arm_pkg) JobProgress: {'identifier': 'arm_pkg', 'progress': 'build'}
+[10.132841] (arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuritvr/PFC/pfc_ws/build/arm_pkg', '--', '-j8', '-l8'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.228242] (-) TimerEvent: {}
+[10.297713] (arm_pkg) CommandEnded: {'returncode': 0}
+[10.328408] (-) TimerEvent: {}
+[10.384245] (arm_pkg) JobProgress: {'identifier': 'arm_pkg', 'progress': 'install'}
+[10.387471] (arm_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuritvr/PFC/pfc_ws/build/arm_pkg'], 'cwd': '/home/yuritvr/PFC/pfc_ws/build/arm_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yuritvr'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yuritvr'), ('OLDPWD', '/home/yuritvr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yuritvr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yuritvr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yuripad:@/tmp/.ICE-unix/993,unix/yuripad:/tmp/.ICE-unix/993'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf4a0d9d_4945_4453_ad34_fa8bd1bda6d5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1JWLQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yuritvr/PFC/pfc_ws/build/arm_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.415876] (arm_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.416325] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf\n'}
+[10.417026] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/manipulator.xacro\n'}
+[10.417340] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/a0912.urdf.xacro\n'}
+[10.417861] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/m1013.urdf.xacro\n'}
+[10.418226] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.transmission.xacro\n'}
+[10.418696] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/a0912.blue.urdf\n'}
+[10.419163] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.a0912.blue.xacro\n'}
+[10.419431] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.internal_config.xacro\n'}
+[10.419746] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/m1013.white.urdf\n'}
+[10.420050] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.m1013.white.xacro\n'}
+[10.420453] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/depth_camera.xacro\n'}
+[10.420957] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.gazebo_config_control.xacro\n'}
+[10.421369] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.bumper_config.xacro\n'}
+[10.421887] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch\n'}
+[10.422358] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_controller.launch.py\n'}
+[10.422936] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/spawn_gazebo.launch.py\n'}
+[10.423454] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_moveit.launch.py\n'}
+[10.423727] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_world.launch.py\n'}
+[10.424281] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/main_arm.launch.py\n'}
+[10.425177] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes\n'}
+[10.425523] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue\n'}
+[10.425788] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_1.dae\n'}
+[10.428474] (-) TimerEvent: {}
+[10.431740] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_1.dae\n'}
+[10.434366] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_0.dae\n'}
+[10.437708] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_4_0.dae\n'}
+[10.440096] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_0_0.dae\n'}
+[10.442235] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_0.dae\n'}
+[10.443168] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_5_1.dae\n'}
+[10.446792] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_6_0.dae\n'}
+[10.448913] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_1.dae\n'}
+[10.452228] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_2.dae\n'}
+[10.453823] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_0.dae\n'}
+[10.454832] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_2.dae\n'}
+[10.457389] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_5_0.dae\n'}
+[10.458402] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_4_1.dae\n'}
+[10.461625] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white\n'}
+[10.462229] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_3_0.dae\n'}
+[10.465229] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_2.dae\n'}
+[10.468924] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_5_0.dae\n'}
+[10.471510] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_4_0.dae\n'}
+[10.473350] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_1_0.dae\n'}
+[10.476496] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_1.dae\n'}
+[10.484349] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_4_1.dae\n'}
+[10.487143] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_6_0.dae\n'}
+[10.488452] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_0_0.dae\n'}
+[10.493257] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_0.dae\n'}
+[10.497686] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//config\n'}
+[10.498357] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//config/simple_controller.yaml\n'}
+[10.498964] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/ament_index/resource_index/package_run_dependencies/arm_pkg\n'}
+[10.499715] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/ament_index/resource_index/parent_prefix_path/arm_pkg\n'}
+[10.500416] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.sh\n'}
+[10.501107] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.dsv\n'}
+[10.501797] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/environment/path.sh\n'}
+[10.502355] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/environment/path.dsv\n'}
+[10.502909] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/local_setup.bash\n'}
+[10.503449] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/local_setup.sh\n'}
+[10.503982] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/local_setup.zsh\n'}
+[10.504571] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/local_setup.dsv\n'}
+[10.505145] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/package.dsv\n'}
+[10.505733] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/ament_index/resource_index/packages/arm_pkg\n'}
+[10.506395] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig.cmake\n'}
+[10.506883] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig-version.cmake\n'}
+[10.507467] (arm_pkg) StdoutLine: {'line': b'-- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/package.xml\n'}
+[10.514270] (arm_pkg) CommandEnded: {'returncode': 0}
+[10.528937] (-) TimerEvent: {}
+[10.629519] (-) TimerEvent: {}
+[10.645560] (arm_pkg) JobEnded: {'identifier': 'arm_pkg', 'rc': 0}
+[10.647781] (-) EventReactorShutdown: {}

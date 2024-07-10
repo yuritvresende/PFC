@@ -1,0 +1,20 @@
+[0.073s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/pfcbot -- -j8 -l8
+[0.229s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/pfcbot -- -j8 -l8
+[0.305s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/pfcbot
+[0.363s] -- Install configuration: ""
+[0.363s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot
+[0.363s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot
+[0.364s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh
+[0.366s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.dsv
+[0.366s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.sh
+[0.366s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.dsv
+[0.367s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.bash
+[0.368s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.sh
+[0.368s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.zsh
+[0.368s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.dsv
+[0.369s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.dsv
+[0.369s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/packages/pfcbot
+[0.369s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig.cmake
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig-version.cmake
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.xml
+[0.372s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/pfcbot

@@ -1,0 +1,190 @@
+[0.021s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/arm_pkg -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/arm_pkg
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.267s] -- The CXX compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.507s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.517s] -- Detecting CXX compiler ABI info
+[0.652s] -- Detecting CXX compiler ABI info - done
+[0.664s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.665s] -- Detecting CXX compile features
+[0.665s] -- Detecting CXX compile features - done
+[0.669s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.907s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.045s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.260s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.262s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[1.265s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[1.330s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.338s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.352s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.438s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.442s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.502s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.572s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.576s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.598s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.612s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.624s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.654s] -- Looking for pthread.h
+[2.755s] -- Looking for pthread.h - found
+[2.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.860s] -- Found Threads: TRUE  
+[4.326s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.327s] -- Checking for module 'bullet>=2.82'
+[4.345s] --   Found bullet, version 3.05
+[4.705s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.891s] -- Found assimp: /usr/include (found version "5.2.0") 
+[4.957s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.066s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.115s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.134s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.157s] -- Searching for dependencies of ignition-math6
+[5.162s] -- Looking for OGRE...
+[5.164s] -- OGRE_PREFIX_WATCH changed.
+[5.184s] -- Checking for module 'OGRE'
+[5.229s] --   Found OGRE, version 1.9.0
+[5.350s] -- Found Ogre Ghadamon (1.9.0)
+[5.374s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.413s] -- Looking for OGRE_Paging...
+[5.431s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.431s] -- Looking for OGRE_Terrain...
+[5.448s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.449s] -- Looking for OGRE_Property...
+[5.466s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.467s] -- Looking for OGRE_RTShaderSystem...
+[5.484s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.484s] -- Looking for OGRE_Volume...
+[5.501s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.501s] -- Looking for OGRE_Overlay...
+[5.518s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.855s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.859s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.859s] -- Searching for dependencies of ignition-transport8
+[5.887s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.905s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.912s] -- Checking for module 'libzmq >= 4'
+[5.930s] --   Found libzmq , version 4.3.4
+[6.022s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[6.044s] -- Checking for module 'uuid'
+[6.091s] --   Found uuid, version 2.37.2
+[6.212s] -- Found UUID: TRUE  
+[6.221s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.223s] -- Searching for dependencies of ignition-msgs5
+[6.302s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.322s] -- Checking for module 'tinyxml2'
+[6.369s] --   Found tinyxml2, version 9.0.0
+[6.494s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.503s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.504s] -- Searching for dependencies of ignition-common3
+[6.506s] -- Looking for dlfcn.h - found
+[6.508s] -- Looking for libdl - found
+[6.513s] -- Found DL: TRUE  
+[6.555s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[6.557s] -- Searching for <ignition-common3> component [graphics]
+[6.565s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[6.567s] -- Searching for dependencies of ignition-common3-graphics
+[6.569s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.579s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[6.581s] -- Searching for dependencies of ignition-fuel_tools4
+[6.898s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[6.931s] -- Checking for module 'jsoncpp'
+[6.981s] --   Found jsoncpp, version 1.9.5
+[7.106s] -- Found JSONCPP: TRUE  
+[7.128s] -- Checking for module 'libzip'
+[7.175s] --   Found libzip, version 1.7.3
+[7.302s] -- Found ZIP: TRUE  
+[7.304s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.306s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.307s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.321s] -- Gazebo version: 11.10
+[7.322s] -- Checking for module 'tbb'
+[7.373s] --   Found tbb, version 2021.5.0
+[8.030s] -- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[8.217s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[8.277s] -- Found joint_trajectory_controller: 2.35.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[9.117s] -- Found velocity_controllers: 2.35.0 (/opt/ros/humble/share/velocity_controllers/cmake)
+[9.759s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.006s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.026s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.030s] -- Added test 'lint_cmake' to check CMake code style
+[10.032s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.043s] -- Added test 'xmllint' to check XML markup files
+[10.047s] -- Configuring done
+[10.074s] -- Generating done
+[10.083s] -- Build files have been written to: /home/yuritvr/PFC/pfc_ws/build/arm_pkg
+[10.127s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/arm_pkg -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/arm_pkg
+[10.134s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/arm_pkg -- -j8 -l8
+[10.298s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/arm_pkg -- -j8 -l8
+[10.388s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/arm_pkg
+[10.416s] -- Install configuration: ""
+[10.416s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf
+[10.417s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/manipulator.xacro
+[10.417s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/a0912.urdf.xacro
+[10.418s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/m1013.urdf.xacro
+[10.418s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.transmission.xacro
+[10.418s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/a0912.blue.urdf
+[10.419s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.a0912.blue.xacro
+[10.419s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.internal_config.xacro
+[10.419s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/m1013.white.urdf
+[10.420s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.m1013.white.xacro
+[10.420s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/depth_camera.xacro
+[10.421s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.gazebo_config_control.xacro
+[10.421s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.bumper_config.xacro
+[10.422s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch
+[10.422s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_controller.launch.py
+[10.423s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/spawn_gazebo.launch.py
+[10.423s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_moveit.launch.py
+[10.424s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_world.launch.py
+[10.424s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/main_arm.launch.py
+[10.425s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes
+[10.425s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue
+[10.425s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_1.dae
+[10.432s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_1.dae
+[10.434s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_0.dae
+[10.437s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_4_0.dae
+[10.440s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_0_0.dae
+[10.442s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_0.dae
+[10.443s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_5_1.dae
+[10.447s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_6_0.dae
+[10.449s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_1.dae
+[10.452s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_1_2.dae
+[10.454s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_0.dae
+[10.455s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_2.dae
+[10.457s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_5_0.dae
+[10.458s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_4_1.dae
+[10.461s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white
+[10.462s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_3_0.dae
+[10.465s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_2.dae
+[10.469s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_5_0.dae
+[10.471s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_4_0.dae
+[10.473s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_1_0.dae
+[10.476s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_1.dae
+[10.484s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_4_1.dae
+[10.487s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_6_0.dae
+[10.488s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_0_0.dae
+[10.493s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/m1013_white/MF1013_2_0.dae
+[10.498s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//config
+[10.498s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//config/simple_controller.yaml
+[10.499s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/ament_index/resource_index/package_run_dependencies/arm_pkg
+[10.499s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/ament_index/resource_index/parent_prefix_path/arm_pkg
+[10.500s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.sh
+[10.501s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.dsv
+[10.502s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/environment/path.sh
+[10.502s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/environment/path.dsv
+[10.503s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/local_setup.bash
+[10.503s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/local_setup.sh
+[10.504s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/local_setup.zsh
+[10.504s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/local_setup.dsv
+[10.505s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/package.dsv
+[10.505s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/ament_index/resource_index/packages/arm_pkg
+[10.506s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig.cmake
+[10.507s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig-version.cmake
+[10.507s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg/package.xml
+[10.514s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/arm_pkg

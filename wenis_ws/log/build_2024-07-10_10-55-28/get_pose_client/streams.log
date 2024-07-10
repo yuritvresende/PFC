@@ -1,0 +1,2 @@
+[0.038s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
+[0.169s] [100%] Built target get_pose_client

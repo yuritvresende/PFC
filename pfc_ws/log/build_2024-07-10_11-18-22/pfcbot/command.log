@@ -1,0 +1,2 @@
+Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/pfcbot -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/pfcbot
+Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '1': /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/pfcbot -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/pfcbot

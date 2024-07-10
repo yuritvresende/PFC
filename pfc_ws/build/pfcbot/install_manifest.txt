@@ -1,0 +1,15 @@
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.dsv
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.sh
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.dsv
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.bash
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.sh
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.zsh
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.dsv
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.dsv
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/packages/pfcbot
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig.cmake
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig-version.cmake
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.xml

@@ -1,0 +1,28 @@
+[0.051s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/pfcbot -- -j8 -l8
+[0.183s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/pfcbot -- -j8 -l8
+[0.297s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/pfcbot
+[0.363s] -- Install configuration: ""
+[0.363s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//urdf
+[0.363s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.xacro
+[0.366s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch
+[0.366s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/pfcbot.launch.py
+[0.367s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/start_world.launch.py
+[0.368s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/spawn_pfcbot.launch.py
+[0.368s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//config
+[0.369s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//config/simple_controller.yaml
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot
+[0.370s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot
+[0.371s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh
+[0.371s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.dsv
+[0.372s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/path.sh
+[0.372s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/path.dsv
+[0.373s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.bash
+[0.374s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.sh
+[0.375s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.zsh
+[0.375s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.dsv
+[0.376s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/package.dsv
+[0.376s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/packages/pfcbot
+[0.377s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig.cmake
+[0.377s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig-version.cmake
+[0.377s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/package.xml
+[0.427s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/pfcbot' returned '0': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/pfcbot

@@ -1,4 +1,0 @@
-source;share/pfc_moveit/local_setup.bash
-source;share/pfc_moveit/local_setup.dsv
-source;share/pfc_moveit/local_setup.sh
-source;share/pfc_moveit/local_setup.zsh

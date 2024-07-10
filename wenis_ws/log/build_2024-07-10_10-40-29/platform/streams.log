@@ -1,0 +1,20 @@
+[0.090s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/platform': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/platform -- -j8 -l8
+[0.188s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/platform' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/platform -- -j8 -l8
+[0.243s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/platform': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/platform
+[0.259s] -- Install configuration: ""
+[0.260s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/package_run_dependencies/platform
+[0.260s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/parent_prefix_path/platform
+[0.260s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/ament_prefix_path.sh
+[0.261s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/ament_prefix_path.dsv
+[0.261s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/path.sh
+[0.261s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/environment/path.dsv
+[0.261s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.bash
+[0.262s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.sh
+[0.263s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.zsh
+[0.263s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/local_setup.dsv
+[0.264s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/package.dsv
+[0.265s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/ament_index/resource_index/packages/platform
+[0.265s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/cmake/platformConfig.cmake
+[0.265s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/cmake/platformConfig-version.cmake
+[0.265s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/platform/share/platform/package.xml
+[0.273s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/platform' returned '0': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/platform

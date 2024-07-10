@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//urdf
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.xacro
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/pfcbot.launch.py
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/start_world.launch.py
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//launch/spawn_pfcbot.launch.py
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//config
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot//config/simple_controller.yaml
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/path.sh
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/environment/path.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.bash
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.sh
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.zsh
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/local_setup.dsv
+-- Installing: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/package.dsv
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/ament_index/resource_index/packages/pfcbot
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig.cmake
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig-version.cmake
+-- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/pfcbot/share/pfcbot/package.xml

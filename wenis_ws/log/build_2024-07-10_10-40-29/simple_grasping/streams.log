@@ -1,0 +1,9 @@
+[0.077s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/simple_grasping': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/simple_grasping -- -j8 -l8
+[0.214s] [ 10%] Built target basic_grasping_perception_node
+[0.230s] [ 21%] Built target grasp_planner_node
+[0.230s] [ 31%] Built target gtest_main
+[0.237s] [ 42%] Built target gtest
+[0.260s] [ 68%] Built target simple_grasping
+[0.324s] [ 78%] Built target grasp_planner
+[0.324s] [ 89%] Built target simple_grasping_test_shape_extraction
+[0.340s] [100%] Built target basic_grasping_perception
