@@ -2,8 +2,8 @@
 /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/grasp_planner_node
 /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/shape_grasp_planner.h
 /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/cloud_tools.h
-/home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/object_support_segmentation.h
 /home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/shape_extraction.h
+/home/yuritvr/PFC/wenis_ws/install/simple_grasping/include/simple_grasping/object_support_segmentation.h
 /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/simple_grasping/do_perception.py
 /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libsimple_grasping.so
 /home/yuritvr/PFC/wenis_ws/install/simple_grasping/lib/libbasic_grasping_perception.so
