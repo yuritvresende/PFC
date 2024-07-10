@@ -11,7 +11,8 @@ Partindo do uso de um sistema operacional Ubuntu 22.04.4 LTS, os primeiros progr
 4. Gazebo Harmonic - Que será a base das simulações.
    - É suficiente seguir o passo a passo de https://gazebosim.org/docs/harmonic/install_ubuntu.
   
-A fim de inicializar o espaço de trabalho do projeto, segue-se o tutorial a seguir:
+A fim de inicializar o espaço de trabalho do projeto, segue-se os tutoriais a seguir:
+- https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
 - https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
 - sudo apt install python3-colcon-common-extensions
 
@@ -22,22 +23,8 @@ Então, deve-se referenciar os endereços a seguir para poder utilizar as linhas
 Após a build ter sido finalizada, deve-se referenciar também:
 - source ~/PFC/pfc_ws/install/setup.bash
 
-Além disso, faz-se necessário instalar:
-- sudo apt install ros-humble-moveit
-- sudo apt-get install ros-humble-ur-description
-- sudo apt install ros-humble-robotiq-description
-- sudo apt-get  install ros-humble-urdf-tutorial
-
-Foi decidido, então, seguir o tutorial de execução e criação de braço robótico proposto em: https://automaticaddison.com/how-to-create-a-urdf-file-of-the-ur3e-robotic-arm-ros-2/.
-
-Além disso, a criação dos arquivos launch foi fortemente influenciada por: https://aleksandarhaber.com/write-launch-and-urdf-xacro-models-files-and-load-them-in-gazebo/
-- ros2 launch ur_robotiq_description gazebo_model.launch.py
-
-Parte-se, daí, para a criação do pacote de arquivos de movimento utilizando o setup_assistant do moveit, utilizando o comando:
-- ros2 launch moveit_setup_assistant setup_assistant.launch.py
-
-A partir daqui, iniciou-se uma atuação em duas abordagens com o material utilizado pelo Ten Wenis - CTEx, de modo que foi gerado uma outra área de trabalho. Para evitar confusões, a fim de mudar a área do projeto em que se está trabalhando é necessário editar as linhas de referência do documento ~/.bashrc.
-- sudo apt install ros-humble-grasping-msgs && sudo apt install ros-humble-gazebo-ros2-control && sudo apt install ros-humble-ros2-control && sudo apt install ros-humble-joint-state-broadcaster && sudo apt install ros-humble-joint-trajectory-controller && sudo apt install ros-humble-velocity-controllers && sudo apt install ros-humble-pcl-ros
+A partir daqui, iniciou-se uma atuação com o material utilizado pelo Ten Wenis - CTEx, de modo que foi gerado uma outra área de trabalho. Para evitar confusões, a fim de mudar a área do projeto em que se está trabalhando é necessário editar as linhas de referência do documento ~/.bashrc.
+- sudo apt install ros-humble-moveit && sudo apt install ros-humble-grasping-msgs && sudo apt install ros-humble-gazebo-ros2-control && sudo apt install ros-humble-ros2-control && sudo apt install ros-humble-joint-state-broadcaster && sudo apt install ros-humble-joint-trajectory-controller && sudo apt install ros-humble-velocity-controllers && sudo apt install ros-humble-pcl-ros
 
 Para o espaço de trabalho do Wenis, utilizar:
 - ros2 launch arm_pkg main_arm.launch.py
