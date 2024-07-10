@@ -1,0 +1,3 @@
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/test_end_effector_trajectory.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/test_trajectory.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

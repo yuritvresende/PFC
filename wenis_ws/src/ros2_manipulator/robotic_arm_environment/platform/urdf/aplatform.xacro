@@ -22,16 +22,16 @@
                 </geometry>
             </collision>
             <inertial>
-		<mass value="5.1"/>
-	        <origin xyz="-0.3 -0.35 0"/>
-		<inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
+		<mass value="6"/>
+	        <origin xyz="0 0 0.15"/>
+		<inertia ixx="0.22216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.224835"
 					iyz="-5.3034e-05"
-					izz="0.021063"/>
+					izz="0.221063"/>
 	    </inertial>
 	</link>
 	
 	<joint name="manipulator_fixed" type="fixed">
-          <origin xyz="0 0 0.3" rpy="0 0 0"/>
+          <origin xyz="-0.021001 0.0002 0.3" rpy="0 0 0"/>
           <parent link="body_link"/>
           <child link="base_0"/>
         </joint>

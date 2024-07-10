@@ -1,0 +1,33 @@
+[0.108s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[0.458s] [ 25%] Built target test_gripper
+[0.458s] [ 50%] Built target test_trajectory
+[0.465s] [ 75%] Built target test_end_effector_trajectory
+[0.475s] [100%] Built target two_postions
+[0.517s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
+[0.640s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
+[0.653s] -- Install configuration: ""
+[0.654s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[0.655s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_end_effector_trajectory
+[0.655s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/two_postions
+[0.655s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper
+[0.656s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+[0.656s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+[0.656s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+[0.656s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory3.launch.py
+[0.656s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_gripper.launch.py
+[0.657s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+[0.657s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+[0.657s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+[0.657s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+[0.657s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+[0.657s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+[0.658s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+[0.658s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+[0.658s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+[0.658s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+[0.658s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+[0.658s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+[0.659s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+[0.659s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+[0.659s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+[0.700s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
