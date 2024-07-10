@@ -1,0 +1,56 @@
+[0.180s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description -- -j8 -l8
+[0.534s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description -- -j8 -l8
+[1.029s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description
+[1.149s] -- Install configuration: ""
+[1.149s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/config
+[1.156s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/config/gripper_controller2.yaml
+[1.159s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/config/gripper_controller.yaml
+[1.160s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/config/view_gripper.rviz
+[1.160s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/launch
+[1.162s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/launch/view_gripper.launch.py
+[1.163s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/launch/spawn_robot.launch.py
+[1.163s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/launch/gazebo.launch.py
+[1.163s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/launch/gripper_sim.launch.py
+[1.164s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes
+[1.168s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/visual
+[1.170s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_finger_tip_link.dae
+[1.171s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_base_link.dae
+[1.173s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_finger_link.dae
+[1.174s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_inner_knuckle_link.dae
+[1.177s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/ur_to_robotiq_adapter.dae
+[1.184s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/visual/robotiq_85_knuckle_link.dae
+[1.188s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/collision
+[1.190s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_finger_tip_link.stl
+[1.194s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_finger_link.stl
+[1.195s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_base_link.stl
+[1.203s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/ur_to_robotiq_adapter.stl
+[1.208s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_knuckle_link.stl
+[1.208s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/meshes/collision/robotiq_85_inner_knuckle_link.stl
+[1.209s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf
+[1.209s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/right_robotiq_85_gripper.urdf.xacro
+[1.210s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_arg85_description.urdf.xacro
+[1.214s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper.ros2_control.xacro
+[1.218s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper.transmission.xacro
+[1.219s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper_sim_base.urdf.xacro
+[1.222s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper_macro_gz.urdf.xacro
+[1.223s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper.urdf.xacro
+[1.224s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper_macro.urdf.xacro
+[1.228s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[1.230s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/robotiq_85_gripper_gz.ros2_control.xacro
+[1.232s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/urdf/left_robotiq_85_gripper.urdf.xacro
+[1.235s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/ament_index/resource_index/package_run_dependencies/robotiq_85_description
+[1.236s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/ament_index/resource_index/parent_prefix_path/robotiq_85_description
+[1.237s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/environment/ament_prefix_path.sh
+[1.237s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/environment/ament_prefix_path.dsv
+[1.237s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/environment/path.sh
+[1.237s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/environment/path.dsv
+[1.237s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/local_setup.bash
+[1.237s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/local_setup.sh
+[1.237s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/local_setup.zsh
+[1.238s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/local_setup.dsv
+[1.238s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/package.dsv
+[1.238s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/ament_index/resource_index/packages/robotiq_85_description
+[1.238s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/cmake/robotiq_85_descriptionConfig.cmake
+[1.240s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/cmake/robotiq_85_descriptionConfig-version.cmake
+[1.245s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/robotiq_85_description/share/robotiq_85_description/package.xml
+[1.324s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description
