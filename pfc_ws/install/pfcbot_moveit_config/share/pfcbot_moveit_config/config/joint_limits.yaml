@@ -10,7 +10,7 @@ default_acceleration_scaling_factor: 0.1
 joint_limits:
   drive_joint:
     has_velocity_limits: true
-    max_velocity: 2
+    max_velocity: 2.0
     has_acceleration_limits: false
     max_acceleration: 0
   joint1:
@@ -45,27 +45,27 @@ joint_limits:
     max_acceleration: 0
   left_finger_joint:
     has_velocity_limits: true
-    max_velocity: 2
+    max_velocity: 2.0
     has_acceleration_limits: false
     max_acceleration: 0
   left_inner_knuckle_joint:
     has_velocity_limits: true
-    max_velocity: 2
+    max_velocity: 2.0
     has_acceleration_limits: false
     max_acceleration: 0
   right_finger_joint:
     has_velocity_limits: true
-    max_velocity: 2
+    max_velocity: 2.0
     has_acceleration_limits: false
     max_acceleration: 0
   right_inner_knuckle_joint:
     has_velocity_limits: true
-    max_velocity: 2
+    max_velocity: 2.0
     has_acceleration_limits: false
     max_acceleration: 0
   right_outer_knuckle_joint:
     has_velocity_limits: true
-    max_velocity: 2
+    max_velocity: 2.0
     has_acceleration_limits: false
     max_acceleration: 0
   wheel1_joint:

@@ -1,0 +1,112 @@
+[0.016s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/pfcbot -- -j8 -l8
+[0.041s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.171s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.211s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.211s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.212s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[0.237s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.240s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.885s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.886s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.917s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.926s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.948s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.956s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.846s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.871s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.872s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.876s] -- Searching for dependencies of ignition-math6
+[1.878s] -- Looking for OGRE...
+[1.883s] -- Found Ogre Ghadamon (1.9.0)
+[1.883s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.893s] -- Looking for OGRE_Paging...
+[1.893s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.893s] -- Looking for OGRE_Terrain...
+[1.893s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.893s] -- Looking for OGRE_Property...
+[1.893s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.893s] -- Looking for OGRE_RTShaderSystem...
+[1.893s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.894s] -- Looking for OGRE_Volume...
+[1.894s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.894s] -- Looking for OGRE_Overlay...
+[1.894s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.989s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.990s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.990s] -- Searching for dependencies of ignition-transport8
+[2.008s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.019s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.024s] -- Checking for module 'libzmq >= 4'
+[2.037s] --   Found libzmq , version 4.3.4
+[2.076s] -- Checking for module 'uuid'
+[2.091s] --   Found uuid, version 2.37.2
+[2.166s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.169s] -- Searching for dependencies of ignition-msgs5
+[2.252s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.280s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.282s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.285s] -- Searching for dependencies of ignition-common3
+[2.285s] -- Looking for dlfcn.h - found
+[2.286s] -- Looking for libdl - found
+[2.329s] -- Searching for <ignition-common3> component [graphics]
+[2.331s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.334s] -- Searching for dependencies of ignition-common3-graphics
+[2.337s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.342s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.345s] -- Searching for dependencies of ignition-fuel_tools4
+[2.496s] -- Checking for module 'jsoncpp'
+[2.548s] --   Found jsoncpp, version 1.9.5
+[2.700s] -- Checking for module 'libzip'
+[2.752s] --   Found libzip, version 1.7.3
+[2.895s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.897s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.901s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.912s] -- Gazebo version: 11.10
+[3.298s] -- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[3.409s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.441s] -- Found joint_trajectory_controller: 2.35.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[3.938s] -- Found velocity_controllers: 2.35.0 (/opt/ros/humble/share/velocity_controllers/cmake)
+[4.325s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.400s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.403s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.404s] -- Added test 'lint_cmake' to check CMake code style
+[4.404s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.406s] -- Added test 'xmllint' to check XML markup files
+[4.408s] -- Configuring done
+[4.422s] -- Generating done
+[4.428s] -- Build files have been written to: /home/yuritvr/PFC/pfc_ws/build/pfcbot
+[4.540s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/pfcbot -- -j8 -l8
+[4.640s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/pfcbot
+[4.675s] -- Install configuration: ""
+[4.676s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf
+[4.676s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.xacro
+[4.677s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/materials.xacro
+[4.678s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.gazebo
+[4.678s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch
+[4.679s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_controller.launch.py
+[4.679s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_moveit.launch.py
+[4.680s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/pfcbot.launch.py
+[4.681s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_world.launch.py
+[4.681s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/spawn_pfcbot.launch.py
+[4.683s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//config
+[4.685s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//config/simple_controller.yaml
+[4.686s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot
+[4.687s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot
+[4.688s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh
+[4.689s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.dsv
+[4.692s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.sh
+[4.696s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.dsv
+[4.699s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.bash
+[4.700s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.sh
+[4.702s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.zsh
+[4.703s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.dsv
+[4.713s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.dsv
+[4.718s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/packages/pfcbot
+[4.718s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig.cmake
+[4.719s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig-version.cmake
+[4.724s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.xml
+[4.776s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/pfcbot

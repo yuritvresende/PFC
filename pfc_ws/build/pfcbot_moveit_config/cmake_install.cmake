@@ -102,6 +102,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pfcbot_moveit_config/" TYPE DIRECTORY FILES
+    "/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config/launch"
+    "/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config/config"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pfcbot_moveit_config" TYPE DIRECTORY FILES "/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
