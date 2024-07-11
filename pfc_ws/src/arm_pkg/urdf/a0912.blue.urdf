@@ -4,7 +4,6 @@
   <!-- I change and add info to this file  -->
   <!-- I change the links and joints values in order to match the macro xacro file -->
 
- 
   <!-- Base -->
   <link name="base_0">
     <inertial>

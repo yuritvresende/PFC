@@ -43,6 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pfcbot/" TYPE DIRECTORY FILES
+    "/home/yuritvr/PFC/pfc_ws/src/pfcbot/urdf"
+    "/home/yuritvr/PFC/pfc_ws/src/pfcbot/launch"
+    "/home/yuritvr/PFC/pfc_ws/src/pfcbot/config"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yuritvr/PFC/pfc_ws/build/pfcbot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pfcbot")
 endif()
 

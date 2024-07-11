@@ -1,3 +1,12 @@
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/materials.xacro
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.xacro
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.gazebo
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/pfcbot.launch.py
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_world.launch.py
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_moveit.launch.py
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_controller.launch.py
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/spawn_pfcbot.launch.py
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//config/simple_controller.yaml
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh

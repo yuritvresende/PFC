@@ -43,6 +43,16 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xarm_description/" TYPE DIRECTORY FILES
+    "/home/yuritvr/PFC/pfc_ws/src/xarm_description/rviz"
+    "/home/yuritvr/PFC/pfc_ws/src/xarm_description/urdf"
+    "/home/yuritvr/PFC/pfc_ws/src/xarm_description/config"
+    "/home/yuritvr/PFC/pfc_ws/src/xarm_description/meshes"
+    "/home/yuritvr/PFC/pfc_ws/src/xarm_description/launch"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/yuritvr/PFC/pfc_ws/build/xarm_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xarm_description")
 endif()
 

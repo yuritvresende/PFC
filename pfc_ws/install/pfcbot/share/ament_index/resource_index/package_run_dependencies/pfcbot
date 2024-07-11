@@ -1,1 +1,1 @@
-ament_lint_auto;ament_lint_common
+urdf;xacro;ros2_control;gazebo_ros2_control;joint_state_broadcaster;joint_trajectory_controller;rviz;joint_state_publisher;robot_state_publisher;velocity_controllers;ament_lint_auto;ament_lint_common

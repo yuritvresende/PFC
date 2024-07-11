@@ -1,186 +1,175 @@
 <?xml version="1.0"?>
 <!-- http://wiki.ros.org/urdf/XML/link -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_description">
-        <xacro:include filename="$(find arm_pkg)/urdf/a0912.urdf.xacro" />
-        <xacro:manipulator namespace=""/>
   
-	<!-- This is the body of the robot -->
-	<link name="body_link">
-	    <visual>
-	        <origin rpy="0 0 0" xyz="0 0 0.15"/>
-		<geometry>
-	           <box size="1 0.6 0.3"/>
-		</geometry>   
-		<material name="red">
-	           <color rgba="1 0 0 1"/>
-		</material>
-	    </visual>
-            <collision>
-	        <origin rpy="0 0 0" xyz="0 0 0.15"/>
-                <geometry>
-                   <box size="1 0.6 0.3"/>
-                </geometry>
-            </collision>
-            <inertial>
-		<mass value="6"/>
-	        <origin xyz="0 0 0.15"/>
-		<inertia ixx="0.22216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.224835"
-					iyz="-5.3034e-05"
-					izz="0.221063"/>
-	    </inertial>
-	</link>
-	
-	<joint name="manipulator_fixed" type="fixed">
-          <origin xyz="-0.021001 0.0002 0.3" rpy="0 0 0"/>
-          <parent link="body_link"/>
-          <child link="base_0"/>
-        </joint>
-        <xacro:include filename="$(find xarm_description)/urdf/common/common.material.xacro" />
-        <xacro:common_material prefix=""/>
+  <xacro:include filename="$(find arm_pkg)/urdf/a0912.urdf.xacro" />
+  <xacro:include filename="$(find pfcbot)/urdf/pfcbot.gazebo" />
+  <!-- Import Rviz colors -->
+  <!--xacro:include filename="$(find pfcbot)/urdf/materials.xacro" /-->
 
-        <!-- Load Common Material -->
-        <xacro:include filename="$(find xarm_description)/urdf/common/common.material.xacro" />
-        <xacro:common_material prefix=""/>
-
-        <!-- Specify Mesh file path -->
-        <xacro:property name="mesh_suffix" value="stl"/>
-        <!-- gazebo use -->
-        <xacro:property name="mesh_path" value="file://$(find xarm_description)/meshes" />
-
-        <!-- include the GRIPPER -->
-        <xacro:include filename="$(find xarm_description)/urdf/common/common.link.xacro" />
-        <xacro:parse_link_inertial_filename dof="6" robot_type="xarm" robot_sn="" model1300="false" />
-        <xacro:property name="inertial_params_filename" value="${scope_parent_inertial_params_filename}"/>
-        <xacro:property name="new_model1300" value="${scope_parent_model1300}"/>
-
-        <xacro:include filename="$(find xarm_description)/urdf/gripper/xarm_gripper_macro.xacro" />
-        <xacro:xarm_gripper_macro prefix="" attach_to="link6" ros2_control_plugin="gazebo_ros2_control/GazeboSystem" dof="6" hard_interface="PositionJointInterface" />
-
-	<!-- This is the back right wheel of the robot -->
-	<joint name="wheel1_joint" type="continuous">
-		<parent link="body_link"/>
-		<child link="wheel1_link"/>
-		<origin xyz="-0.3 -0.35 0" rpy="0 0 0"/>
-		<axis xyz="0 1 0"/>
-	</joint>
-	<link name="wheel1_link">
-	    <inertial>
-		<mass value="1.5"/>
-	        <origin xyz="-0.3 -0.35 0"/>
-		<inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
-					iyz="-5.3034e-05"
-					izz="0.021063"/>
-	    </inertial>
-	    <visual>
-		<origin rpy="1.570795 0 0" xyz="0 0 0"/>
-		<geometry>
-			<cylinder length="0.1" radius="0.15"/>
-		</geometry>
-		<material name="yellow">
-			<color rgba="1 1 0 1"/>
-		</material>
-	    </visual>
-            <collision>
-	        <origin rpy="1.570795 0 0" xyz="0 0 0"/>
-                <geometry>
-                        <cylinder length="0.1" radius="0.15"/>
-                </geometry>
-            </collision>
-	</link>
-
-	<!-- This is the back left wheel of the robot -->
-	<joint name="wheel2_joint" type="continuous">
-		<parent link="body_link"/>
-		<child link="wheel2_link"/>
-		<origin xyz="-0.3 0.35 0" rpy="0 0 0"/>
-		<axis xyz="0 1 0"/>
-	</joint>
-	<link name="wheel2_link">
-	    <inertial>
-		    <mass value="1.5"/>
-			<origin xyz="-0.3 0.35 0"/>
-			<inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
-					iyz="-5.3034e-05"
-					izz="0.021063"/>
-		</inertial>
-		<visual>
-			<origin rpy="1.570795 0 0" xyz="0 0 0"/>
-			<geometry>
-				<cylinder length="0.1" radius="0.15"/>
-			</geometry>
-			<material name="yellow">
-				<color rgba="1 1 0 1"/>
-			</material>
-		</visual>
-        <collision>
-            <origin rpy="1.570795 0 0" xyz="0 0 0"/>
-            <geometry>
-                <cylinder length="0.1" radius="0.15"/>
-            </geometry>
-        </collision>
-	</link>
-	
-	<!-- This is the front right wheel of the robot -->
-	<joint name="wheel3_joint" type="continuous">
-		<parent link="body_link"/>
-		<child link="wheel3_link"/>
-		<origin xyz="0.3 -0.35 0" rpy="0 0 0"/>
-		<axis xyz="0 1 0"/>
-	</joint>
-	<link name="wheel3_link">
-	    <inertial>
-		    <mass value="1.5"/>
-			<origin xyz="0.3 -0.35 0"/>
-			<inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
-					iyz="-5.3034e-05"
-					izz="0.021063"/>
-		</inertial>
-		<visual>
-			<origin rpy="1.570795 0 0" xyz="0 0 0"/>
-			<geometry>
-				<cylinder length="0.1" radius="0.15"/>
-			</geometry>
-			<material name="yellow">
-				<color rgba="1 1 0 1"/>
-			</material>
-		</visual>
-        <collision>
-		    <origin rpy="1.570795 0 0" xyz="0 0 0"/>
-            <geometry>
-                <cylinder length="0.1" radius="0.15"/>
-            </geometry>
-        </collision>
-	</link>
-
-	<!-- This is the front left wheel of the robot -->
-	<joint name="wheel4_joint" type="continuous">
-		<parent link="body_link"/>
-		<child link="wheel4_link"/>
-		<origin xyz="0.3 0.35 0" rpy="0 0 0"/>
-		<axis xyz="0 1 0"/>
-	</joint>
-	<link name="wheel4_link">
-	    <inertial>
-		    <mass value="1.5"/>
-			<origin xyz="0.3 0.35 0"/>
-			<inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
-					iyz="-5.3034e-05"
-					izz="0.021063"/>
-		</inertial>		
-		<visual>
-			<origin rpy="1.570795 0 0" xyz="0 0 0"/>
-			<geometry>
-				<cylinder length="0.1" radius="0.15"/>
-			</geometry>
-			<material name="yellow">
-				<color rgba="1 1 0 1"/>
-			</material>
-		</visual>
-        <collision>
-		    <origin rpy="1.570795 0 0" xyz="0 0 0"/>
-            <geometry>
-                <cylinder length="0.1" radius="0.15"/>
-            </geometry>
-        </collision>
-	</link>
+  <xacro:manipulator namespace=""/>
+  
+  <!-- This is the body of the robot -->
+  <link name="body_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.15"/>
+      <geometry>
+        <box size="1 0.6 0.3"/>
+      </geometry>   
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0.15"/>
+      <geometry>
+        <box size="1 0.6 0.3"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="6"/>
+      <origin xyz="0 0 0.15"/>
+      <inertia ixx="0.22216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.224835"
+               iyz="-5.3034e-05"
+               izz="0.221063"/>
+    </inertial>
+  </link>
+  
+  <joint name="manipulator_fixed" type="fixed">
+    <origin xyz="-0.021001 0.0002 0.3" rpy="0 0 0"/>
+    <parent link="body_link"/>
+    <child link="base_0"/>
+  </joint>
+  
+  <!-- Load Common Material -->
+  <xacro:include filename="$(find xarm_description)/urdf/common/common.material.xacro" />
+  <xacro:common_material prefix=""/>
+  
+  <!-- Specify Mesh file path -->
+  <xacro:property name="mesh_suffix" value="stl"/>
+  <!-- gazebo use -->
+  <xacro:property name="mesh_path" value="file://$(find xarm_description)/meshes" />
+  
+  <!-- include the GRIPPER -->
+  <xacro:include filename="$(find xarm_description)/urdf/common/common.link.xacro" />
+  <xacro:parse_link_inertial_filename dof="6" robot_type="xarm" robot_sn="" model1300="false" />
+  <xacro:property name="inertial_params_filename" value="${scope_parent_inertial_params_filename}"/>
+  <xacro:property name="new_model1300" value="${scope_parent_model1300}"/>
+  
+  <xacro:include filename="$(find xarm_description)/urdf/gripper/xarm_gripper_macro.xacro" />
+  <xacro:xarm_gripper_macro prefix="" attach_to="link6" ros2_control_plugin="gazebo_ros2_control/GazeboSystem" dof="6" hard_interface="PositionJointInterface" />
+  
+  <!-- This is the back right wheel of the robot -->
+  <joint name="wheel1_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="wheel1_link"/>
+    <origin xyz="-0.3 -0.35 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="wheel1_link">
+    <inertial>
+      <mass value="1.5"/>
+      <origin xyz="-0.3 -0.35 0"/>
+      <inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
+               iyz="-5.3034e-05"
+               izz="0.021063"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- This is the back left wheel of the robot -->
+  <joint name="wheel2_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="wheel2_link"/>
+    <origin xyz="-0.3 0.35 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="wheel2_link">
+    <inertial>
+      <mass value="1.5"/>
+      <origin xyz="-0.3 0.35 0"/>
+      <inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
+               iyz="-5.3034e-05"
+               izz="0.021063"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- This is the front right wheel of the robot -->
+  <joint name="wheel3_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="wheel3_link"/>
+    <origin xyz="0.3 -0.35 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="wheel3_link">
+    <inertial>
+      <mass value="1.5"/>
+      <origin xyz="0.3 -0.35 0"/>
+      <inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
+               iyz="-5.3034e-05"
+               izz="0.021063"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- This is the front left wheel of the robot -->
+  <joint name="wheel4_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="wheel4_link"/>
+    <origin xyz="0.3 0.35 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="wheel4_link">
+    <inertial>
+      <mass value="1.5"/>
+      <origin xyz="0.3 0.35 0"/>
+      <inertia ixx="0.02216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.024835"
+               iyz="-5.3034e-05"
+               izz="0.021063"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+  
 </robot>
