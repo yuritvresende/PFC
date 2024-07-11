@@ -1,0 +1,14 @@
+# Default initial positions for robot_description's ros2_control fake system
+
+initial_positions:
+  drive_joint: 0
+  joint1: 0
+  joint2: 0
+  joint3: 0
+  joint4: 0
+  joint5: 0
+  joint6: 0
+  wheel1_joint: 0
+  wheel2_joint: 0
+  wheel3_joint: 0
+  wheel4_joint: 0

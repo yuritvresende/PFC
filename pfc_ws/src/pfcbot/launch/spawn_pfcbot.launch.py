@@ -26,7 +26,7 @@ def generate_launch_description():
 
         # Delay before launching the robot_state_publisher
         TimerAction(
-            period=3.0,  # Adjust the delay time as needed
+            period=10.0,  # Adjust the delay time as needed
             actions=[
                 # Launch second_launch.py
                 IncludeLaunchDescription(
@@ -37,7 +37,7 @@ def generate_launch_description():
         ),
 
         TimerAction(
-            period=4.0,  # Adjust the delay time as needed
+            period=10.0,  # Adjust the delay time as needed
             actions=[
                 # Launch second_launch.py
                 IncludeLaunchDescription(

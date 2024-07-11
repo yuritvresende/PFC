@@ -12,6 +12,9 @@ def generate_launch_description():
     
     spawn_launch_file = os.path.join(
         get_package_share_directory('pfcbot'), 'launch', 'pfcbot.launch.py')
+        
+    controller_launch_file = os.path.join(
+        get_package_share_directory('pfcbot'), 'launch', 'start_controller.launch.py')
     
 
     return LaunchDescription([
@@ -23,11 +26,22 @@ def generate_launch_description():
 
         # Delay before launching the robot_state_publisher
         TimerAction(
-            period=3.0,  # Adjust the delay time as needed
+            period=10.0,  # Adjust the delay time as needed
             actions=[
                 # Launch second_launch.py
                 IncludeLaunchDescription(
                     PythonLaunchDescriptionSource(spawn_launch_file),
+                    launch_arguments={}.items(),
+                ),
+            ],
+        ),
+
+        TimerAction(
+            period=10.0,  # Adjust the delay time as needed
+            actions=[
+                # Launch second_launch.py
+                IncludeLaunchDescription(
+                    PythonLaunchDescriptionSource(controller_launch_file),
                     launch_arguments={}.items(),
                 ),
             ],

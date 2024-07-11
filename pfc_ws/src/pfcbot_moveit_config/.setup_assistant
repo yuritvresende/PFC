@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: pfcbot
+    relative_path: urdf/pfcbot.xacro
+  srdf:
+    relative_path: config/robot_description.srdf
+  package_settings:
+    author_name: yuritvr
+    author_email: yuritvresende@gmail.com
+    generated_timestamp: 1720663084
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
