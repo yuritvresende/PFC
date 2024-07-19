@@ -40,7 +40,7 @@ def generate_launch_description():
             period=10.0,  # Adjust the delay time as needed
             actions=[
                 # Launch second_launch.py
-                IncludeLaunchDescription(
+               IncludeLaunchDescription(
                     PythonLaunchDescriptionSource(controller_launch_file),
                     launch_arguments={}.items(),
                 ),

@@ -1,0 +1,44 @@
+[0.022s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/pfcbot -- -j8 -l8
+[0.205s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/pfcbot -- -j8 -l8
+[0.338s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/pfcbot
+[0.405s] -- Install configuration: ""
+[0.406s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf
+[0.407s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.xacro
+[0.407s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/robot_base_test.urdf
+[0.408s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/materials.xacro
+[0.409s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/robot_arm_test.urdf
+[0.410s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/mobile_manipulator_test.urdf
+[0.410s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.gazebo
+[0.411s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch
+[0.412s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_controller.launch.py
+[0.413s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/mobile_manipulator_gazebo.launch.py
+[0.413s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/arm_gazebo_control.launch
+[0.414s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/robot_gazebo_view.launch
+[0.416s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_moveit.launch.py
+[0.418s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/pfcbot.launch.py
+[0.427s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/mobile_manipulator_gazebo.launch
+[0.427s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/mobile_manipulator_start_world.launch.py
+[0.428s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_world.launch.py
+[0.429s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/spawn_pfcbot.launch.py
+[0.430s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/mobile_manipulator_navigation.launch
+[0.430s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/__pycache__
+[0.431s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/__pycache__/pfcbot.launch.cpython-310.pyc
+[0.431s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/base_gazebo_control.launch
+[0.432s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//config
+[0.432s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//config/simple_controller.yaml
+[0.434s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/package_run_dependencies/pfcbot
+[0.435s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/parent_prefix_path/pfcbot
+[0.435s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.sh
+[0.436s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/ament_prefix_path.dsv
+[0.436s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.sh
+[0.438s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/environment/path.dsv
+[0.439s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.bash
+[0.440s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.sh
+[0.440s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.zsh
+[0.442s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/local_setup.dsv
+[0.443s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.dsv
+[0.444s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/ament_index/resource_index/packages/pfcbot
+[0.444s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig.cmake
+[0.445s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/cmake/pfcbotConfig-version.cmake
+[0.445s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot/package.xml
+[0.453s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/pfcbot
