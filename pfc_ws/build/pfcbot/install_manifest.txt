@@ -1,9 +1,12 @@
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.xacro
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/materials.xacro
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/pfcbot.gazebo
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//urdf/platform.xacro
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_controller.launch.py
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/platform.launch.py
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/robot_gazebo_view.launch
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_moveit.launch.py
+/home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/spawn_platform.launch.py
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/pfcbot.launch.py
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/start_world.launch.py
 /home/yuritvr/PFC/pfc_ws/install/pfcbot/share/pfcbot//launch/spawn_pfcbot.launch.py

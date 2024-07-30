@@ -8,10 +8,10 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     # Get the path to the launch files
     move_group_launch_file = os.path.join(
-        get_package_share_directory('moveit_config'), 'launch', 'move_group.launch.py')
+        get_package_share_directory('arm_pkg_moveit_config'), 'launch', 'move_group.launch.py')
     
     rviz_launch_file = os.path.join(
-        get_package_share_directory('moveit_config'), 'launch', 'moveit_rviz.launch.py')
+        get_package_share_directory('arm_pkg_moveit_config'), 'launch', 'moveit_rviz.launch.py')
     
     
 

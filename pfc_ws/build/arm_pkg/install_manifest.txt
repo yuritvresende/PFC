@@ -14,6 +14,9 @@
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/spawn_gazebo.launch.py
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_moveit.launch.py
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_world.launch.py
+/home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/joint_trajectory_publisher.py
+/home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/.vscode/settings.json
+/home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/.vscode/c_cpp_properties.json
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/main_arm.launch.py
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_2_1.dae
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//meshes/a0912_blue/A0912_3_1.dae

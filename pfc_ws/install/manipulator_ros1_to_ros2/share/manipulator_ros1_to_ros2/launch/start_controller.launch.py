@@ -12,16 +12,16 @@ def generate_launch_description():
     spawn_controller = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["joint_state_publisher"],
+        arguments=["joint_state_broadcaster"],
         output="screen",
     )
 
-    # spawn_arm_controller = Node(
-    #     package="controller_manager",
-    #     executable="spawner",
-    #     arguments=["joint_trajectory_controller"],
-    #     output="screen",
-    # )
+    spawn_arm_controller = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_trajectory_controller"],
+        output="screen",
+    )
 
     spawn_drive_controller = Node(
         package="controller_manager",
