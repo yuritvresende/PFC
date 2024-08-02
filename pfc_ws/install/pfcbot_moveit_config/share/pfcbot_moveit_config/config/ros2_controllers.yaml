@@ -28,18 +28,16 @@ arm_controller:
       - joint5
       - joint6
     command_interfaces:
-      - position
+      []
     state_interfaces:
-      - position
-      - velocity
+      []
 gripper_controller:
   ros__parameters:
     joint: drive_joint
     command_interfaces:
-      - position
+      []
     state_interfaces:
-      - position
-      - velocity
+      []
 car_controller:
   ros__parameters:
     joints:
@@ -48,7 +46,6 @@ car_controller:
       - wheel3_joint
       - wheel4_joint
     command_interfaces:
-      - position
+      []
     state_interfaces:
-      - position
-      - velocity
+      []

@@ -236,7 +236,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=yuripad
+SITE:STRING=yuritvr-Predator-PHN16-71
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -285,15 +285,6 @@ ament_cmake_test_DIR:PATH=/opt/ros/humble/share/ament_cmake_test/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
-
-//Value Computed by CMake
-arm_pkg_moveit_config_BINARY_DIR:STATIC=/home/yuritvr/PFC/pfc_ws/build/moveit_config
-
-//Value Computed by CMake
-arm_pkg_moveit_config_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-arm_pkg_moveit_config_SOURCE_DIR:STATIC=/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config
 
 //Value Computed by CMake
 moveit_config_BINARY_DIR:STATIC=/home/yuritvr/PFC/pfc_ws/build/moveit_config

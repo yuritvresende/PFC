@@ -82,6 +82,14 @@
       <geometry>
         <cylinder length="0.1" radius="0.15"/>
       </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>10.0</mu> <!-- Increase this value for more friction -->
+            <mu2>10.0</mu2>
+          </ode>
+        </friction>
+      </surface>
     </collision>
   </link>
   
@@ -111,6 +119,14 @@
       <geometry>
         <cylinder length="0.1" radius="0.15"/>
       </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>10.0</mu> <!-- Increase this value for more friction -->
+            <mu2>10.0</mu2>
+          </ode>
+        </friction>
+      </surface>      
     </collision>
   </link>
   
@@ -140,6 +156,14 @@
       <geometry>
         <cylinder length="0.1" radius="0.15"/>
       </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>10.0</mu> <!-- Increase this value for more friction -->
+            <mu2>10.0</mu2>
+          </ode>
+        </friction>
+      </surface>
     </collision>
   </link>
   
@@ -169,6 +193,14 @@
       <geometry>
         <cylinder length="0.1" radius="0.15"/>
       </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>10.0</mu> <!-- Increase this value for more friction -->
+            <mu2>10.0</mu2>
+          </ode>
+        </friction>
+      </surface>
     </collision>
   </link>
   
