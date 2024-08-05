@@ -10,6 +10,8 @@
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.gazebo_config_control.xacro
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/macro.a0912.blue.xacro
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//urdf/depth_camera.xacro
+/home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/__pycache__/start_world.launch.cpython-310.pyc
+/home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/__pycache__/main_arm.launch.cpython-310.pyc
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/joint_trajectory_publisher.py
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/start_world.launch.py
 /home/yuritvr/PFC/pfc_ws/install/arm_pkg/share/arm_pkg//launch/spawn_gazebo.launch.py

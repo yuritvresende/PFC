@@ -26,6 +26,7 @@
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config//config/moveit_controllers.yaml
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config//config/initial_positions.yaml
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config//config/pilz_cartesian_limits.yaml
+/home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config//config/sensors_3d.yaml
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config//config/kinematics.yaml
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config//config/robot_description.ros2_control.xacro
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config//config/joint_limits.yaml
@@ -43,6 +44,7 @@
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config/config/moveit_controllers.yaml
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config/config/initial_positions.yaml
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config/config/pilz_cartesian_limits.yaml
+/home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config/config/sensors_3d.yaml
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config/config/kinematics.yaml
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config/config/robot_description.ros2_control.xacro
 /home/yuritvr/PFC/pfc_ws/install/testing_config/share/testing_config/config/joint_limits.yaml

@@ -9,6 +9,27 @@
 
   <xacro:manipulator namespace=""/>
   
+  <link name="dummy_root_link">
+    <inertial>
+      <mass value="0.0"/> <!-- No mass -->
+      <origin xyz="0 0 0"/> <!-- Centered -->
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/> <!-- No inertia -->
+    </inertial>
+    <visual>
+      <geometry>
+        <sphere radius="0.0001"/> <!-- Invisible -->
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Joint to connect Dummy Link to the Base of the Robot -->
+  <joint name="dummy_to_body_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="dummy_root_link"/> <!-- Parent is the dummy link -->
+    <child link="body_link"/> <!-- Child is the body link -->
+  </joint>
+
+
   <!-- This is the body of the robot -->
   <link name="body_link">
     <visual>
@@ -31,7 +52,7 @@
                izz="0.221063"/>
     </inertial>
   </link>
-  
+
   <joint name="manipulator_fixed" type="fixed">
     <origin xyz="-0.021001 0.0002 0.3" rpy="0 0 0"/>
     <parent link="body_link"/>
