@@ -1,0 +1,20 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/yuritvr/PFC/pfc_ws/src/testing/config": No
+  such file or directory.
+
+[0m
+-- Install configuration: ""
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/materials.xacro
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/pfcbot.xacro
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/platform.xacro
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/pfcbot.gazebo
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/spawn_platform.launch.py
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/pfcbot.launch.py
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_world.launch.py
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/robot_gazebo_view.launch
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/platform.launch.py
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_moveit.launch.py
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_controller.launch.py
+-- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/spawn_pfcbot.launch.py

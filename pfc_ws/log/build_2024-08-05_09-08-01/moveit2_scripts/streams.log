@@ -1,0 +1,7 @@
+[0.013s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/moveit2_scripts -- -j24 -l24
+[0.050s] [ 75%] Built target test_trajectory
+[0.050s] [ 75%] Built target test_gripper
+[0.050s] [ 75%] Built target two_postions
+[0.050s] [100%] Built target test_end_effector_trajectory
+[0.072s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/moveit2_scripts -- -j24 -l24
+[0.096s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/moveit2_scripts

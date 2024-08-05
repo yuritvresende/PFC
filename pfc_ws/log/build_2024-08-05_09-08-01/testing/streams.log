@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/testing -- -j24 -l24
+[0.035s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/testing -- -j24 -l24
+[0.052s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/testing
+[0.058s] -- Install configuration: ""
+[0.058s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.058s]   file INSTALL cannot find "/home/yuritvr/PFC/pfc_ws/src/testing/config": No
+[0.058s]   such file or directory.
+[0.058s] 
+[0.058s] [0m
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/materials.xacro
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/pfcbot.xacro
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/platform.xacro
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/pfcbot.gazebo
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/spawn_platform.launch.py
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/pfcbot.launch.py
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_world.launch.py
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/robot_gazebo_view.launch
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/platform.launch.py
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_controller.launch.py
+[0.058s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/spawn_pfcbot.launch.py
+[0.075s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/testing' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/testing

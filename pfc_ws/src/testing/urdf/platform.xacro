@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!-- http://wiki.ros.org/urdf/XML/link -->
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_description">
+  <xacro:include filename="$(find pfcbot)/urdf/pfcbot.gazebo" />
+  <!-- Import Rviz colors -->
+  <!--xacro:include filename="$(find testing)/urdf/materials.xacro" /-->
+  
+  <!-- This is the body of the robot -->
+  <link name="body_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.15"/>
+      <geometry>
+        <box size="1 0.6 0.3"/>
+      </geometry>   
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0.15"/>
+      <geometry>
+        <box size="1 0.6 0.3"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="6"/>
+      <origin xyz="0 0 0.15"/>
+      <inertia ixx="0.22216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="0.224835"
+               iyz="-5.3034e-05"
+               izz="0.221063"/>
+    </inertial>
+  </link>
+  
+  <!-- This is the back right wheel of the robot -->
+  <joint name="wheel1_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="wheel1_link"/>
+    <origin xyz="-0.3 -0.35 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="wheel1_link">
+    <inertial>
+      <mass value="1.5"/>
+      <origin xyz="-0.3 -0.35 0"/>
+      <inertia ixx="2.216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="2.4835"
+               iyz="-5.3034e-05"
+               izz="2.1063"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- This is the back left wheel of the robot -->
+  <joint name="wheel2_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="wheel2_link"/>
+    <origin xyz="-0.3 0.35 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="wheel2_link">
+    <inertial>
+      <mass value="1.5"/>
+      <origin xyz="-0.3 0.35 0"/>
+      <inertia ixx="2.216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="2.4835"
+               iyz="-5.3034e-05"
+               izz="2.1063"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- This is the front right wheel of the robot -->
+  <joint name="wheel3_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="wheel3_link"/>
+    <origin xyz="0.3 -0.35 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="wheel3_link">
+    <inertial>
+      <mass value="1.5"/>
+      <origin xyz="0.3 -0.35 0"/>
+      <inertia ixx="2.216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="2.4835"
+               iyz="-5.3034e-05"
+               izz="2.1063"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <!-- This is the front left wheel of the robot -->
+  <joint name="wheel4_joint" type="continuous">
+    <parent link="body_link"/>
+    <child link="wheel4_link"/>
+    <origin xyz="0.3 0.35 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+  <link name="wheel4_link">
+    <inertial>
+      <mass value="1.5"/>
+      <origin xyz="0.3 0.35 0"/>
+      <inertia ixx="2.216" ixy="5.8001e-06" ixz="6.1941e-06" iyy="2.4835"
+               iyz="-5.3034e-05"
+               izz="2.1063"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.15"/>
+      </geometry>
+    </collision>
+  </link>
+  
+</robot>

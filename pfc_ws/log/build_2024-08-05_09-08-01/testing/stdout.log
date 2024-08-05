@@ -1,0 +1,14 @@
+-- Install configuration: ""
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/materials.xacro
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/pfcbot.xacro
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/platform.xacro
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/pfcbot.gazebo
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/spawn_platform.launch.py
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/pfcbot.launch.py
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_world.launch.py
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/robot_gazebo_view.launch
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/platform.launch.py
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_controller.launch.py
+-- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/spawn_pfcbot.launch.py

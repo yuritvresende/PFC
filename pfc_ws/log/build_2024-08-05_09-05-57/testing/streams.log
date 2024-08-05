@@ -1,0 +1,131 @@
+[0.013s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/testing -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/testing
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.325s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.378s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.409s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.410s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.411s] -- Found gazebo_ros2_control: 0.4.9 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[0.437s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.440s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.445s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.821s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.822s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.845s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.871s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.873s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.881s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.886s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.890s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.895s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.902s] -- Looking for pthread.h
+[0.963s] -- Looking for pthread.h - found
+[0.963s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.028s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.028s] -- Found Threads: TRUE  
+[1.497s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.497s] -- Checking for module 'bullet>=2.82'
+[1.504s] --   Found bullet, version 3.05
+[1.608s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.675s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.696s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.711s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.728s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.731s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.737s] -- Searching for dependencies of ignition-math6
+[1.738s] -- Looking for OGRE...
+[1.738s] -- OGRE_PREFIX_WATCH changed.
+[1.741s] -- Checking for module 'OGRE'
+[1.747s] --   Found OGRE, version 1.9.0
+[1.765s] -- Found Ogre Ghadamon (1.9.0)
+[1.768s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.774s] -- Looking for OGRE_Paging...
+[1.776s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.776s] -- Looking for OGRE_Terrain...
+[1.778s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.778s] -- Looking for OGRE_Property...
+[1.780s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.780s] -- Looking for OGRE_RTShaderSystem...
+[1.782s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.782s] -- Looking for OGRE_Volume...
+[1.784s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.785s] -- Looking for OGRE_Overlay...
+[1.786s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.829s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.831s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.831s] -- Searching for dependencies of ignition-transport8
+[1.840s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.845s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.847s] -- Checking for module 'libzmq >= 4'
+[1.855s] --   Found libzmq , version 4.3.4
+[1.881s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.886s] -- Checking for module 'uuid'
+[1.896s] --   Found uuid, version 2.37.2
+[1.941s] -- Found UUID: TRUE  
+[1.945s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.946s] -- Searching for dependencies of ignition-msgs5
+[1.959s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.961s] -- Checking for module 'tinyxml2'
+[1.968s] --   Found tinyxml2, version 9.0.0
+[2.006s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.008s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.009s] -- Searching for dependencies of ignition-common3
+[2.009s] -- Looking for dlfcn.h - found
+[2.010s] -- Looking for libdl - found
+[2.011s] -- Found DL: TRUE  
+[2.019s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.019s] -- Searching for <ignition-common3> component [graphics]
+[2.020s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.020s] -- Searching for dependencies of ignition-common3-graphics
+[2.021s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.023s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.023s] -- Searching for dependencies of ignition-fuel_tools4
+[2.060s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.065s] -- Checking for module 'jsoncpp'
+[2.072s] --   Found jsoncpp, version 1.9.5
+[2.107s] -- Found JSONCPP: TRUE  
+[2.114s] -- Checking for module 'libzip'
+[2.127s] --   Found libzip, version 1.7.3
+[2.171s] -- Found ZIP: TRUE  
+[2.172s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.173s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.173s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.178s] -- Gazebo version: 11.10
+[2.178s] -- Checking for module 'tbb'
+[2.189s] --   Found tbb, version 2021.5.0
+[2.341s] -- Found joint_state_broadcaster: 2.35.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[2.399s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.420s] -- Found joint_trajectory_controller: 2.35.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[2.687s] -- Found velocity_controllers: 2.35.0 (/opt/ros/humble/share/velocity_controllers/cmake)
+[2.893s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.935s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.936s] -- Added test 'lint_cmake' to check CMake code style
+[2.936s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.937s] -- Added test 'xmllint' to check XML markup files
+[2.937s] -- Configuring done
+[2.940s] -- Generating done
+[2.942s] -- Build files have been written to: /home/yuritvr/PFC/pfc_ws/build/testing
+[2.950s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/pfc_ws/src/testing -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/pfc_ws/install/testing
+[2.950s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/testing -- -j24 -l24
+[2.984s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/testing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/testing -- -j24 -l24
+[3.013s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/testing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/testing
+[3.022s] -- Install configuration: ""
+[3.023s] [31mCMake Error at cmake_install.cmake:46 (file):
+[3.023s]   file INSTALL cannot find "/home/yuritvr/PFC/pfc_ws/src/testing/urdf": No
+[3.023s]   such file or directory.
+[3.023s] 
+[3.023s] [0m
+[3.024s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/testing' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/testing
