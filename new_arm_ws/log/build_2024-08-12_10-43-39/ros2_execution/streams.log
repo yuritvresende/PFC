@@ -1,0 +1,23 @@
+[0.057s] Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/ros2_execution -- -j8 -l8
+[0.136s] Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/ros2_execution -- -j8 -l8
+[0.284s] Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/ros2_execution
+[0.312s] -- Install configuration: ""
+[0.312s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/scripts
+[0.312s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/scripts/ros2_execution.py
+[0.313s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/lib/ros2_execution/ros2_execution.py
+[0.313s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ament_index/resource_index/package_run_dependencies/ros2_execution
+[0.313s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ament_index/resource_index/parent_prefix_path/ros2_execution
+[0.313s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/environment/ament_prefix_path.sh
+[0.313s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/environment/ament_prefix_path.dsv
+[0.314s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/environment/path.sh
+[0.314s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/environment/path.dsv
+[0.314s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/local_setup.bash
+[0.314s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/local_setup.sh
+[0.314s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/local_setup.zsh
+[0.315s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/local_setup.dsv
+[0.315s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/package.dsv
+[0.315s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ament_index/resource_index/packages/ros2_execution
+[0.315s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/cmake/ros2_executionConfig.cmake
+[0.315s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/cmake/ros2_executionConfig-version.cmake
+[0.315s] -- Up-to-date: /home/yuritvr/PFC/new_arm_ws/install/ros2_execution/share/ros2_execution/package.xml
+[0.374s] Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/ros2_execution

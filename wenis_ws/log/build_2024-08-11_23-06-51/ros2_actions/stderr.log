@@ -1,0 +1,50 @@
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_actions/scripts/moveJs_action.cpp:43:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface_improved.h: No such file or directory
+   43 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveJs_action.dir/build.make:76: CMakeFiles/moveJs_action.dir/scripts/moveJs_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/moveJs_action.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_actions/scripts/moveJ_action.cpp:43:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface_improved.h: No such file or directory
+   43 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveJ_action.dir/build.make:76: CMakeFiles/moveJ_action.dir/scripts/moveJ_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/moveJ_action.dir/all] Error 2
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_actions/scripts/moveXYZ_action.cpp:43:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface_improved.h: No such file or directory
+   43 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveXYZ_action.dir/build.make:76: CMakeFiles/moveXYZ_action.dir/scripts/moveXYZ_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/moveXYZ_action.dir/all] Error 2
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_actions/scripts/moveXYZW_action.cpp:43:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface_improved.h: No such file or directory
+   43 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveXYZW_action.dir/build.make:76: CMakeFiles/moveXYZW_action.dir/scripts/moveXYZW_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/moveXYZW_action.dir/all] Error 2
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_actions/scripts/moveR_action.cpp:43:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface_improved.h: No such file or directory
+   43 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveR_action.dir/build.make:76: CMakeFiles/moveR_action.dir/scripts/moveR_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/moveR_action.dir/all] Error 2
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_actions/scripts/moveRs_action.cpp:43:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface_improved.h: No such file or directory
+   43 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveRs_action.dir/build.make:76: CMakeFiles/moveRs_action.dir/scripts/moveRs_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:313: CMakeFiles/moveRs_action.dir/all] Error 2
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_actions/scripts/moveG_action.cpp:43:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface_improved.h: No such file or directory
+   43 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/yuritvr/PFC/wenis_ws/src/ros2_actions/scripts/moveL_action.cpp:43:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface_improved.h: No such file or directory
+   43 | #include [01;31m[K<moveit/move_group_interface/move_group_interface_improved.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveG_action.dir/build.make:76: CMakeFiles/moveG_action.dir/scripts/moveG_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/moveG_action.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/moveL_action.dir/build.make:76: CMakeFiles/moveL_action.dir/scripts/moveL_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/moveL_action.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

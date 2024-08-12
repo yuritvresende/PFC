@@ -1,0 +1,75 @@
+[0.044s] Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/new_arm_ws/src/ros2_RobotSimulation/Kuka/LBRiiwa/iiwa_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.287s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.453s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.453s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.454s] -- Detecting CXX compiler ABI info
+[0.611s] -- Detecting CXX compiler ABI info - done
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.625s] -- Detecting CXX compile features
+[0.626s] -- Detecting CXX compile features - done
+[0.630s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.904s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.077s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.224s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.232s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.234s] -- Added test 'lint_cmake' to check CMake code style
+[1.236s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.240s] -- Added test 'xmllint' to check XML markup files
+[1.243s] -- Configuring done
+[1.248s] -- Generating done
+[1.250s] -- Build files have been written to: /home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo
+[1.263s] Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/new_arm_ws/src/ros2_RobotSimulation/Kuka/LBRiiwa/iiwa_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo
+[1.264s] Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo -- -j8 -l8
+[1.326s] Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo -- -j8 -l8
+[1.379s] Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo
+[1.391s] -- Install configuration: ""
+[1.392s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/config
+[1.392s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/config/iiwa_controller.yaml
+[1.392s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/launch
+[1.392s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/launch/iiwa_simulation.launch.py
+[1.393s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/urdf
+[1.394s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/urdf/iiwa_ros2control.xacro
+[1.396s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/urdf/iiwa.urdf.xacro
+[1.397s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/urdf/iiwa_transmission.xacro
+[1.397s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/urdf/iiwa_macro.urdf.xacro
+[1.398s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/worlds
+[1.398s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/worlds/iiwa.world
+[1.400s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes
+[1.400s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual
+[1.400s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual/link_3.dae
+[1.400s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual/link_2.dae
+[1.401s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual/link_4.dae
+[1.401s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual/link_1.dae
+[1.401s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual/link_7.dae
+[1.405s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual/base_link.dae
+[1.405s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual/link_6.dae
+[1.408s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/visual/link_5.dae
+[1.409s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision
+[1.409s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision/link_4.stl
+[1.411s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision/base_link.stl
+[1.411s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision/link_2.stl
+[1.412s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision/link_6.stl
+[1.412s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision/link_1.stl
+[1.413s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision/link_5.stl
+[1.413s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision/link_7.stl
+[1.413s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/meshes/collision/link_3.stl
+[1.413s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/iiwa_ros2_gazebo
+[1.414s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/iiwa_ros2_gazebo
+[1.414s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/environment/ament_prefix_path.sh
+[1.414s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/environment/ament_prefix_path.dsv
+[1.415s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/environment/path.sh
+[1.420s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/environment/path.dsv
+[1.420s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/local_setup.bash
+[1.420s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/local_setup.sh
+[1.421s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/local_setup.zsh
+[1.421s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/local_setup.dsv
+[1.421s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/package.dsv
+[1.421s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/ament_index/resource_index/packages/iiwa_ros2_gazebo
+[1.421s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/cmake/iiwa_ros2_gazeboConfig.cmake
+[1.421s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/cmake/iiwa_ros2_gazeboConfig-version.cmake
+[1.422s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/iiwa_ros2_gazebo/share/iiwa_ros2_gazebo/package.xml
+[1.432s] Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/iiwa_ros2_gazebo

@@ -1,0 +1,236 @@
+[0.023s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/ros2_grasping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_grasping -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/ros2_grasping
+[0.144s] -- The C compiler identification is GNU 11.4.0
+[0.371s] -- The CXX compiler identification is GNU 11.4.0
+[0.397s] -- Detecting C compiler ABI info
+[0.603s] -- Detecting C compiler ABI info - done
+[0.619s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.620s] -- Detecting C compile features
+[0.621s] -- Detecting C compile features - done
+[0.630s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.876s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.877s] -- Detecting CXX compile features
+[0.878s] -- Detecting CXX compile features - done
+[0.882s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.212s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.447s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.665s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.695s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.631s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.385s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.387s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.429s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.430s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.430s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.430s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.454s] -- Found PythonExtra: .so  
+[3.503s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.507s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.509s] -- Added test 'lint_cmake' to check CMake code style
+[3.511s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.515s] -- Added test 'xmllint' to check XML markup files
+[3.522s] -- Configuring done
+[3.566s] -- Generating done
+[3.569s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/ros2_grasping
+[3.580s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_grasping -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/ros2_grasping
+[3.581s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/ros2_grasping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/ros2_grasping -- -j8 -l8
+[3.646s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.663s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.675s] [  6%] Built target ament_cmake_python_copy_ros2_grasping
+[4.102s] running egg_info
+[4.103s] creating ros2_grasping.egg-info
+[4.103s] writing ros2_grasping.egg-info/PKG-INFO
+[4.103s] writing dependency_links to ros2_grasping.egg-info/dependency_links.txt
+[4.104s] writing top-level names to ros2_grasping.egg-info/top_level.txt
+[4.104s] writing manifest file 'ros2_grasping.egg-info/SOURCES.txt'
+[4.107s] reading manifest file 'ros2_grasping.egg-info/SOURCES.txt'
+[4.108s] writing manifest file 'ros2_grasping.egg-info/SOURCES.txt'
+[4.157s] [  6%] Built target ament_cmake_python_build_ros2_grasping_egg
+[4.380s] [  6%] Built target ros2_grasping__cpp
+[4.399s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.399s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.400s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.502s] [ 19%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_generator_c.dir/rosidl_generator_c/ros2_grasping/action/detail/attacher__functions.c.o[0m
+[4.775s] [ 22%] [32m[1mLinking C shared library libros2_grasping__rosidl_generator_c.so[0m
+[4.858s] [ 22%] Built target ros2_grasping__rosidl_generator_c
+[4.879s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.885s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.897s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.142s] [ 35%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_grasping/action/attacher__type_support.cpp.o[0m
+[5.152s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_grasping/action/detail/attacher__type_support.cpp.o[0m
+[5.304s] [ 41%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_grasping/action/detail/dds_fastrtps/attacher__type_support.cpp.o[0m
+[5.713s] [ 45%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_grasping/action/attacher__type_support.cpp.o[0m
+[5.859s] [ 48%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_c.so[0m
+[5.869s] [ 51%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_grasping/action/detail/attacher__type_support.c.o[0m
+[5.974s] [ 54%] [32m[1mLinking C shared library libros2_grasping__rosidl_typesupport_introspection_c.so[0m
+[5.983s] [ 58%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_grasping/action/detail/attacher__type_support_c.cpp.o[0m
+[6.054s] [ 58%] Built target ros2_grasping__rosidl_typesupport_c
+[6.098s] [ 58%] Built target ros2_grasping__rosidl_typesupport_introspection_c
+[6.208s] [ 61%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_cpp.so[0m
+[6.298s] [ 61%] Built target ros2_grasping__rosidl_typesupport_cpp
+[6.493s] [ 64%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_introspection_cpp.so[0m
+[6.517s] [ 67%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.682s] [ 67%] Built target ros2_grasping__rosidl_typesupport_introspection_cpp
+[6.683s] [ 67%] Built target ros2_grasping__rosidl_typesupport_fastrtps_cpp
+[6.712s] [ 70%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_fastrtps_c.so[0m
+[6.841s] [ 70%] Built target ros2_grasping__rosidl_typesupport_fastrtps_c
+[6.890s] [ 70%] Built target ros2_grasping
+[6.929s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.017s] [ 74%] Built target ros2_grasping__py
+[9.070s] [ 77%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_generator_py.dir/rosidl_generator_py/ros2_grasping/action/_attacher_s.c.o[0m
+[9.415s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ros2_grasping/libros2_grasping__rosidl_generator_py.so[0m
+[9.507s] [ 80%] Built target ros2_grasping__rosidl_generator_py
+[9.571s] [ 83%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.573s] [ 87%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.627s] [ 90%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_c.c.o[0m
+[9.944s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.945s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.982s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.107s] [100%] Built target ros2_grasping__rosidl_typesupport_fastrtps_c__pyext
+[10.111s] [100%] Built target ros2_grasping__rosidl_typesupport_c__pyext
+[10.141s] [100%] Built target ros2_grasping__rosidl_typesupport_introspection_c__pyext
+[10.177s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/ros2_grasping -- -j8 -l8
+[10.356s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/ros2_grasping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/ros2_grasping
+[10.378s] -- Install configuration: ""
+[10.378s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/urdf
+[10.379s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/urdf/box.urdf
+[10.379s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ament_index/resource_index/rosidl_interfaces/ros2_grasping
+[10.380s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[10.380s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[10.380s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_generator_c__visibility_control.h
+[10.381s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[10.381s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/attacher.h
+[10.381s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[10.382s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.h
+[10.382s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__functions.c
+[10.382s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__struct.h
+[10.382s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__functions.h
+[10.383s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/environment/library_path.sh
+[10.383s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/environment/library_path.dsv
+[10.384s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_c.so
+[10.385s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_c.so" to ""
+[10.385s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[10.385s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[10.385s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.385s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[10.385s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[10.386s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_fastrtps_c.h
+[10.386s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_c.so
+[10.386s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_c.so" to ""
+[10.386s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[10.386s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[10.387s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.387s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[10.387s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[10.387s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_introspection_c.h
+[10.387s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.c
+[10.387s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_c.so
+[10.388s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_c.so" to ""
+[10.389s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_c.so
+[10.389s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_c.so" to ""
+[10.389s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[10.389s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[10.390s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/attacher.hpp
+[10.390s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[10.390s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__builder.hpp
+[10.390s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__traits.hpp
+[10.390s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__struct.hpp
+[10.390s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[10.390s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[10.391s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.391s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[10.391s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[10.391s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/dds_fastrtps
+[10.391s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_fastrtps_cpp.hpp
+[10.391s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_cpp.so
+[10.392s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.392s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[10.392s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[10.392s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[10.392s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.cpp
+[10.393s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_introspection_cpp.hpp
+[10.393s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_cpp.so
+[10.393s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_cpp.so" to ""
+[10.393s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_cpp.so
+[10.394s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_cpp.so" to ""
+[10.394s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/environment/pythonpath.sh
+[10.394s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/environment/pythonpath.dsv
+[10.394s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info
+[10.395s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.395s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/top_level.txt
+[10.395s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.395s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/PKG-INFO
+[10.395s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping
+[10.396s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.396s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.396s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_introspection_c.c
+[10.396s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_c.c
+[10.397s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/libros2_grasping__rosidl_generator_py.so
+[10.397s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/__init__.py
+[10.397s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.397s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action
+[10.397s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher.py
+[10.398s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/__init__.py
+[10.398s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher_s.c
+[10.398s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.534s] Listing '/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping'...
+[10.535s] Compiling '/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/__init__.py'...
+[10.535s] Listing '/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action'...
+[10.535s] Compiling '/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/__init__.py'...
+[10.535s] Compiling '/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher.py'...
+[10.543s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.543s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.543s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.544s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.545s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.545s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.545s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_py.so
+[10.546s] -- Set runtime path of "/home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_py.so" to ""
+[10.546s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/action/Attacher.idl
+[10.546s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/action/Attacher.action
+[10.547s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/ros2_grasping/attacher_action.py
+[10.547s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/lib/ros2_grasping/spawn_object.py
+[10.547s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ament_index/resource_index/package_run_dependencies/ros2_grasping
+[10.548s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ament_index/resource_index/parent_prefix_path/ros2_grasping
+[10.548s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/environment/ament_prefix_path.sh
+[10.548s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/environment/ament_prefix_path.dsv
+[10.548s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/environment/path.sh
+[10.549s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/environment/path.dsv
+[10.549s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/local_setup.bash
+[10.549s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/local_setup.sh
+[10.552s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/local_setup.zsh
+[10.552s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/local_setup.dsv
+[10.552s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/package.dsv
+[10.552s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ament_index/resource_index/packages/ros2_grasping
+[10.553s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cExport.cmake
+[10.553s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cExport-noconfig.cmake
+[10.553s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cExport.cmake
+[10.553s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.553s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cExport.cmake
+[10.553s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.553s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cExport.cmake
+[10.554s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cExport-noconfig.cmake
+[10.554s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cppExport.cmake
+[10.554s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.555s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.555s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cppExport.cmake
+[10.555s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.555s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cppExport.cmake
+[10.555s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cppExport-noconfig.cmake
+[10.557s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_pyExport.cmake
+[10.558s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_pyExport-noconfig.cmake
+[10.558s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake-extras.cmake
+[10.558s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.558s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.559s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_libraries-extras.cmake
+[10.559s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_targets-extras.cmake
+[10.559s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.559s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.559s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_graspingConfig.cmake
+[10.559s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_graspingConfig-version.cmake
+[10.559s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/ros2_grasping/share/ros2_grasping/package.xml
+[10.567s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/ros2_grasping

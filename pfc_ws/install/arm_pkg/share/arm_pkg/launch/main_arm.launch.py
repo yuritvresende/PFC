@@ -8,26 +8,26 @@ from setuptools import setup
 
 package_name = 'arm_pkg'
 
-setup(
-    name=package_name,
-    version='0.0.1',
-    packages=[package_name],
-    py_modules=[
-        'joint_trajectory_publisher',
-    ],
-    install_requires=['setuptools'],
-    zip_safe=True,
-    maintainer='your_name',
-    maintainer_email='your_email@example.com',
-    description='Your package description',
-    license='License',
-    tests_require=['pytest'],
-    entry_points={
-        'console_scripts': [
-            'joint_trajectory_publisher = joint_trajectory_publisher:main',  # Adapte conforme necessário
-        ],
-    },
-)
+# setup(
+#     name=package_name,
+#     version='0.0.1',
+#     packages=[package_name],
+#     py_modules=[
+#         'joint_trajectory_publisher',
+#     ],
+#     install_requires=['setuptools'],
+#     zip_safe=True,
+#     maintainer='your_name',
+#     maintainer_email='your_email@example.com',
+#     description='Your package description',
+#     license='License',
+#     tests_require=['pytest'],
+#     entry_points={
+#         'console_scripts': [
+#             'joint_trajectory_publisher = joint_trajectory_publisher:main',  # Adapte conforme necessário
+#         ],
+#     },
+# )
 
 
 def generate_launch_description():

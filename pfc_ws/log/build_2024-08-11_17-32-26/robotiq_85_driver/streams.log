@@ -1,0 +1,67 @@
+[1.028s] Invoking command in '/home/yuritvr/PFC/pfc_ws/src/robotiq_85_gripper/robotiq_85_driver': AMENT_PREFIX_PATH=/home/yuritvr/PFC/pfc_ws/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuritvr/PFC/pfc_ws/install/robotiq_85_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yuritvr/PFC/pfc_ws/install/robotiq_85_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/robotiq_85_driver build --build-base /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build install --record /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/install.log --install-scripts $base/lib/robotiq_85_driver --single-version-externally-managed install_data
+[1.385s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.385s]   warnings.warn(
+[1.397s] running egg_info
+[1.398s] creating ../../../build/robotiq_85_driver/robotiq_85_driver.egg-info
+[1.398s] writing ../../../build/robotiq_85_driver/robotiq_85_driver.egg-info/PKG-INFO
+[1.399s] writing dependency_links to ../../../build/robotiq_85_driver/robotiq_85_driver.egg-info/dependency_links.txt
+[1.399s] writing entry points to ../../../build/robotiq_85_driver/robotiq_85_driver.egg-info/entry_points.txt
+[1.399s] writing requirements to ../../../build/robotiq_85_driver/robotiq_85_driver.egg-info/requires.txt
+[1.400s] writing top-level names to ../../../build/robotiq_85_driver/robotiq_85_driver.egg-info/top_level.txt
+[1.400s] writing manifest file '../../../build/robotiq_85_driver/robotiq_85_driver.egg-info/SOURCES.txt'
+[1.403s] reading manifest file '../../../build/robotiq_85_driver/robotiq_85_driver.egg-info/SOURCES.txt'
+[1.405s] writing manifest file '../../../build/robotiq_85_driver/robotiq_85_driver.egg-info/SOURCES.txt'
+[1.406s] running build
+[1.406s] running build_py
+[1.406s] creating /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build
+[1.406s] creating /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib
+[1.407s] creating /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver
+[1.407s] copying robotiq_85_driver/robotiq_85_test_close.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver
+[1.407s] copying robotiq_85_driver/robotiq_85_driver.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver
+[1.407s] copying robotiq_85_driver/robotiq_85_test.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver
+[1.408s] copying robotiq_85_driver/__init__.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver
+[1.408s] copying robotiq_85_driver/single_robotiq_85_action_server.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver
+[1.408s] creating /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver
+[1.408s] copying robotiq_85_driver/driver/modbus_crc.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver
+[1.409s] copying robotiq_85_driver/driver/robotiq_85_gripper.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver
+[1.409s] copying robotiq_85_driver/driver/gripper_io.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver
+[1.409s] copying robotiq_85_driver/driver/__init__.py -> /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver
+[1.409s] running install
+[1.410s] running install_lib
+[1.411s] creating /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver
+[1.412s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/robotiq_85_test_close.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver
+[1.412s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/robotiq_85_driver.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver
+[1.412s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/robotiq_85_test.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver
+[1.413s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/__init__.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver
+[1.413s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/single_robotiq_85_action_server.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver
+[1.413s] creating /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver
+[1.413s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver/modbus_crc.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver
+[1.413s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver/robotiq_85_gripper.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver
+[1.414s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver/gripper_io.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver
+[1.414s] copying /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build/lib/robotiq_85_driver/driver/__init__.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver
+[1.415s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/robotiq_85_test_close.py to robotiq_85_test_close.cpython-310.pyc
+[1.416s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/robotiq_85_driver.py to robotiq_85_driver.cpython-310.pyc
+[1.418s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/robotiq_85_test.py to robotiq_85_test.cpython-310.pyc
+[1.420s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/__init__.py to __init__.cpython-310.pyc
+[1.420s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/single_robotiq_85_action_server.py to single_robotiq_85_action_server.cpython-310.pyc
+[1.421s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver/modbus_crc.py to modbus_crc.cpython-310.pyc
+[1.423s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver/robotiq_85_gripper.py to robotiq_85_gripper.cpython-310.pyc
+[1.424s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver/gripper_io.py to gripper_io.cpython-310.pyc
+[1.426s] byte-compiling /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver/driver/__init__.py to __init__.cpython-310.pyc
+[1.426s] running install_data
+[1.426s] creating /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/share/ament_index
+[1.426s] creating /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/share/ament_index/resource_index
+[1.427s] creating /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/share/ament_index/resource_index/packages
+[1.427s] copying resource/robotiq_85_driver -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/share/ament_index/resource_index/packages
+[1.427s] copying package.xml -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/share/robotiq_85_driver
+[1.427s] creating /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/share/robotiq_85_driver/launch
+[1.427s] copying launch/gripper_driver.launch.py -> /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/share/robotiq_85_driver/launch
+[1.428s] running install_egg_info
+[1.430s] Copying ../../../build/robotiq_85_driver/robotiq_85_driver.egg-info to /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq_85_driver-1.0.0-py3.10.egg-info
+[1.431s] running install_scripts
+[1.462s] Installing robotiq_85_driver script to /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/robotiq_85_driver
+[1.462s] Installing robotiq_85_test script to /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/robotiq_85_driver
+[1.462s] Installing robotiq_85_test_close script to /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/robotiq_85_driver
+[1.462s] Installing single_robotiq_85_action_server script to /home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/robotiq_85_driver
+[1.463s] writing list of installed files to '/home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/install.log'
+[1.491s] Invoked command in '/home/yuritvr/PFC/pfc_ws/src/robotiq_85_gripper/robotiq_85_driver' returned '0': AMENT_PREFIX_PATH=/home/yuritvr/PFC/pfc_ws/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuritvr/PFC/pfc_ws/install/robotiq_85_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yuritvr/PFC/pfc_ws/install/robotiq_85_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver/lib/python3.10/site-packages:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/robotiq_85_driver build --build-base /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/build install --record /home/yuritvr/PFC/pfc_ws/build/robotiq_85_driver/install.log --install-scripts $base/lib/robotiq_85_driver --single-version-externally-managed install_data

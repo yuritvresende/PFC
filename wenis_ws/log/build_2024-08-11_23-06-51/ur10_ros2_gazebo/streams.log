@@ -1,0 +1,54 @@
+[0.040s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/ur10_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/ur10_ros2_gazebo -- -j8 -l8
+[0.224s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/ur10_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/ur10_ros2_gazebo -- -j8 -l8
+[0.421s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/ur10_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/ur10_ros2_gazebo
+[0.454s] -- Install configuration: ""
+[0.455s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/config
+[0.455s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/config/visual_parameters.yaml
+[0.455s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/config/joint_limits.yaml
+[0.455s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/config/default_kinematics.yaml
+[0.455s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/config/ur10_controller.yaml
+[0.456s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/config/physical_parameters.yaml
+[0.456s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/config/initial_positions.yaml
+[0.456s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/launch
+[0.456s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/launch/ur10_simulation.launch.py
+[0.456s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/urdf
+[0.456s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/urdf/ur10.urdf.xacro
+[0.456s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/urdf/ur10_macro.urdf.xacro
+[0.457s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/urdf/ur10_ros2control.xacro
+[0.461s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/urdf/ur10_transmission.xacro
+[0.463s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/urdf/ur10_common.xacro
+[0.465s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/worlds
+[0.469s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/worlds/ur10.world
+[0.470s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes
+[0.470s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/visual
+[0.471s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/visual/shoulder.dae
+[0.471s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/visual/wrist2.dae
+[0.471s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/visual/wrist3.dae
+[0.472s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/visual/forearm.dae
+[0.473s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/visual/base.dae
+[0.473s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/visual/wrist1.dae
+[0.473s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/visual/upperarm.dae
+[0.473s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/collision
+[0.473s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/collision/wrist1.stl
+[0.473s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/collision/base.stl
+[0.473s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/collision/wrist2.stl
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/collision/forearm.stl
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/collision/wrist3.stl
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/collision/upperarm.stl
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/meshes/collision/shoulder.stl
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/ur10_ros2_gazebo
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/ur10_ros2_gazebo
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/environment/ament_prefix_path.sh
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/environment/ament_prefix_path.dsv
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/environment/path.sh
+[0.474s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/environment/path.dsv
+[0.475s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/local_setup.bash
+[0.475s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/local_setup.sh
+[0.475s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/local_setup.zsh
+[0.475s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/local_setup.dsv
+[0.475s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/package.dsv
+[0.475s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ament_index/resource_index/packages/ur10_ros2_gazebo
+[0.475s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/cmake/ur10_ros2_gazeboConfig.cmake
+[0.476s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/cmake/ur10_ros2_gazeboConfig-version.cmake
+[0.476s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/ur10_ros2_gazebo/share/ur10_ros2_gazebo/package.xml
+[0.485s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/ur10_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/ur10_ros2_gazebo

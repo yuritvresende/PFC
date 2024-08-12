@@ -1,0 +1,38 @@
+[0.113s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/robotiq_85_gripper/robotiq_85_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/robotiq_85_msgs
+[0.190s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.498s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.621s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.626s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.660s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.768s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.793s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.452s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.595s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.647s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.647s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.648s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.796s] -- Configuring done
+[2.868s] -- Generating done
+[2.874s] -- Build files have been written to: /home/yuritvr/PFC/wenis_ws/build/robotiq_85_msgs
+[2.890s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/robotiq_85_gripper/robotiq_85_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/robotiq_85_msgs
+[2.892s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/robotiq_85_msgs -- -j8 -l8
+[3.144s] [  2%] Built target robotiq_85_msgs__cpp
+[3.144s] [35m[1mConsolidate compiler generated dependencies of target robotiq_85_msgs__rosidl_generator_c[0m
+[3.144s] [35m[1mConsolidate compiler generated dependencies of target robotiq_85_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.149s] [35m[1mConsolidate compiler generated dependencies of target robotiq_85_msgs__rosidl_typesupport_cpp[0m
+[3.149s] [35m[1mConsolidate compiler generated dependencies of target robotiq_85_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.149s] [ 12%] Built target robotiq_85_msgs__rosidl_generator_c
+[3.150s] [ 23%] Built target robotiq_85_msgs__rosidl_typesupport_fastrtps_cpp
+[3.150s] failed to create symbolic link '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_msgs/ament_cmake_python/robotiq_85_msgs/robotiq_85_msgs' because existing path cannot be removed: Is a directory
+[3.151s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_robotiq_85_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_robotiq_85_msgs] Error 1
+[3.151s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_robotiq_85_msgs.dir/all] Error 2
+[3.151s] gmake[1]: *** Waiting for unfinished jobs....
+[3.154s] [ 33%] Built target robotiq_85_msgs__rosidl_typesupport_cpp
+[3.161s] [ 43%] Built target robotiq_85_msgs__rosidl_typesupport_introspection_cpp
+[3.164s] gmake: *** [Makefile:146: all] Error 2
+[3.192s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/wenis_ws/install/robotiq_85_driver:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/robotiq_85_msgs -- -j8 -l8

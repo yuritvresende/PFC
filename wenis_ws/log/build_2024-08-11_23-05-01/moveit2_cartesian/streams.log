@@ -1,0 +1,25 @@
+[0.056s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8
+[1.088s] [35m[1mConsolidate compiler generated dependencies of target cartesian_path[0m
+[1.088s] [100%] Built target cartesian_path
+[1.154s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8
+[1.220s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian
+[1.238s] -- Install configuration: ""
+[1.238s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/lib/moveit2_cartesian/cartesian_path
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/launch
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/launch/cartesian_path.launch.py
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/package_run_dependencies/moveit2_cartesian
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/parent_prefix_path/moveit2_cartesian
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/ament_prefix_path.sh
+[1.239s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/ament_prefix_path.dsv
+[1.240s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/path.sh
+[1.240s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/environment/path.dsv
+[1.240s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.bash
+[1.240s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.sh
+[1.240s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.zsh
+[1.240s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/local_setup.dsv
+[1.240s] -- Installing: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.dsv
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/ament_index/resource_index/packages/moveit2_cartesian
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/cmake/moveit2_cartesianConfig.cmake
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/cmake/moveit2_cartesianConfig-version.cmake
+[1.241s] -- Up-to-date: /home/yuritvr/PFC/wenis_ws/install/moveit2_cartesian/share/moveit2_cartesian/package.xml
+[1.247s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian

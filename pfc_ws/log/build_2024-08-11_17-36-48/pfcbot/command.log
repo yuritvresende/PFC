@@ -1,0 +1,4 @@
+Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/pfcbot -- -j8 -l8
+Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/pfcbot -- -j8 -l8
+Invoking command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/pfcbot
+Invoked command in '/home/yuritvr/PFC/pfc_ws/build/pfcbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuritvr/PFC/pfc_ws/install/robotiq_85_driver:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/pfcbot

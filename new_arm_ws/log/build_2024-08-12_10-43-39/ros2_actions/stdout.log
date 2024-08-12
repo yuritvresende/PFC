@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target moveG_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveJs_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveXYZW_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveL_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveXYZ_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveJ_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveR_action[0m
+[35m[1mConsolidate compiler generated dependencies of target moveRs_action[0m
+[  4%] [32mBuilding CXX object CMakeFiles/moveG_action.dir/scripts/moveG_action.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/moveJs_action.dir/scripts/moveJs_action.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/moveXYZ_action.dir/scripts/moveXYZ_action.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moveXYZW_action.dir/scripts/moveXYZW_action.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/moveL_action.dir/scripts/moveL_action.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moveJ_action.dir/scripts/moveJ_action.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/moveR_action.dir/scripts/moveR_action.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moveRs_action.dir/scripts/moveRs_action.cpp.o[0m

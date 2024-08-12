@@ -1,0 +1,136 @@
+[0.246s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/yuritvr/PFC/pfc_ws']
+[0.246s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/yuritvr/PFC/pfc_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ba6f73a3370>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7ba6f75a3e80>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7ba6f75a3e80>>, mixin_verb=('list',))
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.587s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuritvr/PFC/pfc_ws'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/build) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/build) ignored
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/install) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/install) ignored
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/log) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/log) ignored
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/arm_pkg' with type 'ros.ament_cmake' and name 'arm_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/arm_pkg_moveit_config' with type 'ros.ament_cmake' and name 'moveit_config'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/manipulator_ros1_to_ros2' with type 'ros.ament_cmake' and name 'manipulator_ros1_to_ros2'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/moveit2_scripts' with type 'ros.ament_cmake' and name 'moveit2_scripts'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot) by extension 'ros'
+[0.637s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/pfcbot' with type 'ros.ament_cmake' and name 'pfcbot'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config) by extension 'ros'
+[0.641s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/pfcbot_moveit_config' with type 'ros.ament_cmake' and name 'pfcbot_moveit_config'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing) by extension 'ros'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/testing' with type 'ros.ament_cmake' and name 'testing'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/testing_config) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/testing_config' with type 'ros.ament_cmake' and name 'testing_config'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yuritvr/PFC/pfc_ws/src/xarm_description) by extension 'ros'
+[0.650s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yuritvr/PFC/pfc_ws/src/xarm_description' with type 'ros.ament_cmake' and name 'xarm_description'
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

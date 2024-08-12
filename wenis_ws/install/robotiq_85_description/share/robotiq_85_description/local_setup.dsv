@@ -1,2 +1,1 @@
-source;share/robotiq_85_description/environment/ament_prefix_path.sh
-source;share/robotiq_85_description/environment/path.sh
+/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description/ament_cmake_environment_hooks/local_setup.dsv

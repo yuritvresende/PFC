@@ -1,0 +1,39 @@
+[0.027s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/testing -- -j8 -l8
+[0.095s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/pfc_ws/build/testing -- -j8 -l8
+[0.175s] Invoking command in '/home/yuritvr/PFC/pfc_ws/build/testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/testing
+[0.213s] -- Install configuration: ""
+[0.213s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf
+[0.213s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/robot.xacro
+[0.213s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/pfcbot.xacro
+[0.213s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/robot.gazebo
+[0.214s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/materials.xacro
+[0.214s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/pfcbot.gazebo
+[0.214s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//urdf/platform.xacro
+[0.214s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch
+[0.214s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_controller.launch.py
+[0.214s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/platform.launch.py
+[0.215s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/robot_gazebo_view.launch
+[0.215s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_moveit.launch.py
+[0.215s] -- Installing: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/gazebo_model.launch.py
+[0.215s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/spawn_platform.launch.py
+[0.215s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/pfcbot.launch.py
+[0.215s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/start_world.launch.py
+[0.215s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//launch/spawn_pfcbot.launch.py
+[0.216s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//config
+[0.216s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing//config/simple_controller.yaml
+[0.216s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/ament_index/resource_index/package_run_dependencies/testing
+[0.216s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/ament_index/resource_index/parent_prefix_path/testing
+[0.216s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/environment/ament_prefix_path.dsv
+[0.216s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/environment/path.sh
+[0.217s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/environment/path.dsv
+[0.217s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/local_setup.bash
+[0.217s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/local_setup.sh
+[0.217s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/local_setup.zsh
+[0.217s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/local_setup.dsv
+[0.217s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/package.dsv
+[0.218s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/ament_index/resource_index/packages/testing
+[0.219s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/cmake/testingConfig.cmake
+[0.219s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/cmake/testingConfig-version.cmake
+[0.219s] -- Up-to-date: /home/yuritvr/PFC/pfc_ws/install/testing/share/testing/package.xml
+[0.227s] Invoked command in '/home/yuritvr/PFC/pfc_ws/build/testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/pfc_ws/build/testing

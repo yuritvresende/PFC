@@ -1,0 +1,76 @@
+[0.046s] Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/new_arm_ws/src/ros2_RobotSimulation/Fanuc/CR35iA/cr35ia_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.443s] -- Detecting C compiler ABI info - done
+[0.460s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.460s] -- Detecting C compile features
+[0.461s] -- Detecting C compile features - done
+[0.466s] -- Detecting CXX compiler ABI info
+[0.625s] -- Detecting CXX compiler ABI info - done
+[0.647s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.647s] -- Detecting CXX compile features
+[0.648s] -- Detecting CXX compile features - done
+[0.654s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.935s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.104s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.259s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.270s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.271s] -- Added test 'lint_cmake' to check CMake code style
+[1.271s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.279s] -- Added test 'xmllint' to check XML markup files
+[1.280s] -- Configuring done
+[1.283s] -- Generating done
+[1.285s] -- Build files have been written to: /home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo
+[1.296s] Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/new_arm_ws/src/ros2_RobotSimulation/Fanuc/CR35iA/cr35ia_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo
+[1.298s] Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo -- -j8 -l8
+[1.363s] Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo -- -j8 -l8
+[1.415s] Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo
+[1.441s] -- Install configuration: ""
+[1.441s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/config
+[1.441s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/config/cr35ia_controller.yaml
+[1.441s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/launch
+[1.442s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/launch/cr35ia_simulation.launch.py
+[1.443s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf
+[1.443s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_transmission.xacro
+[1.445s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia.urdf.xacro
+[1.445s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_ros2control.xacro
+[1.445s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_macro.urdf.xacro
+[1.446s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources
+[1.446s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources/common_materials.xacro
+[1.447s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources/common_colours.xacro
+[1.447s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/worlds
+[1.447s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/worlds/cr35ia.world
+[1.448s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes
+[1.449s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual
+[1.449s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_4.stl
+[1.451s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/base_link.stl
+[1.452s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_2.stl
+[1.452s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_6.stl
+[1.453s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_1.stl
+[1.455s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_5.stl
+[1.456s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_3.stl
+[1.457s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision
+[1.458s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_4.stl
+[1.459s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/base_link.stl
+[1.461s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_2.stl
+[1.464s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_6.stl
+[1.464s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_1.stl
+[1.465s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_5.stl
+[1.466s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_3.stl
+[1.467s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/cr35ia_ros2_gazebo
+[1.467s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/cr35ia_ros2_gazebo
+[1.467s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/ament_prefix_path.sh
+[1.470s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/ament_prefix_path.dsv
+[1.470s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/path.sh
+[1.471s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/path.dsv
+[1.471s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.bash
+[1.471s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.sh
+[1.471s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.zsh
+[1.471s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.dsv
+[1.474s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/package.dsv
+[1.475s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/packages/cr35ia_ros2_gazebo
+[1.476s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/cmake/cr35ia_ros2_gazeboConfig.cmake
+[1.477s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/cmake/cr35ia_ros2_gazeboConfig-version.cmake
+[1.477s] -- Installing: /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/package.xml
+[1.488s] Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/cr35ia_ros2_gazebo

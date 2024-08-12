@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_grasping",
+  "non_idl_tuples": [
+    "/home/yuritvr/PFC/wenis_ws/src/ros2_grasping:action/Attacher.action"
+  ]
+}
