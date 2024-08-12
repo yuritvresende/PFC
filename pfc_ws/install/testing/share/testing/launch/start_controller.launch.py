@@ -14,6 +14,7 @@ def generate_launch_description():
         executable="spawner",
         arguments=["joint_state_broadcaster"],
         output="screen",
+        parameters=[{'use_sim_time': True}],  # Enable simulation time
     )
 
     spawn_arm_controller = Node(
@@ -21,6 +22,7 @@ def generate_launch_description():
         executable="spawner",
         arguments=["joint_trajectory_controller"],
         output="screen",
+        parameters=[{'use_sim_time': True}],  # Enable simulation time
     )
 
     spawn_gripper_controller = Node(
@@ -28,6 +30,7 @@ def generate_launch_description():
         executable="spawner",
         arguments=["gripper_controller"],
         output="screen",
+        parameters=[{'use_sim_time': True}],
     )
     
 
@@ -53,6 +56,21 @@ def generate_launch_description():
         #    parameters=[{'use_sim_time': True}],
         #    arguments=['-s', 'libgazebo_ros_factory.so'],
         #),
+
+        Node(
+            package='controller_manager',
+            executable='spawner',
+            arguments=['arm_controller'],
+            output='screen',
+            parameters=[{'use_sim_time': True}],
+        ),
+
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            output='screen',
+            parameters=[{'use_sim_time': True}],  # Enable simulation time
+        ),
         
         # Launch robot_state_publisher to broadcast transforms
         Node(

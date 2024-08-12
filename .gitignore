@@ -2,5 +2,7 @@
 *.log
 
 # ignore ALL files in ANY directory named temp
-build/
-log/
+pfc_ws/build/
+pfc_ws/log/
+wenis_ws/build/
+wenis_ws/log/
