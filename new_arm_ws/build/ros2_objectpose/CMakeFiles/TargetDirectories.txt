@@ -1,0 +1,10 @@
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/uninstall.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/ros2_objectpose_uninstall.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/ros2_objectpose_plugin.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/test.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/edit_cache.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/rebuild_cache.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/list_install_components.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/install.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/install/local.dir
+/home/yuritvr/PFC/new_arm_ws/build/ros2_objectpose/CMakeFiles/install/strip.dir

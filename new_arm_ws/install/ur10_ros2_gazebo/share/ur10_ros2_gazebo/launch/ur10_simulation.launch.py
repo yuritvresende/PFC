@@ -155,15 +155,6 @@ def generate_launch_description():
         })
     robot_description_config = doc.toxml()
     robot_description = {'robot_description': robot_description_config}
-    
-    controller_manager = Node(
-	package="controller_manager",
-	executable="ros2_control_node",
-	parameters=[
-            robot_description,
-            {"use_sim_time": True}
-            ]
-	)
 
     # ROBOT STATE PUBLISHER NODE:
     node_robot_state_publisher = Node(

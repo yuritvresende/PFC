@@ -1,0 +1,6 @@
+{
+  "package_name": "objectpose_msgs",
+  "non_idl_tuples": [
+    "/home/yuritvr/PFC/new_arm_ws/IFRA_ObjectPose/objectpose_msgs:msg/ObjectPose.msg"
+  ]
+}
