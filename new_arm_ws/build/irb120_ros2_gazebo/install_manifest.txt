@@ -8,30 +8,20 @@
 /home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120_ros2control.xacro
 /home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120_macro.urdf.xacro
 /home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/worlds/irb120.world
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_4.stl
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/base_link.stl
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_2.stl
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_6.stl
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_1.stl
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_5.stl
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_3.stl
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - LEFT FINGER.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_3.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_2.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_4.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_1.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/base_link.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_6.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_5.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_RightFinger.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_LeftFingerBase.dae
 /home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/00. Schunk Gripper - Component POSES
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - RIGHT FINGER.dae
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - BASE.dae
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - BASE noAdapter.dae
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - Cranfield Robotics.STL
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - BASE.STL
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - LEFT FINGER BASE.STL
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - LEFT FINGER BASE.dae
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - RIGHT FINGER BASE.STL
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - RIGHT FINGER BASE.dae
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - BASE noAdapter.STL
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - ADAPTER.dae
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - LEFT FINGER.STL
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - ADAPTER.STL
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - Cranfield Robotics.dae
-/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/Schunk Gripper - RIGHT FINGER.STL
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_BaseNoAdapter.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_RightFingerBase.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_Adapter.dae
+/home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_LeftFinger.dae
 /home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/irb120_cell.dae
 /home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_4.stl
 /home/yuritvr/PFC/new_arm_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/base_link.stl

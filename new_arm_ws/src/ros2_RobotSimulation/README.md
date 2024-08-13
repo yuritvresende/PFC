@@ -49,7 +49,7 @@
 
   <br />
 
-  <h2 align="center">ROS2.0 ROBOT SIMULATION - ROS2.0 Foxy</h2>
+  <h2 align="center">ROS2.0 ROBOT SIMULATION - ROS2.0 Humble</h2>
 
   <p align="center">
     IFRA (Intelligent Flexible Robotics and Assembly) Group
@@ -74,7 +74,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#ros20-foxy-environment-set-up">ROS2.0 Foxy Environment Set-Up</a></li>
+        <li><a href="#ros20-humble-environment-set-up">ROS2.0 Humble Environment Set-Up</a></li>
         <li><a href="#import-and-install-ros2_robotsimulation-repository">Import and install ros2_RobotSimulation Repository</a></li>
       </ul>
     </li>
@@ -103,7 +103,7 @@
 
 The IFRA (Intelligent Flexible Robotics and Assembly) Group is part of the Centre for Robotics and Assembly at Cranfield University.
 
-IFRA Group pushes technical boundaries. At IFRA we provide high-tech automation & assembly solutions, and we support smart manufacturing with Smart Industry technologies and solutions. Flexible Manufacturing Systems (FMS) are a clear example. They can improve overall operations and throughput quality by adapting to real-time changes and situations, supporting and pushing the transition towards flexible, intelligent and responsive automation, which we continuously seek and support.
+IFRA Group pushes technical boundaries. At IFRA we provide high tech automation & assembly solutions, and we support smart manufacturing with Smart Industry technologies and solutions. Flexible Manufacturing Systems (FMS) are a clear example. They can improve overall operations and throughput quality by adapting to real-time changes and situations, supporting and pushing the transition towards flexible, intelligent and responsive automation, which we continuously seek and support.
 
 The IFRA Group undertakes innovative research to design, create and improve Intelligent, Responsive and Flexible automation & assembly solutions, and this series of GitHub repositories provide background information and resources of how these developments are supported.
 
@@ -133,11 +133,11 @@ The IFRA Group in Cranfield University (Bedfordshire, UK) has identified a huge 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-All packages in this repository have been developed, executed and tested in an Ubuntu 20.04 machine with ROS2.0 Foxy. Please find below all the required steps to set-up a ROS2.0 Foxy environment in Ubuntu and install the Robot Simulation packages.
+All packages in this repository have been developed, executed and tested in an Ubuntu 22.04 machine with ROS2.0 Humble. Please find below all the required steps to set-up a ROS2.0 Humble environment in Ubuntu and install the Robot Simulation packages.
 
-### ROS2.0 Foxy Environment Set-Up
+### ROS2.0 Humble Environment Set-Up
 
-1. Install Ubuntu 20.04: [https://ubuntu.com/desktop](https://ubuntu.com/desktop)
+1. Install Ubuntu 22.04: [https://ubuntu.com/desktop](https://ubuntu.com/desktop)
 2. Install Git:
     * In terminal shell:
         ```sh
@@ -151,21 +151,21 @@ All packages in this repository have been developed, executed and tested in an U
         git config --global core.editor code --wait # Visual Studio Code is recommended.
         git config --global credential.helper store
         ```
-3. Install ROS2.0 Foxy: 
-    * Follow instructions in: [ROS2 Foxy Tutorials - Installation](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
-    * Source the ROS2.0 Foxy installation in the .bashrc file (hidden file in /home):
+3. Install ROS2.0 Humble: 
+    * Follow instructions in: [ROS2 Humble Tutorials - Installation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
+    * Source the ROS2.0 Humble installation in the .bashrc file (hidden file in /home):
         ```sh
-        source opt/ros/foxy/setup.bash
+        source opt/ros/humble/setup.bash
         ```
-4. Install MoveIt!2 for ROS2 Foxy:
-    * Reference: [MoveIt!2 Foxy](https://moveit.picknik.ai/foxy/index.html)
+4. Install MoveIt!2 for ROS2 Humble:
+    * Reference: [MoveIt!2 Humble](https://moveit.picknik.ai/humble/index.html)
     * Command for [binary install](https://moveit.ros.org/install-moveit2/binary):
         ```sh
-        sudo apt install ros-foxy-moveit
+        sudo apt install ros-humble-moveit
         # Binaries are recommended for a cleaner MoveIt!2 install and usage.
         ```
-5. Create and configure the ROS2.0 Foxy ~/dev_ws environment/workspace:
-    * Follow instructions in: [ROS2 Foxy Tutorials - Create a Workspace](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html)
+5. Create and configure the ROS2.0 Humble ~/dev_ws environment/workspace:
+    * Follow instructions in: [ROS2 Humble Tutorials - Create a Workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html)
     * Source ~/dev_ws workspace in .bashrc file:
         ```sh
         source ~/dev_ws/install/local_setup.bash
@@ -173,33 +173,38 @@ All packages in this repository have been developed, executed and tested in an U
 6. Install ROS2 packages, which are required to launch ROS2 Robot Simulation and Control environments:
     * ROS2 Control:
         ```sh
-        sudo apt install ros-foxy-ros2-control
+        sudo apt install ros-humble-ros2-control
         ```
     * ROS2 Controllers:
         ```sh
-        sudo apt install ros-foxy-ros2-controllers
-        sudo apt install ros-foxy-gripper-controllers
+        sudo apt install ros-humble-ros2-controllers
+        sudo apt install ros-humble-gripper-controllers
         ```
     * Gazebo-ROS2:
         ```sh
-        sudo apt install gazebo11
-        sudo apt install ros-foxy-gazebo-ros2-control
-        sudo apt install ros-foxy-gazebo-ros-pkgs
+        sudo apt install gazebo
+        sudo apt install ros-humble-gazebo-ros2-control
+        sudo apt install ros-humble-gazebo-ros-pkgs
         ```
     * xacro:
         ```sh
-        sudo apt install ros-foxy-xacro
+        sudo apt install ros-humble-xacro
+        ```
+    * Fix cycle time issues in humble-moveit (temporary fix):
+        ```sh
+        sudo apt install ros-humble-rmw-cyclonedds-cpp
+        Add into .bashrc file -> export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
         ```
 
 
 ### Import and install ros2_RobotSimulation Repository
 Required to run ros2_RobotSimulation ROS2.0 packages:
 
-7. A small improvement of the move_group_interface.h file has been developed in order to execute the Robot/Gripper triggers in this repository. Both the upgraded file and the instructions of how to implement it can be found here: [move_group_interface_improved.h](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/include)
+7. A small improvement of the move_group_interface.h file has been developed in order to execute the Robot/Gripper triggers in this repository. Both the upgraded file and the instructions of how to implement it can be found here: [move_group_interface_improved.h](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/include)
 8. Installation:
     ```sh
     cd ~/dev_ws/src
-    git clone https://github.com/IFRA-Cranfield/ros2_RobotSimulation.git 
+    git clone https://github.com/IFRA-Cranfield/ros2_RobotSimulation.git -b humble
     cd ~/dev_ws/
     colcon build
     ```
@@ -210,16 +215,16 @@ Required to run ros2_RobotSimulation ROS2.0 packages:
 ## Supported Robots
 
 The Simulation & Control packages of the following Robots are currently available:
-- [Panda Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/PandaRobot)
-- [ABB IRB-120 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/ABBRobots/IRB120)
-- [ABB IRB-120 Robot with Schunk EGP-64 Gripper](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/ABBRobots/IRB120)
-- [ABB IRB-1200 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/ABBRobots/IRB1200)
-- [ABB IRB-6640 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/ABBRobots/IRB6640)
-- [UR3 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/UniversalRobots/UR3)
-- [UR5 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/UniversalRobots/UR5)
-- [UR10 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/UniversalRobots/UR10)
-- [Fanuc CR35-iA Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/Fanuc/CR35iA)
-- [Kuka LBR-IIWA](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/Kuka/LBRiiwa)
+- [Panda Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/PandaRobot)
+- [ABB IRB-120 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/ABBRobots/IRB120)
+- [ABB IRB-120 Robot with Schunk EGP-64 Gripper](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/ABBRobots/IRB120)
+- [ABB IRB-1200 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/ABBRobots/IRB1200)
+- [ABB IRB-6640 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/ABBRobots/IRB6640)
+- [UR3 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/UniversalRobots/UR3)
+- [UR5 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/UniversalRobots/UR5)
+- [UR10 Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/UniversalRobots/UR10)
+- [Fanuc CR35-iA Robot](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/Fanuc/CR35iA) - {not working}
+- [Kuka LBR-IIWA](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/Kuka/LBRiiwa) - {not working}
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -227,17 +232,17 @@ The Simulation & Control packages of the following Robots are currently availabl
 ## ROS2 Packages 
 
 ### ros2_data
-This repository contains all the custom data structures that are used for the ROS2 Robot Actions/Triggers in ros2_RobotSimulation. Every single ROS2 Action that is used to trigger a robot movement refers to a .action data structure, which contains all the data needed to run that specidic action. For further detail, please click [here](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/ros2_data).
+This repository contains all the custom data structures that are used for the ROS2 Robot Actions/Triggers in ros2_RobotSimulation. Every single ROS2 Action that is used to trigger a robot movement refers to a .action data structure, which contains all the data needed to run that specidic action. For further detail, please click [here](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/ros2_data).
 
 ### ros2_actions
-The ros2_actions package gathers all the ROS2 Action Servers that execute ROS2 Robot Actions/Triggers. Every specific robot movement is contained in a ROS2 Action Server (.cpp script), which can be externally "called" (triggered) and returns some feedback after the execution. For further detail, please click [here](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/ros2_actions).
+The ros2_actions package gathers all the ROS2 Action Servers that execute ROS2 Robot Actions/Triggers. Every specific robot movement is contained in a ROS2 Action Server (.cpp script), which can be externally "called" (triggered) and returns some feedback after the execution. For further detail, please click [here](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/ros2_actions).
 
 The following video shows how ROS2 Robot Action calls are done from the Ubuntu Terminal:
 
 https://user-images.githubusercontent.com/98389310/222485465-bbf4190a-7b26-41b8-8bbb-46c18407ac44.mp4
 
 ### ros2_execution
-It is a cool feature to be able to execute different ROS2 actions and trigger different movements in a Robot in Gazebo, but Robotics Applications are made of sequences that execute different commands one after the other. In a nutshell, that is what this ros2_execution package does. The ros2_execution.py script contains all the Action Clients that connect to the Action Servers generated in ros2_actions, and executes robot movements one after the other according to a pre-defined sequence, which is inputted as a .txt file. For further information, please click [here](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/ros2_execution).
+It is a cool feature to be able to execute different ROS2 actions and trigger different movements in a Robot in Gazebo, but Robotics Applications are made of sequences that execute different commands one after the other. In a nutshell, that is what this ros2_execution package does. The ros2_execution.py script contains all the Action Clients that connect to the Action Servers generated in ros2_actions, and executes robot movements one after the other according to a pre-defined sequence, which is inputted as a .txt file. For further information, please click [here](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/ros2_execution).
 
 One of the main advantages of using this ros2_execution package, combined with ros2_data/ros2_actions and the Robot Simulation packages contained in this repository, is that programs/sequences can be executed in the exact same way for different Robots, which is a completely novel feature and has been made possible thanks to the MoveIt!2 framework.
 
@@ -252,7 +257,7 @@ https://user-images.githubusercontent.com/98389310/222486828-5e74ca57-befb-417c-
 ### ros2_grasping
 Unfortunately, Gazebo and ROS2 do not provide an effective method to properly pick and place (manipulate) objects in simulation (if it exists, it has not been found). This feature is essential in order to test and simulate different applications, and that is the main reason why this ros2_grasping package has been created.
 
-The attacher_action.py script contains a ROS2 Action Server that performs the task of attaching/detaching a specific object to a specific end-effector in Gazebo. Apart from the attaching functionality, the spawn_object.py script enables the user to spawn custom objects (contained in .urdf of .xacro files) to a Gazebo simulation environment. For further detail, please click [here](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/foxy/ros2_grasping).
+The attacher_action.py script contains a ROS2 Action Server that performs the task of attaching/detaching a specific object to a specific end-effector in Gazebo. Apart from the attaching functionality, the spawn_object.py script enables the user to spawn custom objects (contained in .urdf of .xacro files) to a Gazebo simulation environment. For further detail, please click [here](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble/ros2_grasping).
 
 The video below showcases a simple cube pick and place task executed by an ABB-IRB120 robot:
 
@@ -356,8 +361,8 @@ Don't forget to give the project a star! Thanks you very much!
 ## Acknowledgments
 
 * [README.md template - Othneil Drew](https://github.com/othneildrew/Best-README-Template).
-* [ROS2.0 Documentation - Foxy](https://docs.ros.org/en/foxy/index.html).
-* [PicNik Robotics - MoveIt!2 Documentation](https://moveit.picknik.ai/foxy/index.html).
+* [ROS2.0 Documentation - Humble](https://docs.ros.org/en/humble/index.html).
+* [PicNik Robotics - MoveIt!2 Documentation](https://moveit.picknik.ai/humble/index.html).
 * [Panda Robot - ROS Repository](https://github.com/ros-planning/panda_moveit_config).
 * [ABB - ROS Repositories](http://wiki.ros.org/abb).
 * [UR Robots - ROS2 Description](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description).
@@ -366,5 +371,3 @@ Don't forget to give the project a star! Thanks you very much!
 * [The Construct - ROS2 Control Tutorial](https://www.youtube.com/watch?v=lo1bXm8Aoqc).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-

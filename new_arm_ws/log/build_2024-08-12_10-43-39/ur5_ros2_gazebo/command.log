@@ -1,4 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/ur5_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/ur5_ros2_gazebo -- -j8 -l8
-Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/ur5_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/ur5_ros2_gazebo -- -j8 -l8
-Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/ur5_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/ur5_ros2_gazebo
-Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/ur5_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/ur5_ros2_gazebo

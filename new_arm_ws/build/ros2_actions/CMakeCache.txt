@@ -996,7 +996,7 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CURL_LIBRARY_RELEASE
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: thread system filesystem regex date_time program_options ][v1.74.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: system filesystem date_time program_options thread ][v1.74.0()]
 //Details about finding Eigen3
 FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.4.0()]
 //Details about finding FastRTPS

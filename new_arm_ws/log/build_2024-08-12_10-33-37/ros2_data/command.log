@@ -1,6 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/new_arm_ws/src/ros2_RobotSimulation/ros2_data -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/new_arm_ws/install/ros2_data
-Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/new_arm_ws/src/ros2_RobotSimulation/ros2_data -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/new_arm_ws/install/ros2_data
-Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/ros2_data -- -j8 -l8
-Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/new_arm_ws/build/ros2_data -- -j8 -l8
-Invoking command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/ros2_data
-Invoked command in '/home/yuritvr/PFC/new_arm_ws/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/new_arm_ws/build/ros2_data
