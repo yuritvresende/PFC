@@ -52,7 +52,7 @@ def generate_launch_description():
                    '-R', str(orientation[0]), '-P', str(orientation[1]
                                                         ), '-Y', str(orientation[2]),
                    '-topic', '/robot_description'
-                   ]
+                   ],
     )
 
     # create and return launch description object

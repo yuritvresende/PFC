@@ -19,16 +19,6 @@ find_package(joint_state_broadcaster REQUIRED)
 find_package(joint_trajectory_controller REQUIRED)
 find_package(velocity_controllers REQUIRED)
 
-install(
-  DIRECTORY
-    urdf
-    launch
-    config
-  DESTINATION
-    share/${PROJECT_NAME}/
-)
-
-
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -40,5 +30,15 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+install(
+  DIRECTORY
+    urdf
+    launch
+    config
+    src
+  DESTINATION
+    share/${PROJECT_NAME}/
+)
 
 ament_package()
