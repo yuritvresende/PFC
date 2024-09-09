@@ -14,7 +14,6 @@ Partindo do uso de um sistema operacional Ubuntu 22.04.4 LTS, os primeiros progr
 A fim de inicializar o espaço de trabalho do projeto, segue-se os tutoriais a seguir:
 - https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
 - https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
-- sudo apt install python3-colcon-common-extensions
 
 
 
