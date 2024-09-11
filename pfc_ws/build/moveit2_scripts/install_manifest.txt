@@ -2,9 +2,9 @@
 /home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/lib/moveit2_scripts/test_end_effector_trajectory
 /home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/lib/moveit2_scripts/two_postions
 /home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/lib/moveit2_scripts/test_gripper
-/home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
-/home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
 /home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory3.launch.py
+/home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+/home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
 /home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_gripper.launch.py
 /home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
 /home/yuritvr/PFC/pfc_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts

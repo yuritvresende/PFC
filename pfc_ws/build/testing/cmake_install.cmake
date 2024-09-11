@@ -47,6 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/yuritvr/PFC/pfc_ws/src/testing/urdf"
     "/home/yuritvr/PFC/pfc_ws/src/testing/launch"
     "/home/yuritvr/PFC/pfc_ws/src/testing/config"
+    "/home/yuritvr/PFC/pfc_ws/src/testing/src"
     )
 endif()
 
