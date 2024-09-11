@@ -1,0 +1,41 @@
+Entendendo as actions!
+Para começar, escolha um braço (de preferência um que tenha uma garra definida(end Effector): panda_arm e irb120). Siga a seguinte instrução.
+
+1) Abrir o moveit + gazebo do braço: 
+ros2 launch irb120_ros2_moveit2 irb120_interface.launch.py (TEM QUE SER O INTERFACE PARA FUNCIONAR)
+2) Execute a action. Veja abaixo as possíveis actions.
+
+    moveROT = The Robot rotates/orientates the End-Effector frame according to the input: EulerAngles(yaw,pitch,roll). THE ROT(yaw,pitch,roll) determines the ADDED ROTATION of the End-Effector, which is applied to the END-EFFECTOR COORDINATE FRAME. 
+    ros2 action send_goal  -f /MoveROT ros2_data/action/MoveROT "{yaw: 0.00, pitch: 0.00, roll: 90.00, speed: 1.0}"
+
+    moveXYZ = The Robot moves to the specific waypoint -> Position(x,y,z) maintaining the End-Effector orientation.
+    ros2 action send_goal -f /MoveXYZ ros2_data/action/MoveXYZ "{positionx: 0.00, positiony: 0.00, positionz: 0.00, speed: 1.0}"
+
+    MoveJ: The Robot moves to the specific waypoint, which is specified by Joint Pose values.
+    ros2 action send_goal -f /MoveJ ros2_data/action/MoveJ "{goal: {joint1: 0.00, joint2: 0.00, joint3: 0.00, joint4: 0.00, joint5: 0.00, joint6: 0.00}, speed: 1.0}" # (6-DOF)
+    ros2 action send_goal -f /MoveJs ros2_data/action/MoveJs "{goal: {joint1: 0.00, joint2: 0.00, joint3: 0.00, joint4: 0.00, joint5: 0.00, joint6: 0.00, joint7: 0.00}, speed: 1.0}" # (7-DOF)
+
+    MoveG: The Gripper fingers move to the specific pose.
+    ros2 action send_goal -f /MoveG ros2_data/action/MoveG "{goal: 0.00}"
+
+    MoveL: The Robot executes a CARTESIAN/LINEAR path. The End-Effector orientation is kept constant, and the position changes by +-(x,y,z).
+    ros2 action send_goal -f /MoveL ros2_data/action/MoveL "{movex: 0.00, movey: 0.00, movez: 0.00, speed: 1.0}"
+
+    MoveR: The Robot rotates the selected joint a specific amount of degrees.
+    ros2 action send_goal -f /MoveR ros2_data/action/MoveR "{joint: '---', value: 0.00, speed: 1.0}"
+
+    MoveXYZW: The Robot moves to the specific waypoint, which is represented by the Position(x,y,z) + EulerAngles(yaw,pitch,roll) End-Effector coordinates.
+    ros2 action send_goal -f /MoveXYZW ros2_data/action/MoveXYZW "{positionx: 0.00, positiony: 0.00, positionz: 0.00, yaw: 0.00, pitch: 0.00, roll: 0.00, speed: 1.0}"
+
+    MoveYPR: The Robot rotates/orientates the End-Effector frame according to the input: EulerAngles(yaw,pitch,roll). The YPR(yaw,pitch,roll)determines the FINAL ROTATION of the End-Effector, which is related to the GLOBAL COORDINATE FRAME.
+    ros2 action send_goal -f /MoveYPR ros2_data/action/MoveYPR "{yaw: 0.00, pitch: 0.00, roll: 0.00, speed: 1.0}"
+
+    MoveRP: End-Effector rotation AROUND A POINT -> The Robot rotates/orientates + moves the End-Effector frame according to the input: EulerAngles(yaw,pitch,roll) + Point(x,y,z). THE ROT(yaw,pitch,roll) determines the ADDED ROTATION of the End-Effector, which is applied to the END-EFFECTOR COORDINATE FRAME, AROUND THE (x,y,z) POINT.
+    ros2 action send_goal -f /MoveRP ros2_data/action/MoveRP "{yaw: 0.00, pitch: 0.00, roll: 0.00, x: 0.0, y: 0.0, z: 0.0, speed: 1.0}"
+
+Na pasta "scripts", apresenta os arquivos cpp que contém a conversão dos valores fornecidos e uma extração dos valores atuais para chegar na posição.
+
+Tem que conhecer as limitações do braço para cada movimento. Dê prioridade aos movimentos que estão mapeados.
+
+-> criação de uma action de leitura da posição atual
+-> criação de uma action que por meio dos parametros de posição do bloco (tamanho do bloco já definido no urdf), se posicionará para agarrar o bloco. Como?
