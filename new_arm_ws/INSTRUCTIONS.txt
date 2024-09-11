@@ -1,9 +1,10 @@
 Entendendo as actions!
 Para começar, escolha um braço (de preferência um que tenha uma garra definida(end Effector): panda_arm e irb120). Siga a seguinte instrução.
-
-1) Abrir o moveit + gazebo do braço: 
+1) Posicionar o bloco.
+ros2 run ros2_grasping spawn_object.py --package "ros2_grasping" --urdf "box.urdf" --name "box" --x 0.5 --y -0.3 --z 0.75
+2) Abrir o moveit + gazebo do braço: 
 ros2 launch irb120_ros2_moveit2 irb120_interface.launch.py (TEM QUE SER O INTERFACE PARA FUNCIONAR)
-2) Execute a action. Veja abaixo as possíveis actions.
+3) Execute a action. Veja abaixo as possíveis actions.
 
     moveROT = The Robot rotates/orientates the End-Effector frame according to the input: EulerAngles(yaw,pitch,roll). THE ROT(yaw,pitch,roll) determines the ADDED ROTATION of the End-Effector, which is applied to the END-EFFECTOR COORDINATE FRAME. 
     ros2 action send_goal  -f /MoveROT ros2_data/action/MoveROT "{yaw: 0.00, pitch: 0.00, roll: 90.00, speed: 1.0}"
