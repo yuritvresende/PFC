@@ -1,9 +1,9 @@
-/home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/chomp_planning.yaml
-/home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/kinematics.yaml
+/home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/ompl_planning.yaml
+/home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/ur5_moveit2.rviz
 /home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/ur5.srdf
 /home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/ur5_controllers.yaml
-/home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/ur5_moveit2.rviz
-/home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/ompl_planning.yaml
+/home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/chomp_planning.yaml
+/home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/config/kinematics.yaml
 /home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/launch/ur5_interface.launch.py
 /home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ur5_ros2_moveit2/launch/ur5.launch.py
 /home/yuritvr/PFC/new_arm_ws/install/ur5_ros2_moveit2/share/ament_index/resource_index/package_run_dependencies/ur5_ros2_moveit2

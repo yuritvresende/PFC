@@ -1,10 +1,10 @@
-/home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/cr35ia_controllers.yaml
+/home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/ompl_planning.yaml
 /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/cr35ia.srdf
+/home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/cr35ia_controllers.yaml
 /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/cr35ia_moveit2.rviz
 /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/kinematics.yaml
-/home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/ompl_planning.yaml
-/home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/launch/cr35ia.launch.py
 /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/launch/cr35ia_interface.launch.py
+/home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/launch/cr35ia.launch.py
 /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/ament_index/resource_index/package_run_dependencies/cr35ia_ros2_moveit2
 /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/ament_index/resource_index/parent_prefix_path/cr35ia_ros2_moveit2
 /home/yuritvr/PFC/new_arm_ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/environment/ament_prefix_path.sh

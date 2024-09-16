@@ -1,12 +1,12 @@
+/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/ompl_planning.yaml
+/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/ros2_controllers.yaml
+/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda_controllers.yaml
+/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda.srdf
 /home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda_moveit2.rviz
 /home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/chomp_planning.yaml
 /home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/kinematics.yaml
-/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda_controllers.yaml
-/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/ros2_controllers.yaml
-/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda.srdf
-/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/ompl_planning.yaml
-/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch/panda_interface.launch.py
 /home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch/panda.launch.py
+/home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch/panda_interface.launch.py
 /home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/ament_index/resource_index/package_run_dependencies/panda_ros2_moveit2
 /home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/ament_index/resource_index/parent_prefix_path/panda_ros2_moveit2
 /home/yuritvr/PFC/new_arm_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/ament_prefix_path.sh
