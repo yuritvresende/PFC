@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control
+CMAKE_SOURCE_DIR = /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

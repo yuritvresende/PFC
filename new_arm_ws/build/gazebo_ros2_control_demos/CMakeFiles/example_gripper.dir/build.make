@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos
+CMAKE_SOURCE_DIR = /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos
@@ -70,18 +70,18 @@ include CMakeFiles/example_gripper.dir/progress.make
 include CMakeFiles/example_gripper.dir/flags.make
 
 CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o: CMakeFiles/example_gripper.dir/flags.make
-CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o: /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp
+CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o: /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp
 CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o: CMakeFiles/example_gripper.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o -MF CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o.d -o CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o -c /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o -MF CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o.d -o CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o -c /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp
 
 CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp > CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp > CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.i
 
 CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp -o CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp -o CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.s
 
 # Object files for target example_gripper
 example_gripper_OBJECTS = \
@@ -167,6 +167,6 @@ CMakeFiles/example_gripper.dir/clean:
 .PHONY : CMakeFiles/example_gripper.dir/clean
 
 CMakeFiles/example_gripper.dir/depend:
-	cd /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos/CMakeFiles/example_gripper.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control_demos/CMakeFiles/example_gripper.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/example_gripper.dir/depend
 

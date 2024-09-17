@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_effort.cpp" "CMakeFiles/example_effort.dir/examples/example_effort.cpp.o" "gcc" "CMakeFiles/example_effort.dir/examples/example_effort.cpp.o.d"
+  "/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_effort.cpp" "CMakeFiles/example_effort.dir/examples/example_effort.cpp.o" "gcc" "CMakeFiles/example_effort.dir/examples/example_effort.cpp.o.d"
   )
 
 # Targets to which this target links.

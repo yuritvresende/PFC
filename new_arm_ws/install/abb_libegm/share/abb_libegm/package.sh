@@ -78,6 +78,8 @@ _colcon_package_sh_source_script() {
 }
 
 # source sh hooks
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/abb_libegm/hook/cmake_prefix_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/abb_libegm/hook/ld_library_path_lib.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/abb_libegm/hook/pkg_config_path.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/abb_libegm/hook/pkg_config_path_multiarch.sh"
 

@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control
+CMAKE_SOURCE_DIR = /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/yuritvr/PFC/new_arm_ws/build/gazebo_ros2_control

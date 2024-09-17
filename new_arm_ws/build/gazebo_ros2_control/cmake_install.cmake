@@ -1,4 +1,4 @@
-# Install script for directory: /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control
+# Install script for directory: /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -97,11 +97,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gazebo_ros2_control" TYPE DIRECTORY FILES "/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gazebo_ros2_control" TYPE DIRECTORY FILES "/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros2_control" TYPE FILE FILES "/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/gazebo_hardware_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros2_control" TYPE FILE FILES "/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/gazebo_hardware_plugins.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -176,7 +176,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros2_control" TYPE FILE FILES "/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros2_control" TYPE FILE FILES "/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

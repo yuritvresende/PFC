@@ -2,9 +2,9 @@
 /home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
 /home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
 /home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+/home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
 /home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
 /home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
-/home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
 /home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
 /home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
 /home/yuritvr/PFC/new_arm_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control

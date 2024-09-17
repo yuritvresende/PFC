@@ -1,5 +1,5 @@
 CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -1593,7 +1593,7 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: \
  /usr/include/ignition/common3/ignition/common/config.hh \
  /opt/ros/humble/include/gazebo_ros/node_visibility_control.h \
  /opt/ros/humble/include/gazebo_ros/qos.hpp \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp \
  /opt/ros/humble/include/controller_manager/controller_manager.hpp \
  /opt/ros/humble/include/controller_interface/chainable_controller_interface.hpp \
  /opt/ros/humble/include/controller_interface/controller_interface_base.hpp \
@@ -2318,9 +2318,9 @@ CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o: \
  /usr/include/gazebo-11/gazebo/msgs/wrench_stamped.pb.h \
  /usr/include/gazebo-11/gazebo/transport/TransportTypes.hh \
  /usr/include/gazebo-11/gazebo/physics/Base.hh \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp \
  /opt/ros/humble/include/angles/angles/angles.h \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp \
  /usr/include/gazebo-11/gazebo/physics/Joint.hh \
  /usr/include/boost/any.hpp \
  /usr/include/gazebo-11/gazebo/physics/JointWrench.hh \

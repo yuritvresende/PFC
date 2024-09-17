@@ -1,5 +1,5 @@
 CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o: \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_gripper.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

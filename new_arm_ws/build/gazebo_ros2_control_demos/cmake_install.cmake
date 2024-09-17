@@ -1,4 +1,4 @@
-# Install script for directory: /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos
+# Install script for directory: /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros2_control_demos/" TYPE DIRECTORY FILES
-    "/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/launch"
-    "/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/config"
-    "/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/urdf"
+    "/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/launch"
+    "/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/config"
+    "/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/urdf"
     )
 endif()
 
@@ -226,7 +226,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros2_control_demos" TYPE FILE FILES "/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_ros2_control_demos" TYPE FILE FILES "/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -1,5 +1,5 @@
 CMakeFiles/example_effort.dir/examples/example_effort.cpp.o: \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_effort.cpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos/examples/example_effort.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

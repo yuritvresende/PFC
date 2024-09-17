@@ -273,6 +273,9 @@ CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 CURL_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libcurl.so
 
+//The directory containing a CMake configuration file for CycloneDDS.
+CycloneDDS_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/cmake/CycloneDDS
+
 //The directory containing a CMake configuration file for DART.
 DART_DIR:PATH=/usr/share/dart/cmake
 
@@ -290,21 +293,6 @@ FCL_INCLUDE_DIRS:PATH=/usr/include
 
 //Path to a library.
 FCL_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libfcl.so
-
-//Path to a library.
-FastCDR_LIBRARY_DEBUG:FILEPATH=FastCDR_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-FastCDR_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastcdr.so
-
-//Path to a file.
-FastRTPS_INCLUDE_DIR:PATH=/opt/ros/humble/include
-
-//Path to a library.
-FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastrtps.so
 
 //Compile with a sanitizer. Options are: Address, Memory, MemoryWithOrigins,
 // Undefined, Thread, Leak, 'Address;Undefined', CFI
@@ -551,15 +539,6 @@ OGRE_Volume_LIBRARY_FWK:STRING=NOTFOUND
 //x
 OGRE_Volume_LIBRARY_REL:STRING=/usr/lib/x86_64-linux-gnu/libOgreVolume.so
 
-//Path to a library.
-OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
-
-//Path to a file.
-OPENSSL_INCLUDE_DIR:PATH=/usr/include
-
-//Path to a library.
-OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
-
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
@@ -596,8 +575,11 @@ Protobuf_PROTOC_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libprotoc.so
 //Path to a program.
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
+//Select ROS middleware implementation to link against
+RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
+
 //Name of the computer/site where compile is being run
-SITE:STRING=yuripad
+SITE:STRING=yuritvr-Predator-PHN16-71
 
 //The directory containing a CMake configuration file for Simbody.
 Simbody_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/simbody
@@ -800,17 +782,11 @@ controller_manager_msgs_DIR:PATH=/opt/ros/humble/share/controller_manager_msgs/c
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
 
-//The directory containing a CMake configuration file for fastrtps.
-fastrtps_DIR:PATH=/opt/ros/humble/share/fastrtps/cmake
-
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
 fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
 
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
-
-//The directory containing a CMake configuration file for foonathan_memory.
-foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
 
 //The directory containing a CMake configuration file for gazebo.
 gazebo_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gazebo
@@ -834,7 +810,7 @@ gazebo_ros2_control_IS_TOP_LEVEL:STATIC=ON
 gazebo_ros2_control_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;yaml-cpp;general;/opt/ros/humble/lib/libcontroller_manager.so;general;/opt/ros/humble/lib/libament_index_cpp.so;general;/opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so;general;/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so;general;/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so;general;/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so;general;/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so;general;/opt/ros/humble/lib/libcontroller_interface.so;general;/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_generator_c.so;general;/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so;general;/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so;general;/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so;general;/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/libcontroller_manager_msgs__rosidl_generator_py.so;general;controller_manager_msgs::controller_manager_msgs__rosidl_generator_c;general;controller_manager_msgs::controller_manager_msgs__rosidl_typesupport_c;general;/opt/ros/humble/lib/librcl_action.so;general;/opt/ros/humble/lib/librclcpp_action.so;general;rcl_action::rcl_action;general;/opt/ros/humble/lib/librealtime_tools.so;general;/opt/ros/humble/lib/libthread_priority.so;general;rclcpp_action::rclcpp_action;general;/opt/ros/humble/lib/libgazebo_ros_node.so;general;/opt/ros/humble/lib/libgazebo_ros_utils.so;general;/opt/ros/humble/lib/libgazebo_ros_init.so;general;/opt/ros/humble/lib/libgazebo_ros_factory.so;general;/opt/ros/humble/lib/libgazebo_ros_properties.so;general;/opt/ros/humble/lib/libgazebo_ros_state.so;general;/opt/ros/humble/lib/libgazebo_ros_force_system.so;general;/opt/ros/humble/lib/librclcpp.so;general;libstatistics_collector::libstatistics_collector;general;rosgraph_msgs::rosgraph_msgs__rosidl_generator_c;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_fastrtps_c;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_fastrtps_cpp;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_introspection_c;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_c;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_introspection_cpp;general;rosgraph_msgs::rosgraph_msgs__rosidl_typesupport_cpp;general;rosgraph_msgs::rosgraph_msgs__rosidl_generator_py;general;statistics_msgs::statistics_msgs__rosidl_generator_c;general;statistics_msgs::statistics_msgs__rosidl_typesupport_fastrtps_c;general;statistics_msgs::statistics_msgs__rosidl_typesupport_fastrtps_cpp;general;statistics_msgs::statistics_msgs__rosidl_typesupport_introspection_c;general;statistics_msgs::statistics_msgs__rosidl_typesupport_c;general;statistics_msgs::statistics_msgs__rosidl_typesupport_introspection_cpp;general;statistics_msgs::statistics_msgs__rosidl_typesupport_cpp;general;statistics_msgs::statistics_msgs__rosidl_generator_py;general;BulletSoftBody;general;BulletDynamics;general;BulletCollision;general;LinearMath;general;SimTKcommon;general;SimTKmath;general;SimTKsimbody;general;dart;general;/usr/lib/x86_64-linux-gnu/libgazebo.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_client.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gui.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_physics.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_transport.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_util.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_common.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so;general;Boost::system;general;Boost::filesystem;general;Boost::program_options;general;Boost::regex;general;Boost::iostreams;general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;sdformat9::sdformat9;optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so;general;Boost::thread;general;Boost::date_time;optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;general;ignition-common3::ignition-common3-graphics;general;tbb;general;/opt/ros/humble/lib/libfake_components.so;general;/opt/ros/humble/lib/libmock_components.so;general;/opt/ros/humble/lib/libhardware_interface.so;general;/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so;general;/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so;general;/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so;general;/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so;general;/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so;general;/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so;general;/opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so;general;/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so;general;/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so;general;/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so;general;/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so;general;/opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so;general;/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so;general;/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so;general;/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so;general;/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so;general;/opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_c.so;general;/opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so;general;/opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so;general;/opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_c.so;general;/opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_py.so;general;/opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so;general;/opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so;general;/opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so;general;/opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so;general;/opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so;general;/opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so;general;/opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so;general;/opt/ros/humble/lib/libcontrol_msgs__rosidl_generator_c.so;general;action_msgs::action_msgs__rosidl_generator_c;general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_generator_c;general;sensor_msgs::sensor_msgs__rosidl_generator_c;general;trajectory_msgs::trajectory_msgs__rosidl_generator_c;general;/opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so;general;action_msgs::action_msgs__rosidl_typesupport_fastrtps_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_fastrtps_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_fastrtps_c;general;/opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so;general;action_msgs::action_msgs__rosidl_typesupport_fastrtps_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_fastrtps_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_fastrtps_cpp;general;/opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so;general;action_msgs::action_msgs__rosidl_typesupport_introspection_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_introspection_c;general;/opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_c.so;general;action_msgs::action_msgs__rosidl_typesupport_c;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_c;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_c;general;/opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so;general;action_msgs::action_msgs__rosidl_typesupport_introspection_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_introspection_cpp;general;/opt/ros/humble/lib/libcontrol_msgs__rosidl_typesupport_cpp.so;general;action_msgs::action_msgs__rosidl_typesupport_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;general;trajectory_msgs::trajectory_msgs__rosidl_typesupport_cpp;general;/opt/ros/humble/lib/libcontrol_msgs__rosidl_generator_py.so;general;control_msgs::control_msgs__rosidl_generator_c;general;control_msgs::control_msgs__rosidl_typesupport_c;general;action_msgs::action_msgs__rosidl_generator_py;general;builtin_interfaces::builtin_interfaces__rosidl_generator_py;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;std_msgs::std_msgs__rosidl_generator_py;general;sensor_msgs::sensor_msgs__rosidl_generator_py;general;trajectory_msgs::trajectory_msgs__rosidl_generator_py;general;/opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so;general;/opt/ros/humble/lib/librmw.so;general;/opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so;general;rosidl_typesupport_c::rosidl_typesupport_c;general;/opt/ros/humble/lib/librosidl_typesupport_c.so;general;/opt/ros/humble/lib/librosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/librosidl_typesupport_introspection_c.so;general;/opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0;general;/opt/ros/humble/lib/libclass_loader.so;general;console_bridge::console_bridge;general;ament_index_cpp::ament_index_cpp;general;class_loader::class_loader;general;rcpputils::rcpputils;general;tinyxml2::tinyxml2;general;/opt/ros/humble/lib/librcl.so;general;rcl_interfaces::rcl_interfaces__rosidl_generator_c;general;rcl_interfaces::rcl_interfaces__rosidl_typesupport_fastrtps_c;general;rcl_interfaces::rcl_interfaces__rosidl_typesupport_introspection_c;general;rcl_interfaces::rcl_interfaces__rosidl_typesupport_c;general;rcl_interfaces::rcl_interfaces__rosidl_typesupport_fastrtps_cpp;general;rcl_interfaces::rcl_interfaces__rosidl_typesupport_introspection_cpp;general;rcl_interfaces::rcl_interfaces__rosidl_typesupport_cpp;general;rcl_interfaces::rcl_interfaces__rosidl_generator_py;general;rcl_logging_interface::rcl_logging_interface;general;rcl_yaml_param_parser::rcl_yaml_param_parser;general;rmw_implementation::rmw_implementation;general;rcl_logging_spdlog::rcl_logging_spdlog;general;/opt/ros/humble/lib/librosidl_runtime_c.so;general;/opt/ros/humble/lib/libtracetools.so;general;/opt/ros/humble/lib/librcl_lifecycle.so;general;rcl::rcl;general;tracetools::tracetools;general;/opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so;general;/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so;general;rosidl_typesupport_fastrtps_c::rosidl_typesupport_fastrtps_c;general;/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so;general;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;general;/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so;general;/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so;general;fastcdr;general;rmw::rmw;general;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;general;/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;general;/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so;general;/opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;/opt/ros/humble/lib/librclcpp_lifecycle.so;general;rclcpp::rclcpp;general;rcl_lifecycle::rcl_lifecycle;general;lifecycle_msgs::lifecycle_msgs__rosidl_generator_c;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_fastrtps_c;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_introspection_c;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_c;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_fastrtps_cpp;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_introspection_cpp;general;lifecycle_msgs::lifecycle_msgs__rosidl_typesupport_cpp;general;lifecycle_msgs::lifecycle_msgs__rosidl_generator_py;general;rosidl_typesupport_cpp::rosidl_typesupport_cpp;general;/opt/ros/humble/lib/librcpputils.so;general;rcutils::rcutils;general;/opt/ros/humble/lib/librcutils.so;general;dl;
 
 //Value Computed by CMake
-gazebo_ros2_control_SOURCE_DIR:STATIC=/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control
+gazebo_ros2_control_SOURCE_DIR:STATIC=/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control
 
 //The directory containing a CMake configuration file for gazebo_ros.
 gazebo_ros_DIR:PATH=/opt/ros/humble/share/gazebo_ros/cmake
@@ -844,6 +820,15 @@ geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for hardware_interface.
 hardware_interface_DIR:PATH=/opt/ros/humble/share/hardware_interface/cmake
+
+//The directory containing a CMake configuration file for iceoryx_binding_c.
+iceoryx_binding_c_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_binding_c
+
+//The directory containing a CMake configuration file for iceoryx_hoofs.
+iceoryx_hoofs_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_hoofs
+
+//The directory containing a CMake configuration file for iceoryx_posh.
+iceoryx_posh_DIR:PATH=/opt/ros/humble/lib/x86_64-linux-gnu/cmake/iceoryx_posh
 
 //The directory containing a CMake configuration file for ignition-cmake2.
 ignition-cmake2_DIR:PATH=/usr/share/cmake/ignition-cmake2
@@ -941,12 +926,6 @@ pkgcfg_lib_ZIP_zip:FILEPATH=/usr/lib/x86_64-linux-gnu/libzip.so
 //Path to a library.
 pkgcfg_lib_ZeroMQ_zmq:FILEPATH=/usr/lib/x86_64-linux-gnu/libzmq.so
 
-//Path to a library.
-pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
-
-//Path to a library.
-pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
-
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/humble/share/pluginlib/cmake
 
@@ -992,14 +971,11 @@ realtime_tools_DIR:PATH=/opt/ros/humble/share/realtime_tools/cmake
 //The directory containing a CMake configuration file for rmw.
 rmw_DIR:PATH=/opt/ros/humble/share/rmw/cmake
 
+//The directory containing a CMake configuration file for rmw_cyclonedds_cpp.
+rmw_cyclonedds_cpp_DIR:PATH=/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake
+
 //The directory containing a CMake configuration file for rmw_dds_common.
 rmw_dds_common_DIR:PATH=/opt/ros/humble/share/rmw_dds_common/cmake
-
-//The directory containing a CMake configuration file for rmw_fastrtps_cpp.
-rmw_fastrtps_cpp_DIR:PATH=/opt/ros/humble/share/rmw_fastrtps_cpp/cmake
-
-//The directory containing a CMake configuration file for rmw_fastrtps_shared_cpp.
-rmw_fastrtps_shared_cpp_DIR:PATH=/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake
 
 //The directory containing a CMake configuration file for rmw_implementation.
 rmw_implementation_DIR:PATH=/opt/ros/humble/share/rmw_implementation/cmake
@@ -1223,7 +1199,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -1318,12 +1294,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so
 FIND_PACKAGE_MESSAGE_DETAILS_DART:INTERNAL=[/usr/include][dart][cfound components: dart ][v(6.6)]
 //Details about finding DL
 FIND_PACKAGE_MESSAGE_DETAILS_DL:INTERNAL=[true][v()]
-//Details about finding FastRTPS
-FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/humble/include][/opt/ros/humble/lib/libfastrtps.so;/opt/ros/humble/lib/libfastcdr.so][v()]
 //Details about finding JSONCPP
 FIND_PACKAGE_MESSAGE_DETAILS_JSONCPP:INTERNAL=[TRUE][v()]
-//Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
 //Details about finding Protobuf
@@ -1573,12 +1545,6 @@ OGRE_Volume_LIBRARY_DBG-ADVANCED:INTERNAL=1
 OGRE_Volume_LIBRARY_FWK-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OGRE_Volume_LIBRARY_REL
 OGRE_Volume_LIBRARY_REL-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
-OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENSSL_INCLUDE_DIR
-OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENSSL_SSL_LIBRARY
-OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
 PC_ASSIMP_CFLAGS:INTERNAL=
 PC_ASSIMP_CFLAGS_I:INTERNAL=
 PC_ASSIMP_CFLAGS_OTHER:INTERNAL=
@@ -1889,41 +1855,6 @@ ZeroMQ_libzmq _INCLUDEDIR:INTERNAL=
 ZeroMQ_libzmq _LIBDIR:INTERNAL=
 ZeroMQ_libzmq _PREFIX:INTERNAL=
 ZeroMQ_libzmq _VERSION:INTERNAL=
-_OPENSSL_CFLAGS:INTERNAL=
-_OPENSSL_CFLAGS_I:INTERNAL=
-_OPENSSL_CFLAGS_OTHER:INTERNAL=
-_OPENSSL_FOUND:INTERNAL=1
-_OPENSSL_INCLUDEDIR:INTERNAL=/usr/include
-_OPENSSL_INCLUDE_DIRS:INTERNAL=
-_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto
-_OPENSSL_LDFLAGS_OTHER:INTERNAL=
-_OPENSSL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
-_OPENSSL_LIBRARIES:INTERNAL=ssl;crypto
-_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
-_OPENSSL_LIBS:INTERNAL=
-_OPENSSL_LIBS_L:INTERNAL=
-_OPENSSL_LIBS_OTHER:INTERNAL=
-_OPENSSL_LIBS_PATHS:INTERNAL=
-_OPENSSL_MODULE_NAME:INTERNAL=openssl
-_OPENSSL_PREFIX:INTERNAL=/usr
-_OPENSSL_STATIC_CFLAGS:INTERNAL=
-_OPENSSL_STATIC_CFLAGS_I:INTERNAL=
-_OPENSSL_STATIC_CFLAGS_OTHER:INTERNAL=
-_OPENSSL_STATIC_INCLUDE_DIRS:INTERNAL=
-_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
-_OPENSSL_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
-_OPENSSL_STATIC_LIBDIR:INTERNAL=
-_OPENSSL_STATIC_LIBRARIES:INTERNAL=ssl;crypto;dl
-_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
-_OPENSSL_STATIC_LIBS:INTERNAL=
-_OPENSSL_STATIC_LIBS_L:INTERNAL=
-_OPENSSL_STATIC_LIBS_OTHER:INTERNAL=
-_OPENSSL_STATIC_LIBS_PATHS:INTERNAL=
-_OPENSSL_VERSION:INTERNAL=3.0.2
-_OPENSSL_openssl_INCLUDEDIR:INTERNAL=
-_OPENSSL_openssl_LIBDIR:INTERNAL=
-_OPENSSL_openssl_PREFIX:INTERNAL=
-_OPENSSL_openssl_VERSION:INTERNAL=
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
@@ -1939,7 +1870,6 @@ __pkg_config_arguments_TINYXML2:INTERNAL=tinyxml2
 __pkg_config_arguments_UUID:INTERNAL=uuid
 __pkg_config_arguments_ZIP:INTERNAL=libzip
 __pkg_config_arguments_ZeroMQ:INTERNAL=libzmq >= 4
-__pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked_BULLET:INTERNAL=1
 __pkg_config_checked_JSONCPP:INTERNAL=1
 __pkg_config_checked_OGRE_PKGC:INTERNAL=1
@@ -1951,7 +1881,6 @@ __pkg_config_checked_TINYXML2:INTERNAL=1
 __pkg_config_checked_UUID:INTERNAL=1
 __pkg_config_checked_ZIP:INTERNAL=1
 __pkg_config_checked_ZeroMQ:INTERNAL=1
-__pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: boost_atomic_DIR
 boost_atomic_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_date_time_DIR
@@ -2008,9 +1937,5 @@ pkgcfg_lib_UUID_uuid-ADVANCED:INTERNAL=1
 pkgcfg_lib_ZIP_zip-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_ZeroMQ_zmq
 pkgcfg_lib_ZeroMQ_zmq-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto
-pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
-pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
 prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

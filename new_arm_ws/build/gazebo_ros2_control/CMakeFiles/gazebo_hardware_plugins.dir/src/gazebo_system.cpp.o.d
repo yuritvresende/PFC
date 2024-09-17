@@ -1,5 +1,5 @@
 CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/limits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -155,7 +155,7 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp \
  /opt/ros/humble/include/angles/angles/angles.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
@@ -188,7 +188,7 @@ CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/yuritvr/PFC/new_arm_ws/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp \
+ /home/yuritvr/PFC/new_arm_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp \
  /usr/include/gazebo-11/gazebo/physics/Joint.hh \
  /usr/include/boost/any.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
