@@ -1,9 +1,0 @@
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/uninstall.dir
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/pfcbot_uninstall.dir
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/test.dir
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/edit_cache.dir
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/rebuild_cache.dir
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/list_install_components.dir
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/install.dir
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/install/local.dir
-/home/yuritvr/PFC/wenis_ws/build/pfcbot/CMakeFiles/install/strip.dir

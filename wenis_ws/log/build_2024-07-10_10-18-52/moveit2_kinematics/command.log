@@ -1,4 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics' returned '0': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics

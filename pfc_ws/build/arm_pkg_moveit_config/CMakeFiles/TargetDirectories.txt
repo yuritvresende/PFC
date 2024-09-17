@@ -1,9 +1,0 @@
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/uninstall.dir
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/arm_pkg_moveit_config_uninstall.dir
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/test.dir
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/edit_cache.dir
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/rebuild_cache.dir
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/list_install_components.dir
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/install.dir
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/install/local.dir
-/home/yuritvr/PFC/pfc_ws/build/arm_pkg_moveit_config/CMakeFiles/install/strip.dir

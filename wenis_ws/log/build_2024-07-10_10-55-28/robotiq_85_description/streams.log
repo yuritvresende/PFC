@@ -1,2 +1,0 @@
-[0.036s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description -- -j8 -l8
-[0.120s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/robotiq_85_description' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/robotiq_85_description -- -j8 -l8

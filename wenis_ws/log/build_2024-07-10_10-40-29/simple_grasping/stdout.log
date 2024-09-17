@@ -1,8 +1,0 @@
-[ 10%] Built target basic_grasping_perception_node
-[ 21%] Built target grasp_planner_node
-[ 31%] Built target gtest_main
-[ 42%] Built target gtest
-[ 68%] Built target simple_grasping
-[ 78%] Built target grasp_planner
-[ 89%] Built target simple_grasping_test_shape_extraction
-[100%] Built target basic_grasping_perception

@@ -1,4 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j24 -l24
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j24 -l24
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts

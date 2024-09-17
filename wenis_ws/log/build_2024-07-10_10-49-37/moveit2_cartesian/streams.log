@@ -1,2 +1,0 @@
-[0.039s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8
-[0.225s] [100%] Built target cartesian_path

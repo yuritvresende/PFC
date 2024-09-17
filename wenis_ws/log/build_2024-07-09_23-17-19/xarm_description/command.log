@@ -1,4 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/xarm_description -- -j24 -l24
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/xarm_description -- -j24 -l24
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/xarm_description
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/xarm_description' returned '0': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/xarm_description

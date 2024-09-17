@@ -1,6 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/moveit2_scripts -DCMAKE_INSTALL_PREFIX=/home/yuritvr/PFC/wenis_ws/install/moveit2_scripts
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts -- -j8 -l8
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/moveit2_scripts

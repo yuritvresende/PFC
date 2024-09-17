@@ -1,4 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/get_pose_client
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '0': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/get_pose_client

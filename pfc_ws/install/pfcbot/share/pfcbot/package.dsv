@@ -1,8 +1,0 @@
-source;share/pfcbot/hook/cmake_prefix_path.ps1
-source;share/pfcbot/hook/cmake_prefix_path.dsv
-source;share/pfcbot/hook/cmake_prefix_path.sh
-source;share/pfcbot/local_setup.bash
-source;share/pfcbot/local_setup.dsv
-source;share/pfcbot/local_setup.ps1
-source;share/pfcbot/local_setup.sh
-source;share/pfcbot/local_setup.zsh

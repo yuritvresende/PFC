@@ -1,4 +1,0 @@
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/arm_pkg -- -j24 -l24
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg' returned '0': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/arm_pkg -- -j24 -l24
-Invoking command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/arm_pkg
-Invoked command in '/home/yuritvr/PFC/wenis_ws/build/arm_pkg' returned '0': /usr/bin/cmake --install /home/yuritvr/PFC/wenis_ws/build/arm_pkg

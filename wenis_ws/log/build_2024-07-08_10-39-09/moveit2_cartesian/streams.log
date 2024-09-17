@@ -1,4 +1,0 @@
-[0.138s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8
-[0.483s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cartesian_path.dir/all] Interrupt
-[0.487s] gmake: *** [Makefile:146: all] Interrupt
-[0.548s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_cartesian -- -j8 -l8

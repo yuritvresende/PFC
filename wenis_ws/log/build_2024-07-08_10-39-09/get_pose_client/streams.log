@@ -1,4 +1,0 @@
-[0.133s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8
-[0.511s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/get_pose_client.dir/all] Interrupt
-[0.513s] gmake: *** [Makefile:146: all] Interrupt
-[0.555s] Invoked command in '/home/yuritvr/PFC/wenis_ws/build/get_pose_client' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/get_pose_client -- -j8 -l8

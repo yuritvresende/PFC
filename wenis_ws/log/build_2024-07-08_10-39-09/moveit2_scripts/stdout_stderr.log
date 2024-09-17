@@ -1,7 +1,0 @@
-gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/two_postions.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/test_gripper.dir/all] Interrupt
-gmake[2]: *** [CMakeFiles/test_end_effector_trajectory.dir/build.make:375: CMakeFiles/test_end_effector_trajectory.dir/depend] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/test_end_effector_trajectory.dir/all] Interrupt
-gmake[2]: *** [CMakeFiles/test_trajectory.dir/build.make:375: CMakeFiles/test_trajectory.dir/depend] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:142: CMakeFiles/test_trajectory.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

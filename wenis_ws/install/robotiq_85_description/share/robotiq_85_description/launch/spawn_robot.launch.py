@@ -1,1 +1,0 @@
-/home/yuritvr/PFC/wenis_ws/src/ros2_manipulator/robotiq_85_gripper/robotiq_85_description/launch/spawn_robot.launch.py

@@ -1,2 +1,0 @@
-[0.041s] Invoking command in '/home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics': /usr/bin/cmake --build /home/yuritvr/PFC/wenis_ws/build/moveit2_kinematics -- -j8 -l8
-[0.207s] [100%] Built target test_kinematics_plugin
