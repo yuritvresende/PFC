@@ -1,6 +1,0 @@
-{
-  "package_name": "ros2_grasping",
-  "non_idl_tuples": [
-    "/home/yuritvr/PFC/new_arm_ws/src/ros2_RobotSimulation/ros2_grasping:action/Attacher.action"
-  ]
-}
