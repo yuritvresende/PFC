@@ -2,16 +2,6 @@
 *.log
 
 # ignore ALL files in ANY directory named temp
-pfc_ws/build/
-pfc_ws/log/
-pfc_ws/install/
-wenis_ws/install/
-wenis_ws/build/
-wenis_ws/log/
-new_arm_ws/install/
-new_arm_ws/build/
-new_arm_ws/log/
-
 install/
 build/
 log/
