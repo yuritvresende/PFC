@@ -28,6 +28,14 @@ def dh_matrix(theta, d, a, alpha):
         [0, 0, 0, 1]
     ])
 
+def dh_matrixJ2(theta, d, a, alpha):
+    return np.array([
+        [np.sin(theta), np.cos(theta)*np.cos(alpha), -np.cos(theta)*np.sin(alpha), a*np.sin(theta)],
+        [-np.cos(theta), np.sin(theta)*np.cos(alpha), -np.sin(theta)*np.sin(alpha), -a*np.cos(theta)],
+        [0, np.sin(alpha), np.cos(alpha), d],
+        [0, 0, 0, 1]
+    ])
+
 # Parâmetros DH do manipulador robótico
 dh_params = [
     {'d': 0.29, 'a': 0, 'alpha': -np.pi/2},
@@ -44,7 +52,10 @@ def forward_kinematics(q):
     for i, params in enumerate(dh_params):
         theta = q[i]
         # Calcula a matriz de transformação de cada junta e acumula em T
-        A_i = dh_matrix(theta, params['d'], params['a'], params['alpha']) 
+        if i !=1:
+           A_i = dh_matrix(theta, params['d'], params['a'], params['alpha'])
+        else:
+           A_i = dh_matrixJ2(theta, params['d'], params['a'], params['alpha'])
         T = np.dot(T, A_i)
     return T[:3, 3]  # Retorna apenas a posição (x, y, z) do efetuador final
 
