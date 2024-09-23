@@ -117,7 +117,7 @@ def test_forward_kinematics(q):
 # Função de teste que executa a cinemática inversa e verifica a posição final
 def test_inverse_and_forward(target_position, initial_angles):
     calculated_angles = inverse_kinematics(target_position, initial_angles)  # Calcula os ângulos
-    calculated_angles_rounded = np.round(calculated_angles, 4)  # Arredonda os ângulos
+    calculated_angles_rounded = np.round((180/np.pi)*calculated_angles, 4)  # Arredonda os ângulos
     print(f'Ângulos calculados pela cinemática inversa: {calculated_angles_rounded}')
     
     final_position = test_forward_kinematics(calculated_angles)  # Calcula a posição final
