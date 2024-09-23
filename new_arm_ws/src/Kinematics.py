@@ -10,7 +10,7 @@ j5UL = 120; j5LL = -120
 j6UL = 400; j6LL = -400
 
 # Lista com os limites de cada junta
-joint_limits = [
+joint_limits = (np.pi/180)*[
     (j1LL, j1UL),
     (j2LL, j2UL),
     (j3LL, j3UL),
