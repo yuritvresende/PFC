@@ -58,21 +58,25 @@ def forward_kinematics(q):
             A_i = dh_matrixJ2(theta, params['d'], params['a'], params['alpha'])
         T = dot(T, A_i)
     position = T[:3, 3]  # Posição (x, y, z)
-    return position
+    R = T[:3, :3]  # Matriz de rotação
+    return position, R
 
 # Função para calcular a Jacobiana numericamente
 def jacobian(q, delta=1e-6):
-    J = zeros((3, len(q)))  # 3 para posição
-    current_pos = forward_kinematics(q)
+    J = zeros((6, len(q)))  # 3 para posição, 3 para orientação
+    current_pos, current_rot = forward_kinematics(q)
     
     for i in range(len(q)):
         dq = q.copy()
         dq[i] += delta
-        new_pos = forward_kinematics(dq)
+        new_pos, new_rot = forward_kinematics(dq)
         
         # Diferença na posição
         J[:3, i] = (new_pos - current_pos) / delta
-    
+        
+        # Diferença na orientação
+        rot_diff = dot(new_rot, current_rot.T)  # Matriz de rotação relativa
+        J[3:, i] = array([rot_diff[2, 1], rot_diff[0, 2], rot_diff[1, 0]]) / delta  # Extrai ângulos de Euler aproximados
     return J
 
 # Função que verifica os limites das juntas
@@ -87,21 +91,30 @@ def check_joint_limits(q):
             q[i] = upper_limit
     return q
 
-# Função de cinemática inversa que ajusta a posição
-def inverse_kinematics(target_pos, initial_q, max_iterations=3000, tolerance=1e-6):
+# Função de cinemática inversa que ajusta primeiro a posição, depois a orientação
+def inverse_kinematics(target_pos, initial_q, max_iterations=3000, tolerance=1e-6, orientation_tolerance=1e-4):
     q = initial_q.copy()
     for iteration in range(max_iterations):
-        current_pos = forward_kinematics(q)
+        current_pos, current_rot = forward_kinematics(q)
         
+        # Passo 1: Primeiro, ajuste a posição
         pos_error = target_pos - current_pos
         
         if linalg.norm(pos_error) > tolerance:
-            # Se a posição estiver fora do limite de tolerância, corrige a posição
-            error = hstack([pos_error]) 
+            # Se a posição estiver fora do limite de tolerância, corrige a posição primeiro
+            error = hstack([pos_error, zeros(3)])  # Corrige só a posição
         else:
-            return q
+            # Passo 2: Após a posição estar próxima, ajuste a orientação para manter o efetuador paralelo ao plano XY
+            # Garantir que a componente Z (R_z3) do vetor Z do efetuador seja 0 (paralelo ao XY)
+            rot_error_z = current_rot[2, 2]  # Pega a componente Z da terceira coluna da matriz de rotação
+            if abs(rot_error_z) > orientation_tolerance:
+                # Se o valor de R_z3 não for próximo de 0, corrigimos a orientação
+                error = hstack([zeros(3), [0, 0, -rot_error_z]])
+            else:
+                # Se a orientação já estiver dentro da tolerância, finaliza
+                return q
             
-        # Atualiza as juntas
+        # Atualize as juntas
         J = jacobian(q)
         dq = dot(pinv(J), error)
         q += dq
@@ -111,7 +124,7 @@ def inverse_kinematics(target_pos, initial_q, max_iterations=3000, tolerance=1e-
 
 # Função de teste para a cinemática direta
 def test_forward_kinematics(q):
-    position = forward_kinematics(q)
+    position, _ = forward_kinematics(q)
     return round(position, 6)
 
 # Função para formatar a string do comando ROS2
@@ -124,8 +137,8 @@ def format_ros2_action_command(joint_angles, speed=1.0):
     return command
 
 # Função de teste que verifica soluções com alinhamento ao plano XY
-def test_inverse_kinematics(target_position, initial_q):
-    solution = inverse_kinematics(target_position, initial_q)
+def test_inverse_kinematics_with_xy_alignment(target_position, initial_q, orientation_tolerance=0.1):
+    solution = inverse_kinematics(target_position, initial_q, orientation_tolerance=orientation_tolerance)
     
     if solution is not None:
         print(f'Solução encontrada: {round((180/pi)*solution, 6)}')
@@ -140,8 +153,8 @@ def test_inverse_kinematics(target_position, initial_q):
     else:
         print("Solução não convergiu.")
 
-# Testando com uma posição alvo
+# Testando com uma posição alvo e alinhamento ao plano XY
 initial_q = [0, 0, 0, 0, 0, 0]
 target_position = array([2*0.2, 1.1*0.4, 1.1*0.3])
 
-test_inverse_kinematics(target_position, initial_q)
+test_inverse_kinematics_with_xy_alignment(target_position, initial_q)
