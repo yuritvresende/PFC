@@ -1,4 +1,5 @@
 import numpy as np
+from numpy import pi, cos, sin, array, dot, eye, round, zeros, linalg, hstack
 from scipy.linalg import pinv
 
 # Definindo limites das juntas (upper limit - UL e lower limit - LL)
@@ -10,7 +11,7 @@ j5UL = 120; j5LL = -120
 j6UL = 400; j6LL = -400
 
 # Lista com os limites de cada junta
-joint_limits = (np.pi/180)*[
+joint_limits = (pi/180)*[
     (j1LL, j1UL),
     (j2LL, j2UL),
     (j3LL, j3UL),
@@ -21,112 +22,140 @@ joint_limits = (np.pi/180)*[
 
 # Função que gera a matriz de transformação DH
 def dh_matrix(theta, d, a, alpha):
-    return np.array([
-        [np.cos(theta), -np.sin(theta)*np.cos(alpha), np.sin(theta)*np.sin(alpha), a*np.cos(theta)],
-        [np.sin(theta), np.cos(theta)*np.cos(alpha), -np.cos(theta)*np.sin(alpha), a*np.sin(theta)],
-        [0, np.sin(alpha), np.cos(alpha), d],
+    return array([
+        [cos(theta), -sin(theta)*cos(alpha), sin(theta)*sin(alpha), a*cos(theta)],
+        [sin(theta), cos(theta)*cos(alpha), -cos(theta)*sin(alpha), a*sin(theta)],
+        [0, sin(alpha), cos(alpha), d],
         [0, 0, 0, 1]
     ])
 
 def dh_matrixJ2(theta, d, a, alpha):
-    return np.array([
-        [np.sin(theta), np.cos(theta)*np.cos(alpha), -np.cos(theta)*np.sin(alpha), a*np.sin(theta)],
-        [-np.cos(theta), np.sin(theta)*np.cos(alpha), -np.sin(theta)*np.sin(alpha), -a*np.cos(theta)],
-        [0, np.sin(alpha), np.cos(alpha), d],
+    return array([
+        [sin(theta), cos(theta)*cos(alpha), -cos(theta)*sin(alpha), a*sin(theta)],
+        [-cos(theta), sin(theta)*cos(alpha), -sin(theta)*sin(alpha), -a*cos(theta)],
+        [0, sin(alpha), cos(alpha), d],
         [0, 0, 0, 1]
     ])
 
 # Parâmetros DH do manipulador robótico
 dh_params = [
-    {'d': 0.29, 'a': 0, 'alpha': -np.pi/2},
+    {'d': 0.29, 'a': 0, 'alpha': -pi/2},
     {'d': 0, 'a': 0.27, 'alpha': 0},
-    {'d': 0, 'a': 0.07, 'alpha': -np.pi/2},
-    {'d': 0.302, 'a': 0, 'alpha': np.pi/2},
-    {'d': 0, 'a': 0, 'alpha': -np.pi/2},
+    {'d': 0, 'a': 0.07, 'alpha': -pi/2},
+    {'d': 0.302, 'a': 0, 'alpha': pi/2},
+    {'d': 0, 'a': 0, 'alpha': -pi/2},
     {'d': 0.072, 'a': 0, 'alpha': 0}
 ]
 
-# Função de cinemática direta que calcula a posição do efetuador final
+# Função de cinemática direta
 def forward_kinematics(q):
-    T = np.eye(4)  # Matriz identidade 4x4
+    T = eye(4)  # Matriz identidade 4x4
     for i, params in enumerate(dh_params):
         theta = q[i]
-        # Calcula a matriz de transformação de cada junta e acumula em T
-        if i !=1:
-           A_i = dh_matrix(theta, params['d'], params['a'], params['alpha'])
+        if i != 1:
+            A_i = dh_matrix(theta, params['d'], params['a'], params['alpha'])
         else:
-           A_i = dh_matrixJ2(theta, params['d'], params['a'], params['alpha'])
-        T = np.dot(T, A_i)
-    return T[:3, 3]  # Retorna apenas a posição (x, y, z) do efetuador final
+            A_i = dh_matrixJ2(theta, params['d'], params['a'], params['alpha'])
+        T = dot(T, A_i)
+    position = T[:3, 3]  # Posição (x, y, z)
+    R = T[:3, :3]  # Matriz de rotação
+    return position, R
 
-# Função que calcula a matriz Jacobiana numericamente
+# Função para calcular a Jacobiana numericamente
 def jacobian(q, delta=1e-6):
-    J = np.zeros((3, len(q)))  # Inicializa a matriz Jacobiana
-    current_pos = forward_kinematics(q)  # Posição atual do efetuador final
+    J = zeros((6, len(q)))  # 3 para posição, 3 para orientação
+    current_pos, current_rot = forward_kinematics(q)
+    
     for i in range(len(q)):
         dq = q.copy()
-        dq[i] += delta  # Perturba o ângulo da junta i
-        new_pos = forward_kinematics(dq)  # Calcula a nova posição
-        # Calcula a derivada numérica (variação na posição / variação no ângulo)
-        J[:, i] = (new_pos - current_pos) / delta
+        dq[i] += delta
+        new_pos, new_rot = forward_kinematics(dq)
+        
+        # Diferença na posição
+        J[:3, i] = (new_pos[0] - current_pos[0]) / delta
+        
+        # Diferença na orientação
+        rot_diff = dot(new_rot, current_rot.T)  # Matriz de rotação relativa
+        J[3:, i] = array([rot_diff[2, 1], rot_diff[0, 2], rot_diff[1, 0]]) / delta  # Extrai ângulos de Euler aproximados
     return J
 
-# Função que verifica os limites das juntas e ajusta os ângulos se necessário
+# Função que verifica os limites das juntas
 def check_joint_limits(q):
-    """Verifica se os ângulos estão dentro dos limites e ajusta, se necessário."""
+    assert len(q) == len(joint_limits), "O número de juntas não corresponde ao número de limites."
+    
     for i, angle in enumerate(q):
-        lower_limit, upper_limit = joint_limits[i]  # Limites da junta i
+        lower_limit, upper_limit = joint_limits[i]
         if angle < lower_limit:
-            print(f"Ângulo da junta {i+1} ({angle}) abaixo do limite inferior ({lower_limit}). Ajustando...")
-            q[i] = lower_limit  # Ajusta para o limite inferior
+            q[i] = lower_limit
         elif angle > upper_limit:
-            print(f"Ângulo da junta {i+1} ({angle}) acima do limite superior ({upper_limit}). Ajustando...")
-            q[i] = upper_limit  # Ajusta para o limite superior
+            q[i] = upper_limit
     return q
 
-# Função de cinemática inversa que encontra os ângulos das juntas para alcançar uma posição alvo
-def inverse_kinematics(target_pos, initial_q, max_iterations=100, tolerance=1e-6):
-    q = initial_q.copy()  # Copia os ângulos iniciais
+# Função de cinemática inversa que também considera orientação
+def inverse_kinematics(target_pos, target_orientation, initial_q, max_iterations=1000, tolerance=1e-6):
+    q = initial_q.copy()
     for iteration in range(max_iterations):
-        current_pos = forward_kinematics(q)  # Calcula a posição atual do efetuador final
-        error = target_pos - current_pos  # Calcula o erro (diferença entre posição atual e alvo)
+        current_pos, current_rot = forward_kinematics(q)
         
-        # Verifica se o erro está dentro da tolerância
-        if np.linalg.norm(error) < tolerance:
-            print(f'Solução encontrada após {iteration+1} iterações.')
+        # Erro de posição
+        pos_error = target_pos - current_pos
+        
+        # Erro de orientação (usando ângulos de Euler)
+        rot_error = dot(current_rot.T, target_orientation)  # Matriz de rotação relativa
+        euler_error = array([rot_error[2, 1], rot_error[0, 2], rot_error[1, 0]])  # Aproximação com ângulos
+        
+        # Combinando erro de posição e orientação
+        error = hstack([pos_error, euler_error])
+        
+        if linalg.norm(error) < tolerance:
             return q
         
-        # Calcula o Jacobiano e a variação nos ângulos
         J = jacobian(q)
-        dq = np.dot(pinv(J), error)  # Ajusta os ângulos das juntas usando o Jacobiano pseudo-inverso 
-        q += dq  # Atualiza os ângulos das juntas
-        
-        # Verifica se os ângulos estão dentro dos limites
+        dq = dot(pinv(J), error)
+        q += dq
         q = check_joint_limits(q)
-
-    print('A solução não convergiu dentro dos limites.')
-    return q  # Retorna os ângulos ajustados, mesmo sem convergência
-
-# Função de teste para verificar a cinemática direta
-def test_forward_kinematics(q):
-    position = forward_kinematics(q)  # Calcula a posição do efetuador final
-    position_rounded = np.round(position, 4)  # Arredonda para 4 casas decimais
-    print(f'Posição calculada do efetuador final (X, Y, Z): {position_rounded}')
-    return position_rounded
-
-# Função de teste que executa a cinemática inversa e verifica a posição final
-def test_inverse_and_forward(target_position, initial_angles):
-    calculated_angles = inverse_kinematics(target_position, initial_angles)  # Calcula os ângulos
-    calculated_angles_rounded = np.round((180/np.pi)*calculated_angles, 4)  # Arredonda os ângulos
-    print(f'Ângulos calculados pela cinemática inversa: {calculated_angles_rounded}')
     
-    final_position = test_forward_kinematics(calculated_angles)  # Calcula a posição final
-    error = np.round(target_position - final_position, 4)  # Calcula o erro final
-    print(f'Diferença entre a posição desejada e a posição calculada: {error}')
+    return None  # Retorna None se não convergir
 
-# Posição alvo e ângulos iniciais
-target_position = np.array([0.3, 0.2, 0.5])
-initial_angles = [0, 0, 0, 0, 0, 0]
+# Função de teste para a cinemática direta
+def test_forward_kinematics(q):
+    position, _ = forward_kinematics(q)
+    return round(position, 4)
 
-# Executa o teste de cinemática inversa e direta
-test_inverse_and_forward(target_position, initial_angles)
+# Função para formatar a string do comando ROS2
+def format_ros2_action_command(joint_angles, speed=1.0):
+    command = f'ros2 action send_goal -f /MoveJ ros2_data/action/MoveJ ' \
+              f'\"{{goal: {{joint1: {joint_angles[0]:.4f}, joint2: {joint_angles[1]:.4f}, ' \
+              f'joint3: {joint_angles[2]:.4f}, joint4: {joint_angles[3]:.4f}, ' \
+              f'joint5: {joint_angles[4]:.4f}, joint6: {joint_angles[5]:.4f}}}, ' \
+              f'speed: {speed}}}\"'
+    return command
+
+# Função de teste que verifica soluções com orientação
+def test_inverse_kinematics_with_orientation(target_position, target_orientation, initial_q):
+    solution = inverse_kinematics(target_position, target_orientation, initial_q)
+    
+    if solution is not None:
+        print(f'Solução encontrada: {round((180/pi)*solution, 4)}')
+        pos = test_forward_kinematics(solution)
+        print(f'Posição calculada (X, Y, Z): {pos}')
+        error = round(target_position - pos, 4)
+        print(f'Erro final: {error}')
+        
+        # Imprime o comando formatado para ROS2
+        command = format_ros2_action_command(solution)
+        print(f'Comando ROS2 para enviar esta solução:\n{command}')
+    else:
+        print("Solução não convergiu.")
+
+# Testando com uma posição alvo e uma orientação alvo
+initial_q = [0, 0, 0, 0, 0, 0]
+target_position = array([0.5, 0.3, 0.75])
+# Orientação desejada: paralelo ao plano XY e girado por pi/4 ao redor do eixo Z
+target_orientation = array([
+    [cos(pi/4), -sin(pi/4), 0],
+    [sin(pi/4),  cos(pi/4), 0],
+    [0, 0, 1]
+])
+
+test_inverse_kinematics_with_orientation(target_position, target_orientation, initial_q)
