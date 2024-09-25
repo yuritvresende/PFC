@@ -1,5 +1,6 @@
 import numpy as np
 from numpy import pi, cos, sin, array, dot, eye, round, zeros, linalg, hstack
+from math import sqrt, asin, acos, atan2
 from scipy.linalg import pinv
 
 # Definindo limites das juntas (upper limit - UL e lower limit - LL)
@@ -58,21 +59,23 @@ def forward_kinematics(q):
             A_i = dh_matrixJ2(theta, params['d'], params['a'], params['alpha'])
         T = dot(T, A_i)
     position = T[:3, 3]  # Posição (x, y, z)
-    return position
+    R = T[:3, :3]  # Matriz de rotação
+    return position, R
 
 # Função para calcular a Jacobiana numericamente
 def jacobian(q, delta=1e-6):
-    J = zeros((3, len(q)))  # 3 para posição
-    current_pos = forward_kinematics(q)
+    J = zeros((6, len(q)))  # 3 para posição, 3 para orientação
+    current_pos, current_rot = forward_kinematics(q)
     
     for i in range(len(q)):
         dq = q.copy()
         dq[i] += delta
-        new_pos = forward_kinematics(dq)
-        
+        new_pos, new_rot = forward_kinematics(dq)
         # Diferença na posição
-        J[:3, i] = (new_pos - current_pos) / delta
-    
+        J[:3, i] = (new_pos - current_pos)/delta
+        # Diferença na orientação
+        rot_diff = dot(new_rot, current_rot.T)  # Matriz de rotação relativa
+        J[3:, i] = array([rot_diff[2, 1], rot_diff[0, 2], rot_diff[1, 0]]) / delta  # Extrai ângulos de Euler aproximados
     return J
 
 # Função que verifica os limites das juntas
@@ -87,61 +90,86 @@ def check_joint_limits(q):
             q[i] = upper_limit
     return q
 
-# Função de cinemática inversa que ajusta a posição
-def inverse_kinematics(target_pos, initial_q, max_iterations=3000, tolerance=1e-6):
-    q = initial_q.copy()
+def first_steps(target_position):
+    orientation = (180/pi)*atan2(target_position[1], target_position[0])
+    if orientation > 180:
+        orientation -= 360
+    elif orientation < -180:
+        orientation += 360
+    height = target_position[2]
+
+    return orientation, height
+
+# Função de cinemática inversa que ajusta primeiro a posição, depois a orientação
+def inverse_kinematics(target_position, initial_angles, max_iterations=10000, tolerance=1e-6, orientation_tolerance=1e-4):
+    q = initial_angles.copy()
+    orientation, height = first_steps(target_position)
+    q[2] = pi/4
+    q[4] = -pi/2
+    if orientation > 0:
+       q[0] = pi/2
+       q[3] = pi/2
+    elif orientation < 0:
+       q[0] = -pi/2
+       q[3] = -pi/2
     for iteration in range(max_iterations):
-        current_pos = forward_kinematics(q)
+        current_position, current_rot = forward_kinematics(q)
         
-        pos_error = target_pos - current_pos
-        
-        if linalg.norm(pos_error) > tolerance:
-            # Se a posição estiver fora do limite de tolerância, corrige a posição
-            error = hstack([pos_error]) 
+        height_and_xy_error = [(target_position[0] - current_position[0]), (target_position[1] - current_position[1]), (height - current_position[2])]
+        rot_error_x = current_rot[0, 2]  # Pega a componente X da terceira coluna da matriz de rotação
+        if linalg.norm(height_and_xy_error) > tolerance or abs(1 - rot_error_x) > orientation_tolerance or rot_error_x < 0:
+            # Se a posição estiver fora do limite de tolerância, corrige a posição primeiro
+            error = hstack([height_and_xy_error, [1 - rot_error_x, 0, 0]])
         else:
-            return q
-            
-        # Atualiza as juntas
+            return q 
+        # Atualizar as juntas
         J = jacobian(q)
         dq = dot(pinv(J), error)
-        q += dq
+        for i in range(6):
+            if i == 5:
+                q[i] = q[i]
+            else:
+                q[i] += dq[i] 
         q = check_joint_limits(q)
-    
     return q  # Retorna a última tentativa mesmo que não tenha convergido completamente
 
 # Função de teste para a cinemática direta
 def test_forward_kinematics(q):
-    position = forward_kinematics(q)
+    position, _ = forward_kinematics(q)
     return round(position, 6)
 
 # Função para formatar a string do comando ROS2
 def format_ros2_action_command(joint_angles, speed=1.0):
     command = f'ros2 action send_goal -f /MoveJ ros2_data/action/MoveJ ' \
-              f'\"{{goal: {{joint1: {joint_angles[0]:.4f}, joint2: {joint_angles[1]:.4f}, ' \
-              f'joint3: {joint_angles[2]:.4f}, joint4: {joint_angles[3]:.4f}, ' \
-              f'joint5: {joint_angles[4]:.4f}, joint6: {joint_angles[5]:.4f}}}, ' \
+              f'\"{{goal: {{joint1: {joint_angles[0]:.2f}, joint2: {joint_angles[1]:.2f}, ' \
+              f'joint3: {joint_angles[2]:.2f}, joint4: {joint_angles[3]:.2f}, ' \
+              f'joint5: {joint_angles[4]:.2f}, joint6: {joint_angles[5]:.2f}}}, ' \
               f'speed: {speed}}}\"'
     return command
 
 # Função de teste que verifica soluções com alinhamento ao plano XY
-def test_inverse_kinematics(target_position, initial_q):
-    solution = inverse_kinematics(target_position, initial_q)
-    
+def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
+    solution = inverse_kinematics(target_position, initial_angles, orientation_tolerance=orientation_tolerance)
+    _, R = forward_kinematics(solution)
+    new_z = [R[0,2], R[1,2], R[2,2]]
     if solution is not None:
-        print(f'Solução encontrada: {round((180/pi)*solution, 6)}')
         pos = test_forward_kinematics(solution)
-        print(f'Posição calculada (X, Y, Z): {pos}')
+        print(f'Posição calculada (X, Y, Z) do efetuador final: {pos}')
+        print(f'Orientação do eixo do efetuador final decomposta em (X, Y, Z): {new_z}')
         error = round(target_position - pos, 6)
-        print(f'Erro final: {error}')
-        
+        # print(f'Erro final: {error}')
+        for i in range(6):
+            solution[i] = round((180/pi)*solution[i], 6)
         # Imprime o comando formatado para ROS2
-        command = format_ros2_action_command(round((180/pi)*solution, 4))
+        print(f'Solução encontrada: {round(solution, 6)}')
+        command = format_ros2_action_command(solution)
         print(f'Comando ROS2 para enviar esta solução:\n{command}')
     else:
         print("Solução não convergiu.")
 
-# Testando com uma posição alvo
-initial_q = [0, 0, 0, 0, 0, 0]
-target_position = array([2*0.2, 1.1*0.4, 1.1*0.3])
+# Testando com uma posição alvo e alinhamento ao plano XY
+initial_angles = [0, 0,  0,  0, 0, 0]
+target_position = array([0.45, -0.15, 0.3])
 
-test_inverse_kinematics(target_position, initial_q)
+
+get_to_target(target_position, initial_angles)
