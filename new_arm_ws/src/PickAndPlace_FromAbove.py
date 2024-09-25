@@ -104,6 +104,12 @@ def first_steps(target_position):
 
     return orientation, height
 
+def gripper_orientation(box_size):
+    if box_size[0] > box_size[1]:
+        return -pi/2
+    else:
+        return 0
+
 # Função de cinemática inversa
 def inverse_kinematics(target_position, initial_angles, max_iterations=10000, tolerance=1e-6, orientation_tolerance=1e-4):
     q = initial_angles.copy()
@@ -161,6 +167,11 @@ def format_ros2_action_command(joint_angles, speed=1.0):
               f'speed: {speed}}}\"'
     return command
 
+def print_box(target_position):
+    command = f'ros2 run ros2_grasping spawn_object.py --package "ros2_grasping" --urdf "box.urdf" --name "box" ' \
+              f'\--x {target_position[0]:.2f} --y {target_position[1]:.2f} --z {target_position[2]:.2f}'
+    return command
+
 # Função de teste que verifica soluções com perpendicularidade ao eixo Z
 def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
     solution = inverse_kinematics(target_position, initial_angles, orientation_tolerance=orientation_tolerance)
@@ -168,17 +179,56 @@ def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
     new_z = [R[0,2], R[1,2], R[2,2]]
     if solution is not None:
         pos = test_forward_kinematics(solution)
-        print(f'Posição calculada (X, Y, Z) do efetuador final: {pos}')
-        print(f'Orientação do eixo do efetuador final decomposta em (X, Y, Z): {new_z}')
+        solve = solution
         for i in range(6):
-            solution[i] = round((180/pi)*solution[i], 6)
+            solve[i] = round((180/pi)*solution[i], 6)
         # Imprime o comando formatado para ROS2
-        print(f'Solução encontrada: {round(solution, 6)}')
-        command = format_ros2_action_command(solution)
-        print(f'Comando ROS2 para enviar esta solução:\n{command}')
+        # print(f'Solução encontrada: {round(solve, 6)}')
+        # command = format_ros2_action_command(solve)
+        # print(f'Comando ROS2 para enviar esta solução:\n{command}')
     else:
         print("Solução não convergiu.")
+    return solution
+
+def pick_and_place(initial_angles, box_size, target_position, final_position):
+    command1 = print_box(target_position)
+    print(f'Comando ROS2 para spawnar a caixa:\n{command1}')
+    
+    print("\n")
+    
+    initial_movement = target_position + gripper_length + [0, 0, box_size[2]]
+    new_init = get_to_target(initial_movement, initial_angles, orientation_tolerance=1e-4)
+    print(f'Solução encontrada para pairar sobre o alvo: {round(new_init, 6)}')
+    command2 = format_ros2_action_command(new_init)
+    print(f'Comando para pairar sobre o alvo:\n{command2}')
+
+    print("\n")
+   
+    correct_j6 = gripper_orientation(box_size)
+    correction = new_init[0] - correct_j6
+    new_init[5] -= correction    
+
+    print(f'Solução encontrada para corrigir a orientação da garra: {round(new_init, 6)}') 
+    command3 = format_ros2_action_command(new_init)
+    print(f'Comando ROS2 para corrigir a orientação da garra:\n{command3}')
+    
+    print("\n")
+
+    pick_position = get_to_target(initial_movement - [0, 0, box_size[2]], new_init, orientation_tolerance=1e-4)
+    pick_position[5] = new_init[5]
+
+    print(f'Solução encontrada para agarrar o alvo: {round(new_init, 6)}') 
+    command4 = format_ros2_action_command(pick_position)
+    print(f'Comando ROS2 para agarrar o alvo:\n{command4}')
+
+    print("\n")
+
+    print(f'Comando pick completo:') 
+    print(f'{command1} && {command2} && {command3} && {command4}')
 
 initial_angles = [0, 0, 0, 0, 0, 0]
-target_position = array([0.3, -0.3, (0.02 + 0.15 + 0.03)])
-get_to_target(target_position, initial_angles)
+box_size = [0.04, 0.06, 0.04]
+gripper_length = [0, 0, 0.2]
+target_position = array([0.3, -0.3, box_size[2]/2])
+final_position = [0.2, 0.3, box_size[2]/2]
+pick_and_place(initial_angles, box_size, target_position, final_position)
