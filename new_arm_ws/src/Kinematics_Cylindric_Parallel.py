@@ -30,6 +30,7 @@ def dh_matrix(theta, d, a, alpha):
         [0, 0, 0, 1]
     ])
 
+# Função que gera a matriz de transformação DH especialmente para a extremidade do segundo elo
 def dh_matrixJ2(theta, d, a, alpha):
     return array([
         [sin(theta), cos(theta)*cos(alpha), -cos(theta)*sin(alpha), a*sin(theta)],
@@ -57,9 +58,10 @@ def forward_kinematics(q):
             A_i = dh_matrix(theta, params['d'], params['a'], params['alpha'])
         else:
             A_i = dh_matrixJ2(theta, params['d'], params['a'], params['alpha'])
+        # Composição de todas as matrizes de transformação homogêneas de cada elo
         T = dot(T, A_i)
     position = T[:3, 3]  # Posição (x, y, z)
-    R = T[:3, :3]  # Matriz de rotação
+    R = T[:3, :3]  # Matriz de rotação que indica as novas orientações dos eixos do efetuador final em relação aos eixos originais
     return position, R
 
 # Função para calcular a Jacobiana numericamente
@@ -71,17 +73,17 @@ def jacobian(q, delta=1e-6):
         dq = q.copy()
         dq[i] += delta
         new_pos, new_rot = forward_kinematics(dq)
-        # Diferença na posição
+        # Diferença na posição calculada para um dq na variação dos ângulos
         J[:3, i] = (new_pos - current_pos)/delta
-        # Diferença na orientação
+        # Diferença na orientação calculada para um dq na variação dos ângulos
         rot_diff = dot(new_rot, current_rot.T)  # Matriz de rotação relativa
-        J[3:, i] = array([rot_diff[2, 1], rot_diff[0, 2], rot_diff[1, 0]]) / delta  # Extrai ângulos de Euler aproximados
+        J[3:, i] = array([rot_diff[2, 1], rot_diff[0, 2], rot_diff[1, 0]]) / delta  # Extrai ângulos de Euler aproximados a partir de row, pitch e yaw
     return J
 
 # Função que verifica os limites das juntas
 def check_joint_limits(q):
     assert len(q) == len(joint_limits), "O número de juntas não corresponde ao número de limites."
-    
+    # Mudar depois para algo mais cômodo, isso é improviso   
     for i, angle in enumerate(q):
         lower_limit, upper_limit = joint_limits[i]
         if angle < lower_limit:
@@ -100,16 +102,21 @@ def first_steps(target_position):
 
     return orientation, height
 
-# Função de cinemática inversa que ajusta primeiro a posição, depois a orientação
+# Função de cinemática inversa
 def inverse_kinematics(target_position, initial_angles, max_iterations=10000, tolerance=1e-6, orientation_tolerance=1e-4):
     q = initial_angles.copy()
     orientation, height = first_steps(target_position)
+    # Fixando a rotação da junta 1 para a orientação do alvo, o problema é simplificado
     q[0] = (pi/180)*orientation
+    # Pela geometria da junta 6, nesse caso é esse valor que deixa a garra paralela ao plano XY
     q[5] = pi/4
     for iteration in range(max_iterations):
         current_position, current_rot = forward_kinematics(q)
-        
+
+        # Aqui deve ser avaliado, mantendo-se a orientação, se os valores de y e de z estão sendo alcançados
+        # Além disso, é necessário excluir todas as componentes em Z do eixo Z' do efetuador final        
         height_and_y_error = [(target_position[1] - current_position[1]), (height - current_position[2])]
+        
         rot_error_z = current_rot[2, 2]  # Pega a componente Z da terceira coluna da matriz de rotação
 
         if linalg.norm(height_and_y_error) > tolerance or abs(rot_error_z) > orientation_tolerance:
@@ -122,12 +129,16 @@ def inverse_kinematics(target_position, initial_angles, max_iterations=10000, to
         dq = dot(pinv(J), error)
         for i in range(6):
             if i == 0:
+                # Junta 1 nunca atualizada                
                 q[i] = q[i]
             elif i == 3:
+                # Junta 4 também não precisa ser atualizada para a movimentação em coordenadas cilíndricas, mesmo para não afetar a junta 5
                 q[i] = q[i]
             elif i == 4:
+                # A junta 5 preferencialmente deve ser movimentada de forma a compensar as juntas 2 e 3, apontando para o alvo paralelamente ao plano
                 q[i] = -(q[1] + q[2]) 
             elif i == 5:
+                # A rotação da junta 6 não deve ser atualizada
                 q[i] = q[i]
             else:
                 q[i] += dq[i] 
@@ -157,8 +168,6 @@ def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
         pos = test_forward_kinematics(solution)
         print(f'Posição calculada (X, Y, Z) do efetuador final: {pos}')
         print(f'Orientação do eixo do efetuador final decomposta em (X, Y, Z): {new_z}')
-        error = round(target_position - pos, 6)
-        # print(f'Erro final: {error}')
         for i in range(6):
             solution[i] = round((180/pi)*solution[i], 6)
         # Imprime o comando formatado para ROS2
@@ -168,9 +177,6 @@ def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
     else:
         print("Solução não convergiu.")
 
-# Testando com uma posição alvo e alinhamento ao plano XY
 initial_angles = [0, 0, 0, 0, 0, 0]
 target_position = array([0.2, -0.2, 0.1])
-
-
 get_to_target(target_position, initial_angles)
