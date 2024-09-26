@@ -104,6 +104,7 @@ def first_steps(target_position):
 
     return orientation, height
 
+# Essa função foi adicionada para poder verificar o quanto é necessário girar a junta 6 para a garra apanhar a caixa por sua menor dimensão
 def gripper_orientation(box_size):
     if box_size[0] > box_size[1]:
         return -180
@@ -167,12 +168,13 @@ def format_ros2_action_command(joint_angles, speed=1.0):
               f'speed: {speed}}}\"'
     return command
 
+# Definição do comando para spawnar uma caixa a partir da posição definida
 def print_box(target_position):
     command = f'ros2 run ros2_grasping spawn_object.py --package "ros2_grasping" --urdf "box.urdf" --name "box" ' \
               f'--x {target_position[0]:.2f} --y {target_position[1]:.2f} --z {target_position[2]:.2f}'
     return command
 
-# Função de teste que verifica soluções com perpendicularidade ao eixo Z
+# Função de teste que verifica soluções com perpendicularidade ao eixo plano XY
 def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
     solution = inverse_kinematics(target_position, initial_angles, orientation_tolerance=orientation_tolerance)
     _, R = forward_kinematics(solution)
@@ -182,84 +184,86 @@ def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
         solve = solution
         for i in range(6):
             solve[i] = round((180/pi)*solution[i], 6)
-        # Imprime o comando formatado para ROS2
-        # print(f'Solução encontrada: {round(solve, 6)}')
-        # command = format_ros2_action_command(solve)
-        # print(f'Comando ROS2 para enviar esta solução:\n{command}')
     else:
         print("Solução não convergiu.")
     return solution
 
+# A sequência abaixo executa repetidas vezes as funções de movimento com a finalidade de lançar no terminal todos os comandos necessários
 def pick_and_place(initial_angles, box_size, target_position, final_position):
+    # Primeiramente, é necessário spawnar a caixa
     command1 = print_box(target_position)
     print(f'Comando ROS2 para spawnar a caixa:\n{command1}')
     
+    # Após isso, a coordenada inicial de movimento leva em consideração colocar a garra suficientemente acima da caixa
     initial_movement = target_position + gripper_length + [0, 0, 2*box_size[2]]
     new_init = get_to_target(initial_movement, initial_angles, orientation_tolerance=1e-4)
     print(f'\nSolução encontrada para pairar sobre a caixa: {round(new_init, 6)}')
     command2 = format_ros2_action_command(new_init)
     print(f'Comando para pairar sobre a caixa:\n{command2}')
    
+    # A partir da função definida lá em cima, aqui se faz o ajuste na rotação da garra após identificar o menor lado da caixa
     correct_j6 = gripper_orientation(box_size)
-    
     print(f'\nA garra deve se orientar para {correct_j6}° e está em {new_init[0]}° \n')
-    
     correction = new_init[0] - correct_j6 - 180
-    
     print(f'A garra deve girar um total de {correction}°\n')
-
     new_init[5] += correction    
 
+    # Aqui o comando para corrigir a orientação sem mover as outras juntas do braço
     print(f'Solução encontrada para corrigir a orientação da garra: {round(new_init, 6)}') 
     command3 = format_ros2_action_command(new_init)
     print(f'Comando ROS2 para corrigir a orientação da garra:\n{command3}')
-
+    
+    # Com o ajuste feito, agora é necessário encaixar a garra no corpo da caixa com um movimento quase linear, por isso se varia apenas a altura do alvo
     pick_position = get_to_target(initial_movement - [0, 0, 1.5*box_size[2]], new_init, orientation_tolerance=1e-4)
     pick_position[5] = new_init[5]
-
     print(f'\nSolução encontrada para encaixar a caixa: {round(new_init, 6)}') 
     command4 = format_ros2_action_command(pick_position)
     print(f'Comando ROS2 para encaixar a caixa:\n{command4}')
-
+    
+    # A verificar por enquanto, mas esse comando mantém a caixa e a ponta da garra conectados em um terminal que ficará em atividade constante
     print('\nComando ROS2 para fechar a garra:')
     print('ros2 action send_goal -f /Attacher ros2_grasping/action/Attacher "{object: \'box\', endeffector: \'EE_egp64\'}"')
-
+    
+    # Soma de todas as etapas até aqui para facilitar a instrução no terminal
     print(f'\nComando pick completo:') 
     print(f'{command1} && {command2} && {command3} && {command4} && ros2 action send_goal -f /Attacher ros2_grasping/action/Attacher "{{object: \'box\', endeffector: \'EE_egp64\'}}"')
-
+    
+    # Para levantar o objeto, retorna-se uma posição
     print('\nPara afastar, utiliza-se o movimento inverso ao de se aproximar, mas em outro terminal') 
     print(f'Comando ROS2 para se afastar carregando o bloco:\n{command3}')
     
-    first_goal = final_position + [0, 0, 2*box_size[2]] + gripper_length
-    place_position = get_to_target(first_goal, new_init, orientation_tolerance=1e-4)
-
-    correction = place_position[0] - correct_j6 - 180
-    place_position[5] += correction
-
+    # Para evitar a possibilidade de esbarrar a caixa no chão, retorna-se primeiro à posição inicial como passo intermediário
     inter_command = format_ros2_action_command([0, 0, 0, 0, 90, 45])
     print(f'\nComando ROS2 para chegar a uma posição neutra:\n{inter_command}')
 
+    # Agora, semelhantemente ao caso do pick, o alvo da garra será estar um pouco acima da posição em que a caixa deve ficar
+    first_goal = final_position + [0, 0, 2*box_size[2]] + gripper_length
+    place_position = get_to_target(first_goal, new_init, orientation_tolerance=1e-4)
+    correction = place_position[0] - correct_j6 - 180
+    place_position[5] += correction
     print(f'\nSolução encontrada para aproximar o alvo do local de colocar: {round(place_position, 6)}') 
     command5 = format_ros2_action_command(place_position)
     print(f'Comando ROS2 para iniciar a descida no local alvo:\n{command5}')
 
+    # Essa será, portanto, a posição para deixar a caixa no chão
     leave_position = get_to_target(first_goal - [0, 0, 1.5*box_size[2]], place_position, orientation_tolerance=1e-4)
     leave_position[5] = place_position[5]
-
     print(f'\nSolução encontrada para deixar a caixa: {round(leave_position, 6)}') 
     command6 = format_ros2_action_command(leave_position)
     print(f'Comando ROS2 para deixar a caixa:\n{command6}')
 
+    # Soma de todas as etapas até aqui
     print(f'\nComando place completo:') 
     print(f'{command3} && {inter_command} && {command5} && {command6}')
 
+    # Após posicionar a caixa em seu local de destino, deve-se retornar ao terminal que estava ativo mantendo a conexão e encerrar sua atividade para continuar
     print('\nPara afastar, utiliza-se o movimento inverso ao de se aproximar') 
     print(f'Comando ROS2 para se afastar depois de soltar o bloco:\n{command5}')
 
     print('\nNesse meio termo volte ao outro terminal e encerre a atividade da garra')
-
+   
     print(f'\nComando ROS2 para chegar a uma posição neutra:\n{inter_command}')
-
+   
     print(f'\nComando de encerramento completo:') 
     print(f'{command5} && {inter_command}')
 
