@@ -39,8 +39,10 @@ from std_msgs.msg import String
 import os
 import ast
 import time
+# from PickAndPlace_FromAbove import pick_and_place
+# from numpy import array
 
-# Import ACTIONS:
+# Import ACTIONS
 from ros2_data.action import MoveJ
 from ros2_data.action import MoveJs
 from ros2_data.action import MoveL
@@ -660,16 +662,18 @@ class CloseProgram():
 
 def main(args=None):
     
+    # está dando erro de diretório, nao tá conseguindo puxar o metódo do outro script
+    # initial_angles = [0, 0, 0, 0, 0, 0]
+    # box_size = [0.05, 0.03, 0.08]
+    # target_position = array([0.2, -0.3, box_size[2]/2])
+    # final_position = array([0.2, 0.3, box_size[2]/2])
+    # pick_and_place(initial_angles, box_size, target_position, final_position)
+
     # Import global variable RES:
     global RES
     
     # 1. INITIALISE ROS NODE:
     rclpy.init(args=args)
-
-    print("")
-    print(" --- Cranfield University --- ")
-    print("        (c) IFRA Group        ")
-    print("")
 
     print("ros2_RobotSimulation --> SEQUENCE EXECUTION")
     print("Python script -> ros2_execution.py")

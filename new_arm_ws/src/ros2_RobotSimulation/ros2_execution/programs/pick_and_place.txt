@@ -1,0 +1,11 @@
+{'action': 'MoveJ', 'value': {'joint1': -33.69, 'joint2': 14.93, 'joint3': 18.29, 'joint4': 0.0, 'joint5': 56.78, 'joint6': 45.0}, 'speed': 1.0}
+{'action': 'MoveJ', 'value': {'joint1': -33.69, 'joint2': 14.93, 'joint3': 18.29, 'joint4': 0.0, 'joint5': 56.78, 'joint6': 11.31}, 'speed': 1.0}
+{'action': 'MoveJ', 'value': {'joint1': -33.69, 'joint2': 28.12, 'joint3': 26.12, 'joint4': 0.0, 'joint5': 35.76, 'joint6': 11.31}, 'speed': 1.0}
+{'action': 'Attach', 'value': {'object': 'box', 'endeffector': 'EE_egp64'}}
+{'action': 'GripperClose'}
+{'action': 'MoveJ', 'value': {'joint1': 0.0, 'joint2': 0.0, 'joint3': 0.0, 'joint4': 0.0, 'joint5': 90.0, 'joint6': 45.0}, 'speed': 1.0}
+{'action': 'MoveJ', 'value': {'joint1': 33.69, 'joint2': 14.93, 'joint3': 18.29, 'joint4': 0.0, 'joint5': 56.78, 'joint6': 78.69}, 'speed': 1.0}
+{'action': 'MoveJ', 'value': {'joint1': 33.69, 'joint2': 28.12, 'joint3': 26.12, 'joint4': 0.0, 'joint5': 35.76, 'joint6': 78.69}, 'speed': 1.0}
+{'action': 'GripperOpen'}
+{'action': 'Detach', 'value': {'object': 'box'}}
+{'action': 'MoveJ', 'value': {'joint1': 0.0, 'joint2': 0.0, 'joint3': 0.0, 'joint4': 0.0, 'joint5': 0.0, 'joint6': 0.0}, 'speed': 1.0}

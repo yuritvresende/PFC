@@ -293,7 +293,7 @@ def pick_and_place(initial_angles, box_size, target_position, final_position):
 initial_angles = [0, 0, 0, 0, 0, 0]
 box_size = [0.05, 0.03, 0.08]
 gripper_length = [0, 0, 0.171971]
-target_position = array([0.3, -0.2, box_size[2]/2])
-final_position = array([0.3, 0.2, box_size[2]/2])
+target_position = array([0.2, -0.3, box_size[2]/2])
+final_position = array([0.2, 0.3, box_size[2]/2])
 pick_and_place(initial_angles, box_size, target_position, final_position)
 
