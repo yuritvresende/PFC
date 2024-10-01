@@ -179,6 +179,9 @@ def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
     else:
         print("Solução não convergiu.")
 
+testHeight = 0.1
+testRange = 0.3
+
 initial_angles = [0, 0, 0, 0, 0, 0]
-target_position = array([0.3, -0.3, (0.02 + 0.15 + 0.03)])
+target_position = array([testRange, testRange, testHeight])
 get_to_target(target_position, initial_angles)
