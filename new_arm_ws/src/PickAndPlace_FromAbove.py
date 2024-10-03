@@ -179,13 +179,10 @@ def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
     solution = inverse_kinematics(target_position, initial_angles, orientation_tolerance=orientation_tolerance)
     _, R = forward_kinematics(solution)
     new_z = [R[0,2], R[1,2], R[2,2]]
-    if solution is not None:
-        pos = test_forward_kinematics(solution)
-        solve = solution
-        for i in range(6):
-            solve[i] = round((180/pi)*solution[i], 6)
-    else:
-        print("Solução não convergiu.")
+    pos = test_forward_kinematics(solution)
+    solve = solution
+    for i in range(6):
+        solve[i] = round((180/pi)*solution[i], 6)
     return solution
 
 # A sequência abaixo executa repetidas vezes as funções de movimento com a finalidade de lançar no terminal todos os comandos necessários
@@ -288,7 +285,6 @@ def pick_and_place(initial_angles, box_size, target_position, final_position):
     print(f'\nComando completo para colocar a caixa no lugar: {command5} && {command6}')
 
 # Supor que você tenha funções auxiliares como print_box, get_to_target, format_ros2_action_command, e gripper_orientation definidas em outro lugar do seu código.
-
 
 initial_angles = [0, 0, 0, 0, 0, 0]
 box_size = [0.05, 0.03, 0.08]

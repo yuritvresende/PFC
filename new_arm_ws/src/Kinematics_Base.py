@@ -127,18 +127,15 @@ def format_ros2_action_command(joint_angles, speed=1.0):
 def test_inverse_kinematics(target_position, initial_q):
     solution = inverse_kinematics(target_position, initial_q)
     
-    if solution is not None:
-        print(f'Solução encontrada: {round((180/pi)*solution, 6)}')
-        pos = test_forward_kinematics(solution)
-        print(f'Posição calculada (X, Y, Z): {pos}')
-        error = round(target_position - pos, 6)
-        print(f'Erro final: {error}')
+    print(f'Solução encontrada: {round((180/pi)*solution, 6)}')
+    pos = test_forward_kinematics(solution)
+    print(f'Posição calculada (X, Y, Z): {pos}')
+    error = round(target_position - pos, 6)
+    print(f'Erro final: {error}')
         
-        # Imprime o comando formatado para ROS2
-        command = format_ros2_action_command(round((180/pi)*solution, 4))
-        print(f'Comando ROS2 para enviar esta solução:\n{command}')
-    else:
-        print("Solução não convergiu.")
+    # Imprime o comando formatado para ROS2
+    command = format_ros2_action_command(round((180/pi)*solution, 4))
+    print(f'Comando ROS2 para enviar esta solução:\n{command}')
 
 # Testando com uma posição alvo
 initial_q = [0, 0, 0, 0, 0, 0]

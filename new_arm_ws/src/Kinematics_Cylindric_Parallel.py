@@ -164,18 +164,15 @@ def get_to_target(target_position, initial_angles, orientation_tolerance=1e-4):
     solution = inverse_kinematics(target_position, initial_angles, orientation_tolerance=orientation_tolerance)
     _, R = forward_kinematics(solution)
     new_z = [R[0,2], R[1,2], R[2,2]]
-    if solution is not None:
-        pos = test_forward_kinematics(solution)
-        print(f'Posição calculada (X, Y, Z) do efetuador final: {pos}')
-        print(f'Orientação do eixo do efetuador final decomposta em (X, Y, Z): {new_z}')
-        for i in range(6):
-            solution[i] = round((180/pi)*solution[i], 6)
-        # Imprime o comando formatado para ROS2
-        print(f'Solução encontrada: {round(solution, 6)}')
-        command = format_ros2_action_command(solution)
-        print(f'Comando ROS2 para enviar esta solução:\n{command}')
-    else:
-        print("Solução não convergiu.")
+    pos = test_forward_kinematics(solution)
+    print(f'Posição calculada (X, Y, Z) do efetuador final: {pos}')
+    print(f'Orientação do eixo do efetuador final decomposta em (X, Y, Z): {new_z}')
+    for i in range(6):
+        solution[i] = round((180/pi)*solution[i], 6)
+    # Imprime o comando formatado para ROS2
+    print(f'Solução encontrada: {round(solution, 6)}')
+    command = format_ros2_action_command(solution)
+    print(f'Comando ROS2 para enviar esta solução:\n{command}')
 
 testHeight = 0.7
 testRange = 0.34
