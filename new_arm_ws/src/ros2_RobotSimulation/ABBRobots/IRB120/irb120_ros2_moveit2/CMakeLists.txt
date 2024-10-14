@@ -34,7 +34,7 @@ endif()
 
 # REQUIRED to -> Launch simulation:
 install(
-  DIRECTORY 
+  DIRECTORY
     config
     launch
   DESTINATION 
