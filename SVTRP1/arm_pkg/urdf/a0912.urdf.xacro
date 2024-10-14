@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="a0912" >
+  <xacro:macro name="manipulator" params="namespace"> 
+
+    <xacro:arg name="color"   default="blue"/>
+    <xacro:arg name="gripper" default="none"/>
+    <xacro:arg name="namespace" default=""/>
+
+    <xacro:property name="cr" value="$(arg color)"/>
+    <xacro:property name="gr" value="$(arg gripper)"/>
+
+
+     <xacro:include filename="$(find arm_pkg)/urdf/macro.a0912.blue.xacro" />
+
+     <xacro:a0912 namespace="$(arg namespace)"/>
+
+     <!--<link name="world">
+     </link>
+     World fixed joint
+    <joint name="manipulator_fixed" type="fixed">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="world"/>
+      <child link="base_0"/>
+    </joint>-->
+
+  </xacro:macro>
+
+</robot>
+

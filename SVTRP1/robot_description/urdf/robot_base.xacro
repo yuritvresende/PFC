@@ -1,0 +1,82 @@
+<?xml version="1.0"?> 
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_base"> 
+
+  <xacro:macro name="robot_base" params="namespace"> 
+
+    <xacro:include filename="$(find robot_description)/urdf/robot_wheel.xacro" />
+    <xacro:include filename="$(find robot_description)/urdf/gazebo_essentials.xacro" />
+     <!-- Import diffbot ros2_control description -->
+      <xacro:include filename="$(find robot_description)/urdf/diffbot.ros2_control.xacro" />
+      <xacro:arg name="use_sim" default="true" />
+
+
+    <xacro:include filename="$(find robot_description)/urdf/camera.xacro" />
+    <xacro:include filename="$(find robot_description)/urdf/hokuyo.xacro" />
+    <xacro:include filename="$(find robot_description)/urdf/IMU.xacro" />
+
+
+      <!-- BASE_LINK -->
+      <link name="base_link">
+        <collision>
+          <origin xyz="0 0 0.0" rpy="0 0 0" />
+          <geometry>
+            <!--<mesh filename="package://mobile_manipulator_body/meshes/robot_base.stl"/>-->
+            <box size="1.00 0.70 0.40" />
+          </geometry>
+        </collision>
+        <inertial>
+          <mass value="120.0" />
+          <origin xyz="0 0 0" />
+          <inertia ixx="10.391" ixy="0.004" ixz="0.0" iyy="60.853" iyz="0.0" izz="60.125" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <!--<mesh filename="package://mobile_manipulator_body/meshes/robot_base.stl"/>-->
+            <box size="1.00 0.70 0.40" />
+          </geometry>
+          <material name="blue">
+            <color rgba="0 0 1 1"/> <!-- Blue color -->
+          </material>
+        </visual>
+      </link>
+
+      <!-- Base FootPrint Link-->
+
+     <joint name="base_footprint_joint" type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="base_footprint" />
+     </joint>
+
+      <link name="base_footprint">
+      </link>
+
+    <xacro:robot_wheel prefix="left1" origin="0.40 0.35 -0.15"/>
+    <xacro:robot_wheel prefix="left2" origin="0.15 0.35 -0.15"/>
+    <xacro:robot_wheel prefix="left3" origin="-0.15 0.35 -0.15"/>  
+    <xacro:robot_wheel prefix="left4" origin="-0.40 0.35 -0.15"/> 
+
+    <xacro:robot_wheel prefix="right1" origin="0.40 -0.35 -0.15"/>
+    <xacro:robot_wheel prefix="right2" origin="0.15 -0.35 -0.15"/> 
+    <xacro:robot_wheel prefix="right3" origin="-0.15 -0.35 -0.15"/>  
+    <xacro:robot_wheel prefix="right4" origin="-0.40 -0.35 -0.15"/> 
+
+    <xacro:diffbot_ros2_control name="robot_ros2_control" prefix="" use_sim="$(arg use_sim)" />
+
+    <xacro:driver/>
+
+    <xacro:robot_camera/>
+
+    <xacro:robot_lidar/>
+
+     <!--joint name="fixed_joint" type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="link1" />
+     </joint-->
+
+  </xacro:macro> 
+
+</robot> 

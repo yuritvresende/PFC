@@ -1,0 +1,23 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: robot_description
+    relative_path: urdf/mobile_manipulator.xacro
+  srdf:
+    relative_path: config/robot_description.srdf
+  package_settings:
+    author_name: v wenis belle
+    author_email: vwenesb@gmail.com
+    generated_timestamp: 1724020154
+  control_xacro:
+    command:
+      []
+    state:
+      []
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      []
+    state:
+      []
