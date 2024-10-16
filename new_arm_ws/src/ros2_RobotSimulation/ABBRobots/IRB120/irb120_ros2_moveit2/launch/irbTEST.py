@@ -101,24 +101,14 @@ def generate_launch_description():
     error = True
     while (error == True):
         print("     + Option N1: ABB IRB-120 alone.")
-        print("     + Option N2: ABB IRB-120 in Cranfield University cell.")
-        print("     + Option N3: ABB IRB-120 Pick&Place Use-Case.")
+#       print("     + Option N2: ABB IRB-120 in Cranfield University cell.")
+#       print("     + Option N3: ABB IRB-120 Pick&Place Use-Case.")
         cell_layout = input ("  Please select: ")
         if (cell_layout == "1"):
             error = False
             cell_layout_1 = "true"
             cell_layout_2 = "false"
             cell_layout_3 = "false"
-        elif (cell_layout == "2"):
-            error = False
-            cell_layout_1 = "false"
-            cell_layout_2 = "true"
-            cell_layout_3 = "false"
-        elif (cell_layout == "3"):
-            error = False
-            cell_layout_1 = "false"
-            cell_layout_2 = "false"
-            cell_layout_3 = "true"
         else:
             print ("  Please select a valid option!")
     print("")

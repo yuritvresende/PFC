@@ -59,10 +59,10 @@
   <!-- CELL LAYOUT:  -->
   <xacro:arg name="cell_layout_1" default="false"/>
   <xacro:property name="cell_layout_1" value="$(arg cell_layout_1)"/>
-  <xacro:arg name="cell_layout_2" default="false"/>
+  <!--xacro:arg name="cell_layout_2" default="false"/>
   <xacro:property name="cell_layout_2" value="$(arg cell_layout_2)"/>
   <xacro:arg name="cell_layout_3" default="false"/>
-  <xacro:property name="cell_layout_3" value="$(arg cell_layout_3)"/>
+  <xacro:property name="cell_layout_3" value="$(arg cell_layout_3)"/-->
 
   <!-- END-EFFECTOR:  -->
   <xacro:arg name="EE_no" default="false"/>
@@ -80,7 +80,7 @@
   />
 
   <!-- Gazebo WORLD link: -->
-  <link name="world"/>
+  <!--link name="world"/-->
 
   <!-- ========== ========== ========== ========== ========== ========== -->
   <!-- CELL LAYOUT SELECTION: -->
@@ -94,7 +94,7 @@
   </xacro:if>
 
   <!-- CELL LAYOUT N2) ABB IRB120 Robot in Cranfield University cell: -->
-  <xacro:if value="${cell_layout_2}">
+  <!--xacro:if value="${cell_layout_2}">
     <link name="cell">
       <visual>
         <origin xyz="-0.21 -0.357 0.0" rpy="0 0 0" />
@@ -122,10 +122,10 @@
       <child link="base_link"/>
       <origin xyz="0.0 0.0 0.015" rpy="0.0 0.0 0.0" />
     </joint>
-  </xacro:if>
+  </xacro:if-->
 
   <!-- CELL LAYOUT N3) ABB IRB120 + PICK & PLACE layout: -->
-  <xacro:if value="${cell_layout_3}">
+  <!--xacro:if value="${cell_layout_3}">
     <link name='irb120_block'>
       <inertial>
         <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -185,6 +185,6 @@
       <child link = "table" />
       <origin xyz="0.7 0.0 0.35" rpy="0.0 0.0 0.0" />
     </joint>
-  </xacro:if>
+  </xacro:if-->
 
 </robot>
